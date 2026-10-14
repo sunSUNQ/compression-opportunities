@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "stage": "V0.11-D4-A1R1 TW same-caliber recalculation prereg (FROZEN before first aggregate)",
+  "date": "2026-10-09",
+  "motivation": "Manuscript claims frozen detectors applied unchanged across corpora, while RQ2/limitations disclose that the external (Open-SWE) side uses path-aware command normalization (tool path appended to view/open/str_replace_editor/create command strings before cnorm/csim grouping) and the discovery (Thoughtworks) side does not. This recalculation unifies the normalization caliber on the discovery side for the four repetition shapes.",
+  "plan": [
+    "Input: TW discovery corpus sessions.parquet (pin below), 15000 sessions, unchanged from D3-E1/E3 censuses.",
+    "Detector: A0-frozen E1/E2/E3/E14 rules exactly as implemented in evidence/tools/v011_d4a1_census.py (A0 freeze commit 1865a160): E1 = groups of >=2 events sharing identical normalized first command line; E2 = groups of >=2 events sharing identical digit-normalized command; E3 = >=2 events sharing the same structured path; E14 = reread event whose same-path predecessor is within 3 event positions.",
+    "Normalization caliber (the single experimental variable): apply the D4-A1 path-aware rule verbatim - when a tool call carries a path and its command first token is in {view, open, str_replace_editor, create}, append the path to the command string before norm_cmd/sim_cmd.",
+    "Schema adapter (corpus-specific, unchanged by this recalculation): Thoughtworks message schema loader from v011_d3e3_repeat_class_census.py (assistant tool_calls_json with command/path arguments, code-fence fallback, user-role OBSERVATION capture). The adapter is required by the TW schema and is not part of the caliber under test.",
+    "Denominator: all 15000 corpus rows, matching D3-E1 census accounting.",
+    "Comparison: per-shape session incidence on TW under unified caliber vs (a) original TW D3-E1 incidences, (b) Open-SWE D4-A1 incidences; replication band function identical to D4-A1 (ratio 0.5-2.0 REPLICATED).",
+    "No other shape is recomputed; no detector definition, threshold, or dataset is modified; canonical results remain untouched."
+  ],
+  "outputs": {
+    "results": "evidence/V1/v011-d4a1r1-tw-same-caliber.json",
+    "script": "evidence/tools/v011_d4a1r1_tw_same_caliber.py"
+  },
+  "input_pin": "D:/tasco-temp/d3_hf_data/sessions.parquet",
+  "frozen_before_aggregation": true
+}

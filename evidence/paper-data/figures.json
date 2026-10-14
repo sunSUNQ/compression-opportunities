@@ -1,0 +1,244 @@
+{
+  "editorial_presentation_authority": {
+    "detector": "A0-XCORPUS-R1.0.0",
+    "replication": "detector-cross-corpus-diff.json",
+    "annotation": "Final V1 final-agreement-metrics.json; detector compatibility CONDITIONAL",
+    "statistics": "cluster-bootstrap-results.json",
+    "coc": "COC-ALLOCATION-R1 UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+    "superseded": [
+      "historical OSW COC 0.0039/0.9012 session-level whole-trajectory proxy",
+      "historical Qwen COC 0.0114/0.9127 OpenHands-15K session-shape proxy"
+    ]
+  },
+  "mapping_authority": {
+    "note": "JSON keys are semantic frozen-data identifiers, not manuscript figure numbers.",
+    "manuscript": {
+      "Fig.1": {
+        "file_stem": "fig1_trajectory",
+        "data_key": null,
+        "type": "conceptual"
+      },
+      "Fig.2": {
+        "file_stem": "fig2_design",
+        "data_key": null,
+        "type": "conceptual"
+      },
+      "Fig.3": {
+        "file_stem": "fig3_incidence",
+        "data_key": "fig1_taxonomy_incidence_tw_vs_osw"
+      },
+      "Fig.4": {
+        "file_stem": "fig4_e13_interaction",
+        "data_key": "fig3_e13_full_factorial_2x2"
+      },
+      "Fig.5": {
+        "file_stem": "fig5_coverage",
+        "data_key": "fig4_coverage_dual_ledger"
+      }
+    },
+    "supplement": {
+      "Supp.Fig.6": {
+        "file_stem": "fig6_power_curve",
+        "data_key": "fig5_power_curve"
+      }
+    },
+    "unrendered_data_keys": [
+      "fig2_ae_class_distribution_osw",
+      "fig6_rds_replay_capture"
+    ],
+    "required_file_variants": [
+      "pdf",
+      "png"
+    ]
+  },
+  "fig1_taxonomy_incidence_tw_vs_osw": {
+    "type": "grouped_bar",
+    "detector_version": "A0-XCORPUS-R1.0.0",
+    "series": [
+      {
+        "name": "Thoughtworks 15K",
+        "values": {
+          "E1": 0.9718666666666667,
+          "E2": 0.9859333333333333,
+          "E3": 0.8201333333333334,
+          "E4": 0.27713333333333334,
+          "E5": 0.007466666666666667,
+          "E6": 0.0222,
+          "E7": 0.015533333333333333,
+          "E8": 0.0,
+          "E9": 6.666666666666667e-05,
+          "E10": 0.0228,
+          "E11": 0.008133333333333333,
+          "E12": 0.7292,
+          "E13": 0.5872,
+          "E14": 0.7382,
+          "E15": 0.0084
+        }
+      },
+      {
+        "name": "Open-SWE Minimax 20K",
+        "values": {
+          "E1": 0.99995,
+          "E2": 1.0,
+          "E3": 0.99985,
+          "E4": 0.69425,
+          "E5": 0.0162,
+          "E6": 0.0006,
+          "E7": 0.0007,
+          "E8": 0.0,
+          "E9": 5e-05,
+          "E10": 0.0006,
+          "E11": 0.00035,
+          "E12": 0.795,
+          "E13": 0.46635,
+          "E14": 0.8188,
+          "E15": 0.00035
+        }
+      }
+    ],
+    "replication_summary": {
+      "status_counts": {
+        "DATASET_SPECIFIC": 5,
+        "NOT_ESTIMABLE_ZERO_BASELINE": 1,
+        "PARTIAL_REPLICATION": 2,
+        "REPLICATED": 7
+      },
+      "ratio_comparable_shapes": 14,
+      "replicated_or_partial": 9,
+      "headline_candidate": "9/14 ratio-comparable shapes replicate fully or partially"
+    }
+  },
+  "fig2_ae_class_distribution_osw": {
+    "type": "bar",
+    "x": "class",
+    "values": {
+      "A": 1.0,
+      "B": 0.4663,
+      "C": 0.795,
+      "D": 0.0209,
+      "E": 0.0001
+    },
+    "note": "session-share; classes overlap (a session can be in A and C simultaneously)"
+  },
+  "fig3_e13_full_factorial_2x2": {
+    "type": "grouped_bar_2x2",
+    "cells": {
+      "OH_x_Minimax": 0.6487,
+      "SA_x_Minimax": 0.284,
+      "OH_x_Qwen": 0.4389,
+      "SA_x_Qwen": 0.2392
+    },
+    "contrasts_pp": {
+      "scaffold_within_minimax": -36.47,
+      "scaffold_within_qwen": -19.97,
+      "model_within_openhands": -20.98,
+      "model_within_sweagent": -4.48,
+      "avg_scaffold_abs": 28.22,
+      "avg_model_abs": 12.73,
+      "did_interaction": 16.5
+    },
+    "paired_scaffold_effects": {
+      "E1": {
+        "n_paired": 3369,
+        "mean_diff": -0.0009,
+        "se": 0.0005,
+        "ci_lo": -0.0019,
+        "ci_hi": 0.0001
+      },
+      "E2": {
+        "n_paired": 3369,
+        "mean_diff": -0.0003,
+        "se": 0.0003,
+        "ci_lo": -0.0009,
+        "ci_hi": 0.0003
+      },
+      "E3": {
+        "n_paired": 3369,
+        "mean_diff": -0.0006,
+        "se": 0.0004,
+        "ci_lo": -0.0014,
+        "ci_hi": 0.0002
+      },
+      "E12": {
+        "n_paired": 3369,
+        "mean_diff": -0.0309,
+        "se": 0.0073,
+        "ci_lo": -0.0451,
+        "ci_hi": -0.0166
+      },
+      "E13": {
+        "n_paired": 3369,
+        "mean_diff": 0.352,
+        "se": 0.0109,
+        "ci_lo": 0.3307,
+        "ci_hi": 0.3733
+      },
+      "E14": {
+        "n_paired": 3369,
+        "mean_diff": -0.0237,
+        "se": 0.005,
+        "ci_lo": -0.0335,
+        "ci_hi": -0.014
+      }
+    }
+  },
+  "fig5_power_curve": {
+    "type": "line",
+    "caption": "Simulation-based detection probability under our decision criterion (not significance-test rejection probability)",
+    "threshold_note": "0.8 is a descriptive decision-criterion target; legacy hline_power_target is only a frozen field identifier",
+    "x": "reps_per_arm",
+    "y": "detection_probability",
+    "series": {
+      "true_effect_3pct": {
+        "2": 0.548,
+        "3": 0.562,
+        "5": 0.593,
+        "8": 0.608,
+        "10": 0.622
+      },
+      "true_effect_5pct": {
+        "2": 0.595,
+        "3": 0.61,
+        "5": 0.639,
+        "8": 0.681,
+        "10": 0.699
+      },
+      "true_effect_10pct": {
+        "2": 0.674,
+        "3": 0.713,
+        "5": 0.771,
+        "8": 0.825,
+        "10": 0.856
+      }
+    },
+    "hline_power_target": 0.8,
+    "annotation": "within-task stochastic noise median 27.96% relative token swing; mechanism exposure median 0.011%"
+  },
+  "fig6_rds_replay_capture": {
+    "type": "bar",
+    "values": {
+      "oracle_conservative_removable_E3_scope": 85724720,
+      "rds_removed_in_path_groups": 69417730,
+      "rds_removed_total_all_trajectory": 218043264
+    },
+    "note": "RDS contiguous-aligned segments are a strict subset of census line-set intersection"
+  },
+  "schema_version": 2,
+  "fig4_coverage_event_payload_proxy": {
+    "type": "log_grouped_bar",
+    "unit": "percent of qualified allocated UTF-8 event-payload proxy",
+    "values": {
+      "OSW_20K": {
+        "shipped": 0.00018495711803637698,
+        "candidate": 0.9595769206273026,
+        "gap": 0.9998072513895859
+      },
+      "Qwen_35334": {
+        "shipped": 0.0027337531769082487,
+        "candidate": 0.976731272510673,
+        "gap": 0.9972011204577477
+      }
+    },
+    "boundary": "offline allocation proxy; not exact spans, safe deletion, token savings, or realized savings"
+  }
+}

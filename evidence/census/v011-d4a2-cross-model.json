@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "authority_status": "INTERMEDIATE_SUPERSEDED_FOR_FULL_FACTORIAL",
+ "superseded_by": "v011-d4a2r1-full-factorial.json",
+ "authority_note": "Authoritative only for its recorded OH x Qwen 15K intermediate outputs; do not use empty SA x Qwen fields or pre-closure verdicts as final frame authority.",
+ "stage": "V0.11-D4-A2 cross-model validation (prereg frozen before Qwen aggregation; A0 detectors unchanged)",
+ "date": "2026-09-24",
+ "provenance": {
+  "detector_freeze_commit": "1865a160",
+  "a1_census_commit": "168b7a86",
+  "dataset": "nvidia/Open-SWE-Traces v1.0 rev f8fb5b3d2c78",
+  "qwen_frame": {
+   "openhands": "6/17 shards (PARTIAL frame, 15000 traj)",
+   "sweagent": "9/9 shards (FULL frame, 20334 traj)"
+  }
+ },
+ "qwen_sessions_censused": 15000,
+ "qwen_incidence_overall": {
+  "E12": 0.7417,
+  "E13": 0.4389,
+  "E14": 0.9833,
+  "E15": 0.0001,
+  "E1": 1.0,
+  "E2": 1.0,
+  "E3": 1.0,
+  "E5": 0.0612
+ },
+ "qwen_incidence_openhands": {
+  "E12": 0.7417,
+  "E13": 0.4389,
+  "E14": 0.9833,
+  "E15": 0.0001,
+  "E1": 1.0,
+  "E2": 1.0,
+  "E3": 1.0,
+  "E5": 0.0612
+ },
+ "qwen_incidence_sweagent": {},
+ "model_effect_openhands": {
+  "comparison": "openhands: Minimax vs Qwen3.5",
+  "E1": "MODEL_STABLE",
+  "E1_ratio": 1.001,
+  "E2": "MODEL_STABLE",
+  "E2_ratio": 1.001,
+  "E3": "MODEL_STABLE",
+  "E3_ratio": 1.0,
+  "E4": "NOT_MEASURABLE_DISCOVERY",
+  "E5": "MODEL_SENSITIVE",
+  "E5_ratio": 2.301,
+  "E6": "MODEL_SENSITIVE_STRONG",
+  "E6_ratio": 0.0,
+  "E7": "MODEL_SENSITIVE_STRONG",
+  "E7_ratio": 0.0,
+  "E8": "NOT_MEASURABLE_DISCOVERY",
+  "E9": "NOT_MEASURABLE_DISCOVERY",
+  "E10": "MODEL_SENSITIVE_STRONG",
+  "E10_ratio": 0.0,
+  "E11": "MODEL_SENSITIVE_STRONG",
+  "E11_ratio": 0.0,
+  "E12": "MODEL_STABLE",
+  "E12_ratio": 0.961,
+  "E13": "MODEL_STABLE",
+  "E13_ratio": 0.677,
+  "E14": "MODEL_STABLE",
+  "E14_ratio": 1.047,
+  "E15": "MODEL_STABLE",
+  "E15_ratio": 1.0
+ },
+ "model_effect_sweagent": {
+  "comparison": "sweagent: Minimax vs Qwen3.5",
+  "E1": "MODEL_SENSITIVE_STRONG",
+  "E1_ratio": 0.0,
+  "E2": "MODEL_SENSITIVE_STRONG",
+  "E2_ratio": 0.0,
+  "E3": "MODEL_SENSITIVE_STRONG",
+  "E3_ratio": 0.0,
+  "E4": "NOT_MEASURABLE_DISCOVERY",
+  "E5": "MODEL_SENSITIVE_STRONG",
+  "E5_ratio": 0.0,
+  "E6": "MODEL_SENSITIVE_STRONG",
+  "E6_ratio": 0.0,
+  "E7": "MODEL_SENSITIVE_STRONG",
+  "E7_ratio": 0.0,
+  "E8": "NOT_MEASURABLE_DISCOVERY",
+  "E9": "MODEL_SENSITIVE_STRONG",
+  "E9_ratio": 0.0,
+  "E10": "MODEL_SENSITIVE_STRONG",
+  "E10_ratio": 0.0,
+  "E11": "MODEL_SENSITIVE_STRONG",
+  "E11_ratio": 0.0,
+  "E12": "MODEL_SENSITIVE_STRONG",
+  "E12_ratio": 0.0,
+  "E13": "MODEL_SENSITIVE_STRONG",
+  "E13_ratio": 0.0,
+  "E14": "MODEL_SENSITIVE_STRONG",
+  "E14_ratio": 0.0,
+  "E15": "MODEL_SENSITIVE_STRONG",
+  "E15_ratio": 0.0
+ },
+ "e13_model_x_scaffold_matrix": {
+  "incidence": {
+   "OH_x_Minimax": 0.6487,
+   "SA_x_Minimax": 0.284,
+   "OH_x_Qwen": 0.4389,
+   "SA_x_Qwen": null
+  },
+  "scaffold_effect_within_minimax": 2.284,
+  "scaffold_effect_within_qwen": null,
+  "model_effect_within_openhands": 0.677,
+  "model_effect_within_sweagent": null
+ },
+ "coverage_qwen": {
+  "shipped_only": {
+   "SOC_sessions": 918,
+   "SOC": 0.0612,
+   "COC_shape_weighted": 0.0114
+  },
+  "shipped_plus_candidate": {
+   "SOC_sessions": 15000,
+   "SOC": 1.0,
+   "COC_shape_weighted": 0.9127
+  }
+ },
+ "verdict": "CROSS_MODEL_VALIDATION_COMPLETE (same-scaffold/different-model controls: openhands and sweagent both available)",
+ "aggregates_sha256": "5eaa31c71082c3f65100e85898f108a307ed29e1a3205dd5cc597e03c2c65ecb"
+}

@@ -1,0 +1,286 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3 natural opportunity census (audit-only zero-run; prereg 49482bbf FROZEN before aggregation)",
+ "date": "2026-09-23",
+ "universe": {
+  "sources": [
+   {
+    "id": "C1",
+    "natural": "natural",
+    "note": "task-level A/B batch (negative formal, included per prereg)"
+   },
+   {
+    "id": "D2",
+    "natural": "natural",
+    "note": "terminal-state A/B batch (Q1=0 formal, included)"
+   },
+   {
+    "id": "P2",
+    "natural": "natural"
+   },
+   {
+    "id": "R2A1",
+    "natural": "natural"
+   },
+   {
+    "id": "R2A2",
+    "natural": "natural"
+   },
+   {
+    "id": "CB0",
+    "natural": "natural",
+    "note": "natural-task coverage baseline universe"
+   },
+   {
+    "id": "B4VD",
+    "natural": "natural-capability-watch",
+    "note": "validation-delta default-on observation batch; VD overlap flagged"
+   }
+  ],
+  "sessions_enumerated": 158,
+  "sessions_with_telemetry": 158,
+  "sessions_without_telemetry": 0
+ },
+ "tool_enumeration": {
+  "read_file": 1705,
+  "run_shell_command": 4077,
+  "write_file": 302,
+  "replace": 868,
+  "grep_search": 308,
+  "glob_search": 33,
+  "web_search": 3
+ },
+ "shapes": {
+  "S1_large_tool_output": {
+   "sessions_with_shape": 153,
+   "session_incidence": 0.968,
+   "events_with_shape": 1104,
+   "median_raw_chars": 3119,
+   "p75_raw_chars": 4385,
+   "median_position_in_trajectory": 0.245,
+   "median_turns_after_event": 33,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": null,
+   "downstream_reread_rate": null,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": true
+  },
+  "S4_repeated_read": {
+   "sessions_with_shape": 156,
+   "session_incidence": 0.987,
+   "events_with_shape": 1891,
+   "median_raw_chars": 660,
+   "p75_raw_chars": 2243,
+   "median_position_in_trajectory": 0.375,
+   "median_turns_after_event": 31,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": 2,
+   "downstream_reread_rate": 1,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  },
+  "S5_immediate_reread": {
+   "sessions_with_shape": 156,
+   "session_incidence": 0.987,
+   "events_with_shape": 972,
+   "median_raw_chars": 647,
+   "p75_raw_chars": 2101,
+   "median_position_in_trajectory": 0.393,
+   "median_turns_after_event": 30,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": null,
+   "downstream_reread_rate": null,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  },
+  "S2_repeated_command_rerun": {
+   "sessions_with_shape": 158,
+   "session_incidence": 1,
+   "events_with_shape": 4072,
+   "median_raw_chars": 311,
+   "p75_raw_chars": 971,
+   "median_position_in_trajectory": 0.485,
+   "median_turns_after_event": 22,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": 2,
+   "downstream_reread_rate": 1,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  },
+  "S6_terminal_summary_shape": {
+   "sessions_with_shape": 24,
+   "session_incidence": 0.152,
+   "events_with_shape": 24,
+   "median_raw_chars": 1307,
+   "p75_raw_chars": 1651,
+   "median_position_in_trajectory": 0.87,
+   "median_turns_after_event": 6,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": null,
+   "downstream_reread_rate": null,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  },
+  "S8_search_fanout": {
+   "sessions_with_shape": 17,
+   "session_incidence": 0.108,
+   "events_with_shape": 20,
+   "median_raw_chars": 3422,
+   "p75_raw_chars": 4100,
+   "median_position_in_trajectory": 0.233,
+   "median_turns_after_event": 45,
+   "trajectory_exposure": "HIGH",
+   "repeat_frequency": null,
+   "downstream_reread_rate": null,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 1,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 1,
+    "R2A1": 1,
+    "R2A2": 1
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  },
+  "S3_multi_rerun_validation": {
+   "sessions_with_shape": 2,
+   "session_incidence": 0.013,
+   "events_with_shape": 8,
+   "median_raw_chars": 44,
+   "p75_raw_chars": 8718,
+   "median_position_in_trajectory": 0.308,
+   "median_turns_after_event": 5,
+   "trajectory_exposure": "MEDIUM",
+   "repeat_frequency": 4,
+   "downstream_reread_rate": 1,
+   "downstream_recovery_rate": 0,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "P2": 0,
+    "R2A1": 0
+   },
+   "historical_task_level_delta_if_known": null,
+   "correctness_risk_note": "oracle pass rate of involved sessions reported at batch level; shape-local correctness risk not derivable mechanically",
+   "candidate_pool": false
+  }
+ },
+ "candidate_pool": [
+  "S1_large_tool_output"
+ ],
+ "top3_by_frozen_order": [
+  {
+   "shape": "S1_large_tool_output",
+   "session_incidence": 0.968,
+   "median_raw_chars": 3119,
+   "p75_raw_chars": 4385,
+   "trajectory_exposure": "HIGH",
+   "median_turns_after_event": 33,
+   "existing_compression_overlap": 0,
+   "overlap_by_source": {
+    "C1": 0,
+    "D2": 0,
+    "P2": 0,
+    "R2A1": 0,
+    "R2A2": 0
+   },
+   "repeat_frequency": null,
+   "downstream_reread_rate": null,
+   "known_task_level_evidence": null,
+   "unknowns": "task-level token delta for this shape is unmeasured; eligibility/threshold fit unmeasured; cross-repo generalization unmeasured"
+  }
+ ],
+ "special_directions": {
+  "validation_rerun_family": [
+   {
+    "shape": "S2_repeated_command_rerun",
+    "incidence": 1,
+    "median_chars": 311,
+    "exposure": "HIGH"
+   },
+   {
+    "shape": "S3_multi_rerun_validation",
+    "incidence": 0.013,
+    "median_chars": 44,
+    "exposure": "MEDIUM"
+   },
+   {
+    "shape": "S7_large_failing_output",
+    "incidence": 0
+   }
+  ],
+  "read_search_repeat_family": [
+   {
+    "shape": "S4_repeated_read",
+    "incidence": 0.987,
+    "median_chars": 660,
+    "exposure": "HIGH"
+   },
+   {
+    "shape": "S5_immediate_reread",
+    "incidence": 0.987,
+    "median_chars": 647,
+    "exposure": "HIGH"
+   },
+   {
+    "shape": "S8_search_fanout",
+    "incidence": 0.108,
+    "median_chars": 3422,
+    "exposure": "HIGH"
+   }
+  ]
+ },
+ "verdict": "PASS — NATURAL_OPPORTUNITY_FOUND"
+}

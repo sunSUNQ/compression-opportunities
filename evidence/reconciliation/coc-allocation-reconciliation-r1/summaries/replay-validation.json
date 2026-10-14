@@ -1,0 +1,103 @@
+{
+  "aggregate_checks": {
+    "OSW_MINIMAX_20K": {
+      "candidate_matches": true,
+      "qualified_matches": true,
+      "shipped_matches": true
+    },
+    "QWEN_35334": {
+      "candidate_matches": true,
+      "qualified_matches": true,
+      "shipped_matches": true
+    }
+  },
+  "determinism": {
+    "ledger/osw-event-allocation-ledger.parquet": {
+      "identical": true,
+      "run1_sha256": "688d4bceacfe69b999d339394ea2f3d4590f6eeb2f6c50fd17b269ed912ab77a",
+      "run2_sha256": "688d4bceacfe69b999d339394ea2f3d4590f6eeb2f6c50fd17b269ed912ab77a"
+    },
+    "ledger/qwen-event-allocation-ledger.parquet": {
+      "identical": true,
+      "run1_sha256": "778baee38dde89cfc3ae0e8c35e27f8dd45d1f6c4b4d591e6cc52ce91c8816ee",
+      "run2_sha256": "778baee38dde89cfc3ae0e8c35e27f8dd45d1f6c4b4d591e6cc52ce91c8816ee"
+    },
+    "ledger/session-allocation-summary.parquet": {
+      "identical": true,
+      "run1_sha256": "97bed8d49ca63fec1653b3bbe4025f64ef3d7483d42528fb06c9e2c6ffc4a2be",
+      "run2_sha256": "97bed8d49ca63fec1653b3bbe4025f64ef3d7483d42528fb06c9e2c6ffc4a2be"
+    },
+    "summaries/coc-recalculation-summary.json": {
+      "identical": true,
+      "run1_sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d",
+      "run2_sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d"
+    },
+    "summaries/shape-allocation-summary.csv": {
+      "identical": true,
+      "run1_sha256": "ee557557fbbd7e0d385c36d72b5bb23d5163d39fd1c84670cad2eff128f9721f",
+      "run2_sha256": "ee557557fbbd7e0d385c36d72b5bb23d5163d39fd1c84670cad2eff128f9721f"
+    }
+  },
+  "expected_session_summary_rows": 55334,
+  "gate": "PASS",
+  "historical_regression_gates": {
+    "osw_candidate_round4": true,
+    "osw_shipped_round4": true,
+    "qwen_oh15_candidate_round4": true,
+    "qwen_oh15_shipped_round4": true
+  },
+  "ledger_checks": {
+    "OSW_MINIMAX_20K": {
+      "aggregate": {
+        "candidate_allocated_bytes": 1337579984.5166693,
+        "qualified_allocated_bytes": 1393926798.1166706,
+        "shipped_allocated_bytes": 257816.68333333373
+      },
+      "aggregates_by_scaffold": {
+        "openhands": {
+          "candidate_allocated_bytes": 606902036.4000003,
+          "candidate_coc": 0.9410005920906547,
+          "qualified_allocated_bytes": 644953936.8000017,
+          "shipped_allocated_bytes": 192497.48333333363,
+          "shipped_coc": 0.00029846702585990494
+        },
+        "sweagent": {
+          "candidate_allocated_bytes": 730677948.1166688,
+          "candidate_coc": 0.9755733296292762,
+          "qualified_allocated_bytes": 748972861.3166689,
+          "shipped_allocated_bytes": 65319.200000000106,
+          "shipped_coc": 8.7211704687365e-05
+        }
+      },
+      "rows": 695780,
+      "violations": {}
+    },
+    "QWEN_35334": {
+      "aggregate": {
+        "candidate_allocated_bytes": 2752388518.4666667,
+        "qualified_allocated_bytes": 2817958834.6666675,
+        "shipped_allocated_bytes": 7703603.916666372
+      },
+      "aggregates_by_scaffold": {
+        "openhands": {
+          "candidate_allocated_bytes": 999586303.0333353,
+          "candidate_coc": 0.9682952546877193,
+          "qualified_allocated_bytes": 1032315606.4166684,
+          "shipped_allocated_bytes": 552042.6666666665,
+          "shipped_coc": 0.0005347615237387473
+        },
+        "sweagent": {
+          "candidate_allocated_bytes": 1752802215.4333313,
+          "candidate_coc": 0.981608300976868,
+          "qualified_allocated_bytes": 1785643228.249999,
+          "shipped_allocated_bytes": 7151561.249999706,
+          "shipped_coc": 0.004005033669020501
+        }
+      },
+      "rows": 1643280,
+      "violations": {}
+    }
+  },
+  "schema_version": 1,
+  "session_summary_rows": 55334
+}

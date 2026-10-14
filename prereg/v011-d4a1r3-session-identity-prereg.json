@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "stage": "V0.11-D4-A1R3 — trajectory (row) identity session-caliber amendment for the TW 15K discovery frame (PREREG FROZEN before recompute)",
+  "date": "2026-10-10",
+  "parent": "PAPER-A-SESSION-IDENTITY-V1 audit (taxonomy-session-identity-v1-report.md, PASS) finding: 1,947 collided session_id pairs in the frozen TW input",
+  "identity_definition": {
+    "trajectory_identity": "(frozen source file, original row ordinal tid in [0, 15000))",
+    "content_digest_role": "verification-only secondary key (messages_json SHA256); NOT the primary key because exactly one pair of rows shares identical content",
+    "replay_stability_evidence": "two-pass full-sequence SHA256 of (session_id, source) equal: 8a74f744b1f79930 (taxonomy_session_identity_audit_tw.py)",
+    "record_vs_id": "the discovery frame ships 15,000 recorded trajectories (rows) under 13,053 unique session identifiers; 1,947 identifiers each appear on exactly two rows (multiplicity histogram {1: 11106, 2: 1947}; no identifier appears more than twice)",
+    "collision_fact": "of the 1,947 collided pairs, 1,946 carry distinct messages_json content and 1 pair is byte-identical; a shared identifier is a labeling property of the klear source and is NOT evidence about run independence — row uniqueness counts recorded trajectories, it does not assert that the two members of a collided pair were independent executions"
+  },
+  "what_changes": "TW session-level (trajectory-level) counts switch from id-set semantics (unique session_id set; collided pairs collapsed) to trajectory-row semantics (each recorded trajectory counted once). Per-shape numerator delta = number of collided pairs where BOTH members carry the shape. Denominator stays 15,000 (recorded trajectories) in both calibers.",
+  "what_does_not_change": "E1-E15 predicates, thresholds, labels, grouping semantics; event-level hits; observation characters; allocation accounting; residual buckets; OSW 20K census and all OSW-side numbers; replication band function (0.5-2.0 R / 0.2-0.5 & 2-5 P / else DS, full precision); RQ structure; the klear parse adapter",
+  "frozen_inputs": {
+    "tw_parquet": {"pin": "D:/tasco-temp/d3_hf_data/sessions.parquet", "sha256_16": "3dd8ec3546cf771c", "bytes": 325563194},
+    "a1r2_census": "evidence/V1/v011-d4a1r2-tw-klear-census.json (sha256-16 630dcfaae0bca521)",
+    "osw_census": "evidence/V1/v011-d4a1-census-results.json (sha256-16 7d22b0b98062cc8c; exact OSW denominator = event_sessions/20000, NOT 4-decimal stored incidences)",
+    "detector_source": "evidence/tools/v011_d4a1r2_tw_klear_census.py detection block (sha256-16 9d599d820038311d), executed verbatim by byte-slice",
+    "v1_audit": "evidence/V1/paper/taxonomy-session-identity-v1-report.md + evidence/tools/taxonomy_session_identity_audit_tw.py (163a0a391cf68d88)"
+  },
+  "recompute_outputs": [
+    "per-shape trajectory-row session hits and incidence (full precision)",
+    "per-shape id-set hits (old caliber) with per-shape reconciliation against A1R2 frozen per_shape_sessions",
+    "per-shape event hits, observation characters, residual buckets with equality assertions against A1R2 (STOP on any mismatch)",
+    "full-precision TW/OSW replication bands with per-shape status, ratio, and nearest-boundary margin under both calibers",
+    "sensitivity: exclude-one-row-of-the-byte-identical-pair scenario (affected shapes and bands recorded; NOT treated as evidence of independent runs)",
+    "conservation assertions: detected+4 uncovered buckets = totals; sum of per-shape allocation splits = labeled chars"
+  ],
+  "acceptance": [
+    "identity replay stable (sequence hash equal across two passes)",
+    "id-set recomputation equals A1R2 frozen per_shape_sessions exactly",
+    "event recomputation equals A1R2 frozen per_shape_events exactly",
+    "character totals equal A1R2 exactly",
+    "residual buckets equal A1R2 exactly",
+    "replication band function identical to A1R1/A1R2 (exact fractions)"
+  ],
+  "stop_conditions": [
+    "identity replay unstable",
+    "old-caliber regression mismatch against A1R2",
+    "unexpected event/character drift",
+    "replication status change without explanation",
+    "denominator inconsistency"
+  ],
+  "paper_boundary": "affected-number ledger + paper sync in the SAME controlled task (PAPER-A-SESSION-IDENTITY-AMENDMENT); old artifacts retained as superseded provenance (paper-tables.pre-a1r3.json snapshot; git history)",
+  "frozen_before_recompute": true
+}

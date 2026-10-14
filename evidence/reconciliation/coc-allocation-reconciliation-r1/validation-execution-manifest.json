@@ -1,0 +1,484 @@
+{
+  "environment": {
+    "pyarrow": "25.0.1",
+    "python": "3.12.10"
+  },
+  "execution_date": "2026-10-13",
+  "frozen_inputs": [
+    {
+      "bytes": 16874,
+      "path": "evidence/tools/v011_d4a1_census.py",
+      "sha256": "523a047eddf691ade533eb111ea273ce895476b0b03905c4f6e74700eb6cfcec"
+    },
+    {
+      "bytes": 15188,
+      "path": "evidence/V1/v011-d4a0-taxonomy-registry.json",
+      "sha256": "8a8bc7c8ee1f87b0c80ab73cf2e6de4abd020db7924849db5dbda96b80db5f6f"
+    },
+    {
+      "bytes": 3122572,
+      "path": "evidence/V1/v011-d4a1-oswe-20k-manifest-v2.json",
+      "sha256": "284c47ea200607dc7d331edbb13fee300f6f0e45d1c5f72c1f15bda86eb15a7e"
+    },
+    {
+      "bytes": 8233,
+      "path": "evidence/V1/v011-d4a1-census-results.json",
+      "sha256": "7d22b0b98062cc8cd90fe5269f3b9b559b5dcd4edc835dc49d0e31d106670eda"
+    },
+    {
+      "bytes": 3644,
+      "path": "evidence/V1/v011-d4a2-cross-model.json",
+      "sha256": "6e55d9bf6e829ae829800f778f793d518dd4d6c7cc5a1c187f978133233ecf02"
+    },
+    {
+      "bytes": 2330,
+      "path": "evidence/V1/v011-d4a2r1-full-factorial.json",
+      "sha256": "bfbf4027f9a95be49fc84607406392a868293f77c7a758cf8ca38fd72dd4600a"
+    },
+    {
+      "bytes": 46399,
+      "path": "evidence/V1/paper/paper-draft-v1-icse.md",
+      "sha256": "3585c9781092c0073c5583011c79fbe7f5564b71c58f139d78e55e9d4c24d650"
+    },
+    {
+      "bytes": 9290,
+      "path": "evidence/V1/paper/paper-tables.json",
+      "sha256": "3b8890cf98e2bb7096bd4939fb19c1c2f0dcfb93bdaf69764697829f93810089"
+    },
+    {
+      "bytes": 4979,
+      "path": "evidence/V1/paper/paper-figures-data/figures.json",
+      "sha256": "c8b8f17f2915a5fc0486a8139bfc93ea1b8a89e94b119d00439ac74794da057f"
+    },
+    {
+      "bytes": 17595,
+      "path": "evidence/V1/paper/supplements/supplement-A-detectors.md",
+      "sha256": "1b40357de7a49f09e12a66d9fc746e90aa62978b74b80ebadf04d4c1b1c1642f"
+    },
+    {
+      "bytes": 54053,
+      "path": "evidence/V1/paper/supplements/supplement-C-census-factorial.md",
+      "sha256": "f63205994e2c9749c1950a7f070a4a4fe234d335a8be3d84302d2c2ac6d4b7c5"
+    },
+    {
+      "bytes": 12822,
+      "path": "D:\\tasco-temp\\d3_hf_data\\a2_cross_model.py",
+      "sha256": "14b2849eb5a613935b074a4c29580c0c3ab24ef3fddf142cc94be3d7d95a353f"
+    }
+  ],
+  "git": {
+    "base_head": "5e57cf5e62a688cfd43b5762d83b1906e637283c",
+    "branch": "codex/paper-a-coc-allocation-reconciliation-r1",
+    "current_head": "5e57cf5e62a688cfd43b5762d83b1906e637283c",
+    "worktree": "D:\\tasco-temp\\paper-a-coc-allocation-reconciliation-r1\\worktree"
+  },
+  "outputs": [
+    {
+      "bytes": 3440,
+      "path": "affected-paper-claims.md",
+      "sha256": "8cbc6595bd97e1590e43af08a1cb02b6d9a3635d501e04498c8029905a6d47d3"
+    },
+    {
+      "bytes": 6615,
+      "path": "coc-allocation-reconciliation-r1.md",
+      "sha256": "22b51b38d38f17f458c5ff62620d6c192090d352749554658b664655b465af78"
+    },
+    {
+      "bytes": 4415,
+      "path": "coc-method-definition.md",
+      "sha256": "1e9839457c4c6583b0e2dd70739b0631dc6df8f79bd6d778b25c745d5fc58bc5"
+    },
+    {
+      "bytes": 1787,
+      "path": "historical-implementation-audit.md",
+      "sha256": "bd804609ceda0ab0f3d6b03b9bbaa89f122dc7a55dd2901de8e0958d67d8f235"
+    },
+    {
+      "bytes": 17694863,
+      "path": "ledger/osw-event-allocation-ledger.parquet",
+      "sha256": "688d4bceacfe69b999d339394ea2f3d4590f6eeb2f6c50fd17b269ed912ab77a"
+    },
+    {
+      "bytes": 40951663,
+      "path": "ledger/qwen-event-allocation-ledger.parquet",
+      "sha256": "778baee38dde89cfc3ae0e8c35e27f8dd45d1f6c4b4d591e6cc52ce91c8816ee"
+    },
+    {
+      "bytes": 2644533,
+      "path": "ledger/session-allocation-summary.parquet",
+      "sha256": "97bed8d49ca63fec1653b3bbe4025f64ef3d7483d42528fb06c9e2c6ffc4a2be"
+    },
+    {
+      "bytes": 1032,
+      "path": "method-definition.json",
+      "sha256": "f132625e9d6676244bf7ce62beaf7fe9630577136971870da19df4da97a3b7a4"
+    },
+    {
+      "bytes": 17694863,
+      "path": "run2/ledger/osw-event-allocation-ledger.parquet",
+      "sha256": "688d4bceacfe69b999d339394ea2f3d4590f6eeb2f6c50fd17b269ed912ab77a"
+    },
+    {
+      "bytes": 40951663,
+      "path": "run2/ledger/qwen-event-allocation-ledger.parquet",
+      "sha256": "778baee38dde89cfc3ae0e8c35e27f8dd45d1f6c4b4d591e6cc52ce91c8816ee"
+    },
+    {
+      "bytes": 2644533,
+      "path": "run2/ledger/session-allocation-summary.parquet",
+      "sha256": "97bed8d49ca63fec1653b3bbe4025f64ef3d7483d42528fb06c9e2c6ffc4a2be"
+    },
+    {
+      "bytes": 7403,
+      "path": "run2/summaries/coc-recalculation-summary.json",
+      "sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d"
+    },
+    {
+      "bytes": 805,
+      "path": "run2/summaries/replay-artifact-sha.json",
+      "sha256": "0993885cb86a88094ac14f3b563f4a04e7ba5197854578513ae684e84635b7b7"
+    },
+    {
+      "bytes": 3203,
+      "path": "run2/summaries/shape-allocation-summary.csv",
+      "sha256": "ee557557fbbd7e0d385c36d72b5bb23d5163d39fd1c84670cad2eff128f9721f"
+    },
+    {
+      "bytes": 7403,
+      "path": "summaries/coc-recalculation-summary.json",
+      "sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d"
+    },
+    {
+      "bytes": 1791,
+      "path": "summaries/historical-vs-recomputed-diff.json",
+      "sha256": "30f185d1cbaf7f9eaa7f668358e03a3aba47afeb4ed87783a72443547022cfbd"
+    },
+    {
+      "bytes": 2169,
+      "path": "summaries/replay-artifact-sha.json",
+      "sha256": "f60f263415231f2a6cc1fc7d644f28185ac3ab2ae682fea3c553d3bd47a17ccf"
+    },
+    {
+      "bytes": 3859,
+      "path": "summaries/replay-validation.json",
+      "sha256": "ff90efdcb8b0149bc76dc760d38dcb9f42cccfa35aa84a45558d45f1ff1bd00f"
+    },
+    {
+      "bytes": 3203,
+      "path": "summaries/shape-allocation-summary.csv",
+      "sha256": "ee557557fbbd7e0d385c36d72b5bb23d5163d39fd1c84670cad2eff128f9721f"
+    },
+    {
+      "bytes": 534,
+      "path": "summaries/subgroup-recalculation-summary.json",
+      "sha256": "961b9670e4fec72c39c86309b4a647624f40940081eb75636c72c525d56f7d52"
+    },
+    {
+      "bytes": 3668,
+      "path": "tests/test_coc_allocation.py",
+      "sha256": "d974ca73f06f5a1e6bf214f6a2bec40431b00188659c0737e39303f28a27f898"
+    },
+    {
+      "bytes": 4203,
+      "path": "tools/build_manifest.py",
+      "sha256": "485e1e911dd3d0febf360a7c5f49285071bbb271691308e23ded4e4709cb43ec"
+    },
+    {
+      "bytes": 8218,
+      "path": "tools/frozen_detector.py",
+      "sha256": "3465bf00fb39a989c6c0e20ccb7b1bb09f20810f99695505f9ebf3e7db87c4b9"
+    },
+    {
+      "bytes": 23869,
+      "path": "tools/recalculate_coc.py",
+      "sha256": "1014356f000035d4ecc36e465cda8efc47f36822fb4dcc8d35ba4f50e66ef59e"
+    },
+    {
+      "bytes": 7900,
+      "path": "tools/validate_replay.py",
+      "sha256": "2fcc41cc3a07b183f129abcd94cb052b8627dc4c527f2f2d6541feb1db75bd53"
+    }
+  ],
+  "raw_input_count": 52,
+  "raw_inputs": [
+    {
+      "bytes": 206085165,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00000-of-00018.parquet",
+      "sha256": "4d917ba86b030b1f5e227222b0bfe5c1e74c696cbde3a05e7085f30601bb7435"
+    },
+    {
+      "bytes": 212591428,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00001-of-00018.parquet",
+      "sha256": "01af05aaee22af2d0f6a8fcc0e93158d02c7337a1caa9228c420fdc0f93a16e6"
+    },
+    {
+      "bytes": 204775106,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00002-of-00018.parquet",
+      "sha256": "2ecad01859a0438c2d14ecf0f717af853144b3ffcc76ce768e4d5fa199371d04"
+    },
+    {
+      "bytes": 209535820,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00003-of-00018.parquet",
+      "sha256": "c695352570b9ed24fa09a8dc2c9fe846d08b7856d5ff564d1f74d53d5fbce8db"
+    },
+    {
+      "bytes": 217044635,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00004-of-00018.parquet",
+      "sha256": "e6cf981cd6ab58269c841c6a7dd37a789eb6d2ac6f8b2a7acc96126fd872976f"
+    },
+    {
+      "bytes": 206467611,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00005-of-00018.parquet",
+      "sha256": "50b3ac6505005ac9fd239aee1984eda3b780396e93c767229c68250ea644a5e0"
+    },
+    {
+      "bytes": 206818321,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00006-of-00018.parquet",
+      "sha256": "0f47dd8ed489933d00116439bab74fe86f42f26cd37d44887bdee5a5da905996"
+    },
+    {
+      "bytes": 210674918,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00007-of-00018.parquet",
+      "sha256": "233b41cda43846d21d53f2aea60469e0b1b5af2e1a47890b2a69bfb88922aa17"
+    },
+    {
+      "bytes": 215015928,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00008-of-00018.parquet",
+      "sha256": "d9a07dbe4113a4d25e8a595220a09cc00dca55898160d86121c600b50329c056"
+    },
+    {
+      "bytes": 204623860,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00009-of-00018.parquet",
+      "sha256": "1ea1211d29d3f8f36b1b928133d889e22d1ba660689a14802dcf4fc23b254ced"
+    },
+    {
+      "bytes": 206754830,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00010-of-00018.parquet",
+      "sha256": "3e1407e92d1d330037c8d422497dcd68fb55ffc43a200283e35d8cb0ccc2e85c"
+    },
+    {
+      "bytes": 210869269,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00011-of-00018.parquet",
+      "sha256": "b90e944181adcc6af08a7d5e2d60d1502675b36621edd5ed97d78f1cf7aed8a4"
+    },
+    {
+      "bytes": 203397301,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00012-of-00018.parquet",
+      "sha256": "07987757d19ca00f4be64a6cf6c2c87616b0486190133ef8f38895954990b806"
+    },
+    {
+      "bytes": 215050677,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00013-of-00018.parquet",
+      "sha256": "f6e2b92eb5d31cc4f95e73d600915e5cf8203e0bf47cbce6ddb48d2bde5d93af"
+    },
+    {
+      "bytes": 218859700,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00014-of-00018.parquet",
+      "sha256": "4bf50b17bcfdd874ebcb7a680bc7610870709ab0027c90a9f72042987cb8ca57"
+    },
+    {
+      "bytes": 224140852,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00015-of-00018.parquet",
+      "sha256": "05a1d52a03758ed82e7b4af085ef177cf512163fdd0cf824201c7f92d8f06fa5"
+    },
+    {
+      "bytes": 243251487,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00016-of-00018.parquet",
+      "sha256": "a717d9f1b950ef2a48b954283bb6c1822f7d04c30cc26260b2399fe1c8ac91d9"
+    },
+    {
+      "bytes": 107730606,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00017-of-00018.parquet",
+      "sha256": "e196d4ba216bdc06d580ed3c1684fe8edc75d9e5ae617a420da44385d8c5d21e"
+    },
+    {
+      "bytes": 208152116,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00000-of-00019.parquet",
+      "sha256": "5f8b06e6ca49394bb601dd47f3c550826980b87ac87e096f631219f56221c755"
+    },
+    {
+      "bytes": 187962422,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00001-of-00019.parquet",
+      "sha256": "6f56a35c98b246e0074a8211fa6aad63565fb1df5db4f3b67672af4aeaa34b78"
+    },
+    {
+      "bytes": 193337808,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00002-of-00019.parquet",
+      "sha256": "6c29e7f164565852ada0d1393615a27f78ee79f3467a102a87920208323d6dba"
+    },
+    {
+      "bytes": 187399844,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00003-of-00019.parquet",
+      "sha256": "e19c350469a3a617da72174c80ae75d069824d96a92b7228a020cd6f44745ee0"
+    },
+    {
+      "bytes": 180080070,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00004-of-00019.parquet",
+      "sha256": "b9ec1119b384c0c6aa9e48f2e7977e0fd999d631e7a91f958cf0e5460c4b98cf"
+    },
+    {
+      "bytes": 187218815,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00005-of-00019.parquet",
+      "sha256": "dbc6105be1e061cf06e540d6db9938a9b77f3ddc5e9387340668a1166c46b262"
+    },
+    {
+      "bytes": 183044227,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00006-of-00019.parquet",
+      "sha256": "678493ef1de44d8b93cc725989814bedbc7a45ce6b7acc67767c190e736b81e8"
+    },
+    {
+      "bytes": 175644372,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00007-of-00019.parquet",
+      "sha256": "1f058323224574ee9432777da85bb4f7ee9bba84719f0ed0a8079bb02a780fb5"
+    },
+    {
+      "bytes": 192893943,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00008-of-00019.parquet",
+      "sha256": "afd69ad7eb6562b0ceddd1505e48b8f18e882d0db7ede4472903ec60e50dc806"
+    },
+    {
+      "bytes": 179711014,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00009-of-00019.parquet",
+      "sha256": "4f3401a767c47245f310492ca5aecec1d8acdd9fe37d44f4e8d7c8c24de5a00c"
+    },
+    {
+      "bytes": 178155168,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00010-of-00019.parquet",
+      "sha256": "18f246cfc95f75fa9729ee274b5200f9091f5a9a953071e745b2f960230ab1a5"
+    },
+    {
+      "bytes": 178981735,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00011-of-00019.parquet",
+      "sha256": "bfe3c8ed4d854087d7d977335f8799041444c1689e757e82de32850704b530c7"
+    },
+    {
+      "bytes": 173994280,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00012-of-00019.parquet",
+      "sha256": "ba21c2fc3be25d86bbb4ef8a3e43e1c2a54d8dd4ad0aeec8c59c68f025c590e6"
+    },
+    {
+      "bytes": 172571587,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00013-of-00019.parquet",
+      "sha256": "55218c148edcd8fc3251f9ee4038e0fc98faf692f5bf65238ad42a068d7b9a98"
+    },
+    {
+      "bytes": 175582503,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00014-of-00019.parquet",
+      "sha256": "41cd8b09a602c91c8cd5987b999d90f94acd569f62cfd52f397b003f66c6caac"
+    },
+    {
+      "bytes": 199141573,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00015-of-00019.parquet",
+      "sha256": "fd528fbdb32a5da7a1902719b7f388d4bbe867f7fc3dc5ef1f554852dc8ea569"
+    },
+    {
+      "bytes": 200618266,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00016-of-00019.parquet",
+      "sha256": "68e7c6621527b54e74e045073bde9d4ac8bce79fd6e67152abd997fb37e331e1"
+    },
+    {
+      "bytes": 224349863,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00017-of-00019.parquet",
+      "sha256": "aab3dd742b0347f7632f49a46a3fdbd9c37938e4e4d69f912dccc470d0503a17"
+    },
+    {
+      "bytes": 176569657,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00018-of-00019.parquet",
+      "sha256": "fe54923bddaa09ec8fd180c9343a13d6dfd89e6a0ec6a2da5a33383c22a2a78d"
+    },
+    {
+      "bytes": 236380400,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00000-of-00017.parquet",
+      "sha256": "2f984536bbaa1e2755d31031b069f93cab450a75aa26d71e2c4e76f2627c8e9a"
+    },
+    {
+      "bytes": 231235869,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00001-of-00017.parquet",
+      "sha256": "a64352325d6cb24c4141941ce15a0e3d873b9a97d4dc0b612a6a2b40f86cd57d"
+    },
+    {
+      "bytes": 227396189,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00002-of-00017.parquet",
+      "sha256": "54fca667311ae937921bdc90a21c6f3dc586502a16bf84467cb5f57ac216acde"
+    },
+    {
+      "bytes": 234630846,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00003-of-00017.parquet",
+      "sha256": "ed04cd3e0043588d5bfc74656285231b07bc8cfb6b8dd509a77779f77332c75e"
+    },
+    {
+      "bytes": 247001155,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00004-of-00017.parquet",
+      "sha256": "bcb74e6309c5a3bcae20f01a3fa386336993f84b2a91218b1778150d9b555bbc"
+    },
+    {
+      "bytes": 227167671,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_qwen35_122b_swe-rebench-v2_train-00005-of-00017.parquet",
+      "sha256": "144342f57c6cbaca69a2df98f6e3ef387036e159e9deeb716747b21b447a8046"
+    },
+    {
+      "bytes": 234451253,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00000-of-00009.parquet",
+      "sha256": "be9c4a0c327e507e3bc0290955c4f8935e0a22059c38815ef638f7ec570760b0"
+    },
+    {
+      "bytes": 230936743,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00001-of-00009.parquet",
+      "sha256": "aa0c5470ed1ffd85609b9daded0d8de2aa9e45e39b0ec73752d63ff758f9e236"
+    },
+    {
+      "bytes": 241776530,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00002-of-00009.parquet",
+      "sha256": "d3ba48b3ad24b1808d09f8624cfe6e7c5e2cf3d8a27a0265509e968fa00872ea"
+    },
+    {
+      "bytes": 235339506,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00003-of-00009.parquet",
+      "sha256": "edd518fad74c8a0582899f809cca9d61f4852bb8084f05718f1b8b561c1d4891"
+    },
+    {
+      "bytes": 233460638,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00004-of-00009.parquet",
+      "sha256": "730de8f45b5dff9cba4dfa9e01dd591be9b79cbbd8c722d21f5223576aed1b61"
+    },
+    {
+      "bytes": 235470427,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00005-of-00009.parquet",
+      "sha256": "f7e37764eb12f8ee9eb96a54d39e14e83469178e9028a085131e1da5828693df"
+    },
+    {
+      "bytes": 243568634,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00006-of-00009.parquet",
+      "sha256": "21b1f3af18767e6ef99cf71b981a49fb12c0ce0e5105bd969103cc5100267869"
+    },
+    {
+      "bytes": 243798227,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00007-of-00009.parquet",
+      "sha256": "05b853feb43c90a2932d2f09d912746a509a1a551b15af2dedbcebed13338bd3"
+    },
+    {
+      "bytes": 32648573,
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_qwen35_122b_swe-rebench-v2_train-00008-of-00009.parquet",
+      "sha256": "9e7054675b07041f60a17cf1069879bf05c6766df56fff75be269adb65bc8b15"
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "annotation_outputs_read": false,
+    "exact_byte_spans": "NOT_MEASURABLE",
+    "frozen_inputs_modified": false,
+    "paper_modified": false,
+    "unique_variable": "COC allocation/accounting"
+  },
+  "status": "PARTIAL",
+  "task": "PAPER-A-COC-ALLOCATION-RECONCILIATION-R1",
+  "validation": {
+    "aggregate_rebuild": "PASS",
+    "allocation_invariants": "PASS",
+    "component_regression": "PASS_5_OF_5",
+    "double_replay_determinism": "PASS_BYTE_IDENTICAL",
+    "historical_proxy_regression": "PASS",
+    "identity_closure": "PASS_OSW_20000_QWEN_35334",
+    "overall": "PARTIAL_EXACT_SPANS_NOT_MEASURABLE"
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "schema_version": 1,
+ "authority_status": "SUPERSEDED_PARTIAL_AGGREGATION",
+ "superseded_by": "model-audit-reconciled.json",
+ "authority_note": "Historical 292-paired-valid aggregation before recovery of 48 GLM retrieval failures; numerical values below are not final manuscript authority.",
+ "stage": "D4-P3R4 model annotation audit aggregation (complete; MODEL_AUDIT_CONCERN)",
+ "date": "2026-09-24",
+ "arms": {
+  "GLM": {"model": "glm-5.3-flash", "provider": "Zhipu AI", "items": 340, "successful": 292, "data_errors": 48, "source": "glm53-annotations.json"},
+  "GPT": {"model": "GPT (via Codex)", "provider": "OpenAI", "items": 340, "successful": 340, "data_errors": 0, "source": "gpt-annotations.json"}
+ },
+ "integrity": {
+  "count_pass": true, "item_identity_pass": true, "schema_violations": 0,
+  "blinding_leak": ["detector_negative in sample_type field (structural, not answer-key)"],
+  "observable_cross_arm_leak": "NONE"
+ },
+ "agreement": {
+  "Q1_shape_membership": {"raw_agreement": 0.5445, "cohens_kappa": 0.2385, "distribution": {"YES/YES": 34, "NO/NO": 42, "UNC/UNC": 83, "disagree": 133}},
+  "Q2_compression_opportunity": {"raw_agreement": 0.5753, "cohens_kappa": -0.1886, "distribution": {"NO/NO": 100, "YES/YES": 68, "GLM-NO/GPT-YES": 124}}
+ },
+ "per_shape_agreement": {
+  "E13": {"n": 28, "Q1_agree_pct": 0.964, "Q2_agree_pct": 0.786, "note": "highest Q1 agreement; Q2 disagreement reflects semantic-value ambiguity"},
+  "E14": {"n": 28, "Q1_agree_pct": 0.393, "Q2_agree_pct": 0.171, "note": "lowest agreement — definition ambiguity"},
+  "E12": {"n": 7, "Q1_agree_pct": 1.0, "Q2_agree_pct": 0.714, "note": "small n"},
+  "E1": {"n": 28, "Q1_agree_pct": 0.571, "Q2_agree_pct": 0.393},
+  "E2": {"n": 28, "Q1_agree_pct": 0.536, "Q2_agree_pct": 0.5}
+ },
+ "detector_unblind": {
+  "det_positive_glm_agrees": "84/180 (46.7%)",
+  "det_positive_gpt_agrees": "50/180 (27.8%)",
+  "both_model_reject_det_positive": 0,
+  "both_model_accept_det_negative": 34
+ },
+ "buckets": {
+  "A_strong_agree_all_positive": 34,
+  "B_models_agree_det_differs": 74,
+  "C_glm_gpt_disagree": 133,
+  "D_any_uncertain": 9,
+  "E_det_pos_both_reject": 0,
+  "F_det_neg_both_accept": 0
+ },
+ "e13_special": {
+  "Q1_agreement": "96.4% (27/28)",
+  "Q2_agreement": "78.6% (22/28)",
+  "GLM_accepts": "20/28",
+  "GPT_accepts": "20/28",
+  "shape_membership_clear": true,
+  "opportunity_definition_ambiguous": true
+ },
+ "verdict": "MODEL_AUDIT_CONCERN",
+ "verdict_reasons": [
+  "Q1 kappa 0.2385 (poor inter-model agreement)",
+  "Q2 kappa -0.1886 (systematic disagreement, worse than chance)",
+  "Bucket C (model disagreement) 39.1% = largest",
+  "E14 Q2 agreement 17.1% = lowest",
+  "Detector false-positive rate > 50% (only 46.7% GLM and 27.8% GPT agree with detector-positive)"
+ ],
+ "positive_findings": [
+  "E13 shape membership agreement 96.4% — definition is clear",
+  "E12 small-n 100% agreement",
+  "A/B correctness 24/24 zero degradation",
+  "Zero schema violations across 680 annotations"
+ ],
+ "implication_for_paper_a": "compression-opportunity construct is genuinely ambiguous across AI evaluators; online task-token qualification is further confirmed infeasible",
+ "disclaimer": "MODEL_ANNOTATION_AUDIT — not human construct-validity validation"
+}

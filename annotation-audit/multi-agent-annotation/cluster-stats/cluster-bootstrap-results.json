@@ -1,0 +1,221 @@
+{
+ "method": "cluster bootstrap (resample clusters with replacement)",
+ "n_boot": 2000,
+ "seed": 42,
+ "seed_stability_check": true,
+ "clustering_unit": "instance_id (task instance)",
+ "instance_level": {
+  "E1": {
+   "point": 0.999604,
+   "ci_lo": 0.999302,
+   "ci_hi": 0.99985,
+   "n_boot": 2000
+  },
+  "E2": {
+   "point": 0.999753,
+   "ci_lo": 0.999501,
+   "ci_hi": 0.99995,
+   "n_boot": 2000
+  },
+  "E3": {
+   "point": 0.99985,
+   "ci_lo": 0.99965,
+   "ci_hi": 1.0,
+   "n_boot": 2000
+  },
+  "E12": {
+   "point": 0.794994,
+   "ci_lo": 0.788731,
+   "ci_hi": 0.801781,
+   "n_boot": 2000
+  },
+  "E13": {
+   "point": 0.466378,
+   "ci_lo": 0.459412,
+   "ci_hi": 0.473474,
+   "n_boot": 2000
+  },
+  "E14": {
+   "point": 0.948396,
+   "ci_lo": 0.945001,
+   "ci_hi": 0.951803,
+   "n_boot": 2000
+  }
+ },
+ "repo_level": {
+  "E1": {
+   "point": 0.99961,
+   "ci_lo": 0.999304,
+   "ci_hi": 0.99985,
+   "n_boot": 2000
+  },
+  "E2": {
+   "point": 0.999758,
+   "ci_lo": 0.999505,
+   "ci_hi": 0.99995,
+   "n_boot": 2000
+  },
+  "E3": {
+   "point": 0.999853,
+   "ci_lo": 0.999651,
+   "ci_hi": 1.0,
+   "n_boot": 2000
+  },
+  "E12": {
+   "point": 0.794932,
+   "ci_lo": 0.788127,
+   "ci_hi": 0.80199,
+   "n_boot": 2000
+  },
+  "E13": {
+   "point": 0.466346,
+   "ci_lo": 0.459422,
+   "ci_hi": 0.47351,
+   "n_boot": 2000
+  },
+  "E14": {
+   "point": 0.948378,
+   "ci_lo": 0.944902,
+   "ci_hi": 0.951912,
+   "n_boot": 2000
+  }
+ },
+ "all_shapes": {
+  "E1": {
+   "point": 0.999604,
+   "ci_lo": 0.999302,
+   "ci_hi": 0.99985,
+   "n_boot": 2000
+  },
+  "E2": {
+   "point": 0.999753,
+   "ci_lo": 0.999501,
+   "ci_hi": 0.99995,
+   "n_boot": 2000
+  },
+  "E3": {
+   "point": 0.99985,
+   "ci_lo": 0.99965,
+   "ci_hi": 1.0,
+   "n_boot": 2000
+  },
+  "E4": {
+   "point": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "n_boot": 2000
+  },
+  "E5": {
+   "point": 0.019911,
+   "ci_lo": 0.017933,
+   "ci_hi": 0.021948,
+   "n_boot": 2000
+  },
+  "E6": {
+   "point": 0.000747,
+   "ci_lo": 0.0004,
+   "ci_hi": 0.00115,
+   "n_boot": 2000
+  },
+  "E7": {
+   "point": 0.000649,
+   "ci_lo": 0.000348,
+   "ci_hi": 0.001007,
+   "n_boot": 2000
+  },
+  "E8": {
+   "point": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "n_boot": 2000
+  },
+  "E9": {
+   "point": 4.9e-05,
+   "ci_lo": 0.0,
+   "ci_hi": 0.000151,
+   "n_boot": 2000
+  },
+  "E10": {
+   "point": 0.000803,
+   "ci_lo": 0.000448,
+   "ci_hi": 0.001202,
+   "n_boot": 2000
+  },
+  "E11": {
+   "point": 0.000402,
+   "ci_lo": 0.00015,
+   "ci_hi": 0.0007,
+   "n_boot": 2000
+  },
+  "E12": {
+   "point": 0.794994,
+   "ci_lo": 0.788731,
+   "ci_hi": 0.801781,
+   "n_boot": 2000
+  },
+  "E13": {
+   "point": 0.466378,
+   "ci_lo": 0.459412,
+   "ci_hi": 0.473474,
+   "n_boot": 2000
+  },
+  "E14": {
+   "point": 0.948396,
+   "ci_lo": 0.945001,
+   "ci_hi": 0.951803,
+   "n_boot": 2000
+  },
+  "E15": {
+   "point": 0.000351,
+   "ci_lo": 0.0001,
+   "ci_hi": 0.000644,
+   "n_boot": 2000
+  }
+ },
+ "scaffold_paired": {
+  "E1": {
+   "n_paired": 3369,
+   "mean_diff": -0.0009,
+   "se": 0.0005,
+   "ci_lo": -0.0019,
+   "ci_hi": 0.0001
+  },
+  "E2": {
+   "n_paired": 3369,
+   "mean_diff": -0.0003,
+   "se": 0.0003,
+   "ci_lo": -0.0009,
+   "ci_hi": 0.0003
+  },
+  "E3": {
+   "n_paired": 3369,
+   "mean_diff": -0.0006,
+   "se": 0.0004,
+   "ci_lo": -0.0014,
+   "ci_hi": 0.0002
+  },
+  "E12": {
+   "n_paired": 3369,
+   "mean_diff": -0.0309,
+   "se": 0.0073,
+   "ci_lo": -0.0451,
+   "ci_hi": -0.0166
+  },
+  "E13": {
+   "n_paired": 3369,
+   "mean_diff": 0.352,
+   "se": 0.0109,
+   "ci_lo": 0.3307,
+   "ci_hi": 0.3733
+  },
+  "E14": {
+   "n_paired": 3369,
+   "mean_diff": -0.0237,
+   "se": 0.005,
+   "ci_lo": -0.0335,
+   "ci_hi": -0.014
+  }
+ },
+ "n_tasks_both_scaffolds": 3369,
+ "framework_confound": "Agent CLI system prompts are unavoidable; recorded as framework-specific confound"
+}

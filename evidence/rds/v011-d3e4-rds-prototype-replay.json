@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E4 RDS prototype replay (prereg 7d9b343e FROZEN before replay)",
+ "date": "2026-09-23",
+ "dataset": {
+  "pin": "D:/tasco-temp/d3_hf_data/sessions.parquet",
+  "sessions": 15000
+ },
+ "self_test": "ALL PASS (17 cases incl 2 negative locks)",
+ "r1_oracle_capture": {
+  "rds_removed_chars_in_path_groups": 69417730.0,
+  "rds_removed_chars_total_all_trajectory": 218043264.0,
+  "e3_census_conservative_removable_chars": 85724720.0,
+  "capture_rate_e3_scope": 0.8098,
+  "note": "capture numerator = RDS removals on E3 path-group repeat events only; denominator = E3 census conservative removable (same d3e3 oracle); RDS also removes repeated content outside path groups (E2/unlabeled) reported separately"
+ },
+ "r2_offline_observable_char_saving": {
+  "all_sessions": {
+   "p25": 1503,
+   "median": 5675.0,
+   "p75": 22522
+  },
+  "hit_sessions": {
+   "count": 14581,
+   "p25": 1708,
+   "median": 6209,
+   "p75": 23092
+  },
+  "ge5pct_session_incidence_all": 0.7657,
+  "ge10pct_session_incidence_all": 0.5807,
+  "naming": "offline observable-char saving; NOT token saving"
+ },
+ "r3_correctness_closure": {
+  "compressed_events": 289822,
+  "reconstruction_failures": 0,
+  "exact_match_rate": 1.0,
+  "gate": "PASS"
+ },
+ "verdict": "PROTOTYPE_REPLAY_COMPLETE",
+ "aggregates_sha256": "c3dce6672e658e5dcb1e6a048825440235e981eeaae0c7b924e51d8c35d60c09"
+}

@@ -1,0 +1,18 @@
+metric,old_value,new_value,source,superseded
+total_valid,314,317,R2 disk recount,314/360 informal
+total_infra,46,43,R2 disk recount,46 informal
+all3_valid,96,98,coverage-recovery-r1,96-subset
+EVAL-1_valid,74,110,R2 disk recount,informal
+EVAL-2_valid,120,108,R2 disk recount,informal
+EVAL-3_valid,120,99,R2 disk recount,informal
+EVAL-1_infra,46,10,R2 disk recount,informal
+EVAL-2_infra,0,12,R2 disk recount,informal
+EVAL-3_infra,0,21,R2 disk recount,informal
+Q1_3way,0.8542,0.8571,98-subset Fleiss,96-subset
+Q1_fleiss_kappa,N/A,0.8049,98-subset,not previously computed
+Q2a_3way,0.8333,0.8061,98-subset,96-subset
+Q2a_fleiss_kappa,N/A,0.3835,98-subset,not previously computed
+Q2b_3way,0.9479,0.9490,98-subset,96-subset
+Q2b_fleiss_kappa,N/A,0.7961,98-subset,not previously computed
+E13_scaffold_pp,35.2,35.2,cluster-bootstrap (confirmed),no change
+E14_infra_blocked_pct,unknown,51.7,3-channel 31/60 cells,identified in R2

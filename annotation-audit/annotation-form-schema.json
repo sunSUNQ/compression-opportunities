@@ -1,0 +1,38 @@
+{
+ "Q1": {
+  "question": "Does this instance satisfy the formal definition of the target shape?",
+  "options": [
+   "YES",
+   "NO",
+   "UNCERTAIN"
+  ],
+  "required": true
+ },
+ "Q2": {
+  "question": "Does this instance contain a genuine context-compression opportunity?",
+  "options": [
+   "YES",
+   "NO",
+   "UNCERTAIN"
+  ],
+  "required": true
+ },
+ "Q3": {
+  "question": "If Q1=NO, error category",
+  "options": [
+   "detector_false_positive",
+   "taxonomy_definition_ambiguity",
+   "insufficient_context",
+   "schema_ambiguity",
+   "other"
+  ],
+  "required": false
+ },
+ "Q4": {
+  "question": "Confidence (1-5)",
+  "type": "integer",
+  "min": 1,
+  "max": 5,
+  "required": true
+ }
+}

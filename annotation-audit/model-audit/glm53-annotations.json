@@ -1,0 +1,3081 @@
+{
+ "schema_version": 1,
+ "type": "MODEL_ANNOTATION_AUDIT",
+ "model": "glm-5.3-flash (GLM)",
+ "provider": "Zhipu AI / Volcano Engine",
+ "runtime": "opencode agent (D4-P3R3A)",
+ "packet_file": "annotations-A.json",
+ "packet_sha256": "ffcd37bfa01783701ea3cafe1c9817db97f5d183fd86b633114640f5f2e183ad",
+ "protocol": "construct-validity/annotation-protocol.md (FROZEN)",
+ "protocol_hash": "d6113920b6d42f43",
+ "item_count": 340,
+ "completed": 340,
+ "errors": 48,
+ "timestamp": "2026-09-28T08:12:08.861067+00:00",
+ "disclaimer": "MODEL_ANNOTATION_AUDIT — not human construct-validity validation. Results are for reference/sanity-check only and must not be cited as human inter-rater agreement.",
+ "annotations": [
+  {
+   "item_id": "ITEM-0232",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2519, cmd=python -m pytest tests/test_headers.py -xvs 2>&1 | head -60"
+  },
+  {
+   "item_id": "ITEM-0119",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0221",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0327",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=2519, cmd=pytest --version 2>&1"
+  },
+  {
+   "item_id": "ITEM-0205",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests/test_hamiltonians.py -"
+  },
+  {
+   "item_id": "ITEM-0075",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0240",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0297",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=702, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0121",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/test_core/test_tree.py -v -k \"compare"
+  },
+  {
+   "item_id": "ITEM-0067",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0078",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0174",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0092",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0160",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /testbed/tests/ -v 2>&1 | tail -40"
+  },
+  {
+   "item_id": "ITEM-0047",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=1175, cmd=ls -la /workspace/apache__dubbo-go-hessian2__1.0/java8_time/"
+  },
+  {
+   "item_id": "ITEM-0295",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0290",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0172",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0279",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/ecmwf__earthkit-data__1.0 && python -m pytest "
+  },
+  {
+   "item_id": "ITEM-0176",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0020",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=view /workspace/alibaba__fescar__1.0/core/src/test/java/com/"
+  },
+  {
+   "item_id": "ITEM-0105",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=258, cmd=grep -rn \"process.nextTick\" /workspace/streamich__memfs__1.0"
+  },
+  {
+   "item_id": "ITEM-0159",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | hea"
+  },
+  {
+   "item_id": "ITEM-0317",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0178",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0335",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0299",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1284, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0089",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0330",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=1324, cmd=npm test -- --testPathIgnorePatterns=\"button\" 2>&1"
+  },
+  {
+   "item_id": "ITEM-0301",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1697, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0199",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0334",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0256",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0094",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=324, cmd=grep -r \"_pipeline\" /workspace/dadoonet__elasticsearch-beyon"
+  },
+  {
+   "item_id": "ITEM-0157",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests_new/test_core_states.p"
+  },
+  {
+   "item_id": "ITEM-0039",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=1697, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0035",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0038",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=1284, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0179",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0250",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0049",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0147",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0145",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0245",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0189",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0073",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0331",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=435, cmd=python -m pytest /testbed/pyfakefs/tests/fake_filesystem_tes"
+  },
+  {
+   "item_id": "ITEM-0315",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1731, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0019",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go run test_"
+  },
+  {
+   "item_id": "ITEM-0229",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=1324, cmd=npm test -- --testPathIgnorePatterns=\"button\" 2>&1"
+  },
+  {
+   "item_id": "ITEM-0273",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2026, cmd=cd /workspace/cloudtools__troposphere__1.0 && python -c \""
+  },
+  {
+   "item_id": "ITEM-0054",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0223",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0323",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0241",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0312",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2519, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0026",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0095",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=145, cmd=grep -n \"mockBuffer\" /workspace/brightcove__hot-shots__1.0/t"
+  },
+  {
+   "item_id": "ITEM-0311",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2519, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0134",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /pandas/pandas/tests/api/test_api.py::test_"
+  },
+  {
+   "item_id": "ITEM-0071",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0027",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0011",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0114",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0012",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=138, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0002",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=1154, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0090",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0296",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0246",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0207",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | hea"
+  },
+  {
+   "item_id": "ITEM-0124",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0155",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /spikeinterface/src/spikeinterface/sorters/"
+  },
+  {
+   "item_id": "ITEM-0198",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0222",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0107",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=164, cmd=grep -n \"requried\" /workspace/fluid-cloudnative__fluid__1.0/"
+  },
+  {
+   "item_id": "ITEM-0247",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0208",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2318, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | tai"
+  },
+  {
+   "item_id": "ITEM-0196",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0284",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/wntrblm__nox__1.0 && python -m pytest tests/te"
+  },
+  {
+   "item_id": "ITEM-0210",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=1712, cmd=python -m pytest /testbed/test_docformatter.py /testbed/test"
+  },
+  {
+   "item_id": "ITEM-0140",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=npm test -- --testPathPattern=\"RoString.test\" 2>&1 | head -8"
+  },
+  {
+   "item_id": "ITEM-0321",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0044",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2457, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0204",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests/test_hamiltonians.py -"
+  },
+  {
+   "item_id": "ITEM-0123",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/ -v --tb=short 2>&1 | head -100"
+  },
+  {
+   "item_id": "ITEM-0097",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=195, cmd=grep -n \"func (is \\*InfoSyncer) getTopologyInfo\" /workspace/"
+  },
+  {
+   "item_id": "ITEM-0263",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0268",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0224",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0007",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=1284, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0060",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0100",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=819, cmd=grep -n \"react-a11y\" /workspace/typescript-eslint__tslint-to"
+  },
+  {
+   "item_id": "ITEM-0243",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0183",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0056",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0085",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0209",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2318, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | tai"
+  },
+  {
+   "item_id": "ITEM-0220",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0025",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0304",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2519, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0104",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=165, cmd=grep -n \"encoding\" /workspace/sindresorhus__execa__1.0/index"
+  },
+  {
+   "item_id": "ITEM-0101",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=465, cmd=grep -n \"label_values\" /workspace/pingcap__tidb__1.0/br/metr"
+  },
+  {
+   "item_id": "ITEM-0032",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0061",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0106",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=258, cmd=grep -rn \"process.nextTick\" /workspace/streamich__memfs__1.0"
+  },
+  {
+   "item_id": "ITEM-0074",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0163",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest tests/preprocessing/test_positionfixes.py::"
+  },
+  {
+   "item_id": "ITEM-0132",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest src/tqec/circuit/circuit_test.py -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0070",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0181",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0063",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0086",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0251",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0135",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /spikeinterface/src/spikeinterface/sorters/"
+  },
+  {
+   "item_id": "ITEM-0066",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0166",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest --version"
+  },
+  {
+   "item_id": "ITEM-0148",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0306",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1595, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0266",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0158",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests/test_hamiltonians.py /"
+  },
+  {
+   "item_id": "ITEM-0009",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=215, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && git status"
+  },
+  {
+   "item_id": "ITEM-0200",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest src/tqec/ -v 2>&1 | tail -50"
+  },
+  {
+   "item_id": "ITEM-0008",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=1697, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0249",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0091",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0010",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=350, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && git status"
+  },
+  {
+   "item_id": "ITEM-0169",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0226",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2477, cmd=python -m pytest /testbed/tests/ --ignore=/testbed/tests/uti"
+  },
+  {
+   "item_id": "ITEM-0059",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0006",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=702, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0087",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0211",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=357, cmd=python -m pytest /testbed/test_docformatter.py /testbed/test"
+  },
+  {
+   "item_id": "ITEM-0339",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0267",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0031",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=1298, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0116",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0133",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /pandas/pandas/tests/api/test_api.py::test_"
+  },
+  {
+   "item_id": "ITEM-0264",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0305",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=748, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0228",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=132, cmd=python -m pytest tests/test_decorator.py -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0307",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=138, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0281",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/ecmwf__earthkit-data__1.0 && git diff HEAD"
+  },
+  {
+   "item_id": "ITEM-0171",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0248",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0213",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2477, cmd=python -m pytest /testbed/tests/ --ignore=/testbed/tests/uti"
+  },
+  {
+   "item_id": "ITEM-0170",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0289",
+   "target_shape": "E13",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0043",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=138, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0337",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0122",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/test_shell_completion.py -v"
+  },
+  {
+   "item_id": "ITEM-0152",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0033",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0272",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/crossbeam-rs__crossbeam__1.0 && git diff cross"
+  },
+  {
+   "item_id": "ITEM-0018",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go run test_"
+  },
+  {
+   "item_id": "ITEM-0125",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0022",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0021",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0252",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0180",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0015",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=149, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go build ./."
+  },
+  {
+   "item_id": "ITEM-0062",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0079",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0244",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0197",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0005",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=903, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0269",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2171, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0083",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0154",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /pandas/pandas/tests/api/test_api.py -v 2>&"
+  },
+  {
+   "item_id": "ITEM-0188",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0258",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0265",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0042",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0096",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=145, cmd=grep -n \"mockBuffer\" /workspace/brightcove__hot-shots__1.0/t"
+  },
+  {
+   "item_id": "ITEM-0218",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0051",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0156",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests/test_hamiltonians.py -"
+  },
+  {
+   "item_id": "ITEM-0274",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/projectmesa__mesa__1.0 && git diff"
+  },
+  {
+   "item_id": "ITEM-0164",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest tests/preprocessing/test_positionfixes.py::"
+  },
+  {
+   "item_id": "ITEM-0077",
+   "target_shape": "E3",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E3, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0310",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2158, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0028",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0130",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0046",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=149, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go build ./."
+  },
+  {
+   "item_id": "ITEM-0129",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/events/detection/ -"
+  },
+  {
+   "item_id": "ITEM-0278",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/pypa__pipx__1.0 && python -m pytest tests/test"
+  },
+  {
+   "item_id": "ITEM-0277",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/pypa__pipx__1.0 && git diff"
+  },
+  {
+   "item_id": "ITEM-0201",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=1487, cmd=python -m pytest src/tqec/ -v 2>&1 | tail -20"
+  },
+  {
+   "item_id": "ITEM-0001",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0285",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=mkdir -p /tmp/hertztmp && cat > /tmp/hertztmp/main_test.go <"
+  },
+  {
+   "item_id": "ITEM-0216",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0325",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0076",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0219",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0270",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2046, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0253",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0069",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0193",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0254",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0202",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /pandas/pandas/tests/api/test_api.py::test_"
+  },
+  {
+   "item_id": "ITEM-0030",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=1154, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0185",
+   "target_shape": "E9",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=2519, cmd=mvn test -pl wdtk-wikibaseapi -Dtest=WikibaseDataEditorTest "
+  },
+  {
+   "item_id": "ITEM-0214",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0003",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=1298, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0142",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0065",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0298",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1154, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0282",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/wntrblm__nox__1.0 && python -m pytest tests/te"
+  },
+  {
+   "item_id": "ITEM-0212",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=729, cmd=python -m pytest /testbed/test_docformatter.py /testbed/test"
+  },
+  {
+   "item_id": "ITEM-0098",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=195, cmd=grep -n \"func (is \\*InfoSyncer) getTopologyInfo\" /workspace/"
+  },
+  {
+   "item_id": "ITEM-0320",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0260",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0153",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0109",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=2126, cmd=grep -n -A 50 \"def test_stack\" /workspace/modin-project__mod"
+  },
+  {
+   "item_id": "ITEM-0322",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0203",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /pandas/pandas/tests/api/test_api.py::test_"
+  },
+  {
+   "item_id": "ITEM-0291",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0161",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=go test ./... 2>&1 | head -50"
+  },
+  {
+   "item_id": "ITEM-0040",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=215, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && git status"
+  },
+  {
+   "item_id": "ITEM-0262",
+   "target_shape": "E12",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E12, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0338",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0293",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0286",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=rm -rf /tmp/hertztmp"
+  },
+  {
+   "item_id": "ITEM-0127",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0131",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest src/tqec/circuit/ src/tqec/block/ src/tqec/"
+  },
+  {
+   "item_id": "ITEM-0238",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0057",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0093",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=324, cmd=grep -r \"_pipeline\" /workspace/dadoonet__elasticsearch-beyon"
+  },
+  {
+   "item_id": "ITEM-0103",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=165, cmd=grep -n \"encoding\" /workspace/sindresorhus__execa__1.0/index"
+  },
+  {
+   "item_id": "ITEM-0231",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=435, cmd=python -m pytest /testbed/pyfakefs/tests/fake_filesystem_tes"
+  },
+  {
+   "item_id": "ITEM-0110",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=2519, cmd=grep -n -A 80 \"def test_stack\" /workspace/modin-project__mod"
+  },
+  {
+   "item_id": "ITEM-0150",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=npm test -- --grep \"getApiId\" 2>&1 | head -100"
+  },
+  {
+   "item_id": "ITEM-0192",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0239",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0257",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0144",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0191",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0294",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0287",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/cloudwego__hertz__1.0 && git diff pkg/app/cont"
+  },
+  {
+   "item_id": "ITEM-0068",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0271",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0261",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0165",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest tests/preprocessing/test_positionfixes.py::"
+  },
+  {
+   "item_id": "ITEM-0235",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0227",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=824, cmd=python -m pytest tests/preprocessing/test_util.py -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0319",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0128",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/utils/filters_test."
+  },
+  {
+   "item_id": "ITEM-0168",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /testbed/pyfakefs/tests/fake_filesystem_tes"
+  },
+  {
+   "item_id": "ITEM-0255",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0081",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0300",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1298, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0225",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2318, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | tai"
+  },
+  {
+   "item_id": "ITEM-0146",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0242",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0234",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0055",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0034",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0138",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /testbed/test_docformatter.py /testbed/test"
+  },
+  {
+   "item_id": "ITEM-0206",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | hea"
+  },
+  {
+   "item_id": "ITEM-0162",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=go test -v -run \"TestToCamel|TestToLowerCamel|TestToSnake|Te"
+  },
+  {
+   "item_id": "ITEM-0340",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0118",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0029",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0167",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest test/ -v -k \"verify\" 2>&1"
+  },
+  {
+   "item_id": "ITEM-0316",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1865, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0139",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=npm test 2>&1"
+  },
+  {
+   "item_id": "ITEM-0318",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0237",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0276",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/primefaces__primefaces__1.0 && git diff"
+  },
+  {
+   "item_id": "ITEM-0336",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0088",
+   "target_shape": "E4",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E4, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0037",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=702, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0137",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /testbed/test_docformatter.py -v 2>&1 | hea"
+  },
+  {
+   "item_id": "ITEM-0108",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=148, cmd=grep -n \"requried\" /workspace/fluid-cloudnative__fluid__1.0/"
+  },
+  {
+   "item_id": "ITEM-0182",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=203, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0190",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0084",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0187",
+   "target_shape": "E9",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0233",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0308",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=967, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0314",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2114, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0052",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0324",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0292",
+   "target_shape": "E13",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0149",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest tests/ -v --tb=short 2>&1 | tail -50"
+  },
+  {
+   "item_id": "ITEM-0117",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0024",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0036",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=903, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0099",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=819, cmd=grep -n \"react-a11y\" /workspace/typescript-eslint__tslint-to"
+  },
+  {
+   "item_id": "ITEM-0186",
+   "target_shape": "E9",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E9, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0151",
+   "target_shape": "E7",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=2519, cmd=python -m pytest /pymovements/tests/unit/events/detection/ -"
+  },
+  {
+   "item_id": "ITEM-0283",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/wntrblm__nox__1.0 && python -m pytest tests/te"
+  },
+  {
+   "item_id": "ITEM-0041",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=350, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && git status"
+  },
+  {
+   "item_id": "ITEM-0194",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0064",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0275",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/projectmesa__mesa__1.0 && python -m pytest tes"
+  },
+  {
+   "item_id": "ITEM-0236",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0023",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0136",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest /qibo/src/qibo/tests/test_hamiltonians.py -"
+  },
+  {
+   "item_id": "ITEM-0177",
+   "target_shape": "E8",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0184",
+   "target_shape": "E8",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "taxonomy_definition_ambiguity",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E8, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0050",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0195",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0326",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=729, cmd=python -m pytest /testbed/test_docformatter.py /testbed/test"
+  },
+  {
+   "item_id": "ITEM-0333",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0173",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0111",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=229, cmd=grep \"YP_NODE_FLIP_FLOP_NODE\\|YP_NODE_RANGE_NODE\" /workspace"
+  },
+  {
+   "item_id": "ITEM-0080",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0313",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2258, cmd=str_replace"
+  },
+  {
+   "item_id": "ITEM-0175",
+   "target_shape": "E7",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E7, obs_chars=396, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0329",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=132, cmd=python -m pytest tests/test_decorator.py -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0082",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0004",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0143",
+   "target_shape": "E6",
+   "Q1_shape_membership": "NO",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "detector_false_positive",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0302",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=138, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0230",
+   "target_shape": "E11",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E11, obs_chars=2083, cmd=python -m pytest /testbed/pyfakefs/tests/ -xvs -k \"split\" 2>"
+  },
+  {
+   "item_id": "ITEM-0113",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0215",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=1152, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0332",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=2083, cmd=python -m pytest /testbed/pyfakefs/tests/ -xvs -k \"split\" 2>"
+  },
+  {
+   "item_id": "ITEM-0102",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=466, cmd=grep -n \"label_values\" /workspace/pingcap__tidb__1.0/br/metr"
+  },
+  {
+   "item_id": "ITEM-0288",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/swc-project__swc__1.0 && git diff"
+  },
+  {
+   "item_id": "ITEM-0014",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=149, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go build ./."
+  },
+  {
+   "item_id": "ITEM-0309",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2519, cmd=view /workspace/crossbeam-rs__crossbeam__1.0/crossbeam-utils"
+  },
+  {
+   "item_id": "ITEM-0259",
+   "error": "name 'DIAG_PAT' is not defined",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0120",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=474, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0/"
+  },
+  {
+   "item_id": "ITEM-0112",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=229, cmd=grep \"YP_NODE_FLIP_FLOP_NODE\\|YP_NODE_RANGE_NODE\" /workspace"
+  },
+  {
+   "item_id": "ITEM-0048",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=1175, cmd=ls -la /workspace/apache__dubbo-go-hessian2__1.0/java8_time/"
+  },
+  {
+   "item_id": "ITEM-0016",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=1175, cmd=ls -la /workspace/apache__dubbo-go-hessian2__1.0/java8_time/"
+  },
+  {
+   "item_id": "ITEM-0017",
+   "target_shape": "E1",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E1, obs_chars=1175, cmd=ls -la /workspace/apache__dubbo-go-hessian2__1.0/java8_time/"
+  },
+  {
+   "item_id": "ITEM-0217",
+   "target_shape": "E10",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E10, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0303",
+   "target_shape": "E14",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E14, obs_chars=2457, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0045",
+   "target_shape": "E2",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E2, obs_chars=149, cmd=cd /workspace/apache__dubbo-go-hessian2__1.0 && go build ./."
+  },
+  {
+   "item_id": "ITEM-0280",
+   "target_shape": "E13",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E13, obs_chars=2519, cmd=cd /workspace/ecmwf__earthkit-data__1.0 && python -m pytest "
+  },
+  {
+   "item_id": "ITEM-0053",
+   "target_shape": "E2",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E2, obs_chars=803, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0072",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0115",
+   "target_shape": "E5",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E5, obs_chars=164, cmd=cd /workspace/open-telemetry__opentelemetry-go-contrib__1.0 "
+  },
+  {
+   "item_id": "ITEM-0126",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "YES",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=python -m pytest tests/ -v 2>&1"
+  },
+  {
+   "item_id": "ITEM-0141",
+   "target_shape": "E6",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E6, obs_chars=2519, cmd=view /workspace/open-telemetry__opentelemetry-go-contrib__1."
+  },
+  {
+   "item_id": "ITEM-0013",
+   "target_shape": "E1",
+   "Q1_shape_membership": "YES",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 3,
+   "annotation_basis": "shape=E1, obs_chars=2457, cmd=view /workspace/apache__dubbo-go-hessian2__1.0/encode.go"
+  },
+  {
+   "item_id": "ITEM-0058",
+   "error": "cannot access free variable 'cmd_norm' where it is not associated with a value in enclosing scope",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "UNCERTAIN",
+   "Q3_error_category": "insufficient_context",
+   "Q4_confidence": 1,
+   "recovery_note": "no events parsed"
+  },
+  {
+   "item_id": "ITEM-0328",
+   "target_shape": "E15",
+   "Q1_shape_membership": "UNCERTAIN",
+   "Q2_compression_opportunity": "NO",
+   "Q3_error_category": "",
+   "Q4_confidence": 2,
+   "annotation_basis": "shape=E15, obs_chars=1088, cmd=npm test 2>&1 | tail -50"
+  }
+ ],
+ "run_sha256": "fb81c0d13d934227",
+ "recovery_note": "48 items recovered via parquet re-annotation (D4-P3R4R1)",
+ "recovery_timestamp": "2026-09-28"
+}

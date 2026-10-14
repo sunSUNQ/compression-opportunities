@@ -1,0 +1,2382 @@
+[
+  {
+    "item_id": "ITEM-0232",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0119",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0221",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0327",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0205",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0075",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0240",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0297",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0121",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0067",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0078",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0174",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0092",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0160",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0047",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0295",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0290",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0172",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0279",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0176",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0020",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0105",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0159",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0317",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0178",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0335",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0299",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0089",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0330",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0301",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0199",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0334",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0256",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0094",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0157",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0039",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0035",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0038",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0179",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0250",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0049",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0147",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0145",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0245",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0189",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0073",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0331",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0315",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0019",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0229",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0273",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0054",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0223",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0323",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0241",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0312",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0026",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0095",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0311",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0134",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0071",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0027",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0011",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0114",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0012",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0002",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0090",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0296",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0246",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0207",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0124",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0155",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0198",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0222",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0107",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0247",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0208",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0196",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0284",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0210",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0140",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0321",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0044",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0204",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0123",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0097",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0263",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0268",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0224",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0007",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0060",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0100",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0243",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0183",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0056",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0085",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0209",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0220",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0025",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0304",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0104",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0101",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0032",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0061",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0106",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0074",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0163",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0132",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0070",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0181",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0063",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0086",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0251",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0135",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0066",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0166",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0148",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0306",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0266",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0158",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0009",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0200",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0008",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0249",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0091",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0010",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0169",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0226",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0059",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0006",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0087",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0211",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0339",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0267",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0031",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0116",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0133",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0264",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0305",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0228",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0307",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0281",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0171",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0248",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0213",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0170",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0289",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0043",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0337",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0122",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0152",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0033",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0272",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0018",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0125",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0022",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0021",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0252",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0180",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0015",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0062",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0079",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0244",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0197",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0005",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0269",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0083",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0154",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0188",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0258",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0265",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0042",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0096",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0218",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0051",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0156",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0274",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0164",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0077",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0310",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0028",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0130",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0046",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0129",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0278",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0277",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0201",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0001",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0285",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0216",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0325",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0076",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0219",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0270",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0253",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0069",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0193",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0254",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0202",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0030",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0185",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0214",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0003",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0142",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0065",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0298",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0282",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0212",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0098",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0320",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0260",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0153",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0109",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0322",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0203",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0291",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0161",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0040",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0262",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0338",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0293",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0286",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0127",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0131",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0238",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0057",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0093",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0103",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0231",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0110",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0150",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0192",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0239",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0257",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0144",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0191",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0294",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0287",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0068",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0271",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0261",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0165",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0235",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0227",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0319",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0128",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0168",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0255",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0081",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0300",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0225",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0146",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0242",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0234",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0055",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0034",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0138",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0206",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0162",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0340",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0118",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0029",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0167",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0316",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0139",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0318",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0237",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0276",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0336",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0088",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0037",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0137",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0108",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0182",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0190",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0084",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0187",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0233",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0308",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0314",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0052",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0324",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0292",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0149",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0117",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0024",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0036",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0099",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0186",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0151",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0283",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0041",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0194",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0064",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0275",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0236",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0023",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0136",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0177",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0184",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0050",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0195",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0326",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0333",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0173",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0111",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0080",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0313",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0175",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0329",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0082",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0004",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0143",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0302",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0230",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0113",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0215",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0332",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0102",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0288",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0014",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0309",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0259",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0120",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0112",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0048",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0016",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0017",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0217",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0303",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0045",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0280",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0053",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0072",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0115",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "NO",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0126",
+    "Q1_shape_membership": "UNCERTAIN",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "insufficient_context",
+    "Q4_confidence": 3
+  },
+  {
+    "item_id": "ITEM-0141",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0013",
+    "Q1_shape_membership": "YES",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0058",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  },
+  {
+    "item_id": "ITEM-0328",
+    "Q1_shape_membership": "NO",
+    "Q2_compression_opportunity": "YES",
+    "Q3_error_category": "detector_false_positive",
+    "Q4_confidence": 5
+  }
+]

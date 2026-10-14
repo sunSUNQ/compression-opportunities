@@ -1,0 +1,53 @@
+{
+  "OSW_MINIMAX_20K_same_frame": {
+    "candidate_coc": {
+      "absolute_difference": 0.05834140418136413,
+      "historical": 0.9012355164459385,
+      "recomputed": 0.9595769206273026,
+      "relative_difference": 0.06473491458862607
+    },
+    "shipped_coc": {
+      "absolute_difference": -0.003727225918326268,
+      "historical": 0.003912183036362645,
+      "recomputed": 0.00018495711803637698,
+      "relative_difference": -0.9527227851260403
+    }
+  },
+  "QWEN_35334_primary": {
+    "candidate_allocated_bytes": {
+      "decimal": 2752388518.4666667,
+      "exact_denominator": 15,
+      "exact_numerator": 41285827777
+    },
+    "candidate_coc": 0.976731272510673,
+    "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+    "qualified_allocated_bytes": {
+      "decimal": 2817958834.6666665,
+      "exact_denominator": 3,
+      "exact_numerator": 8453876504
+    },
+    "relative_full_fit_coverage_gap": 0.9972011204577477,
+    "shipped_allocated_bytes": {
+      "decimal": 7703603.916666667,
+      "exact_denominator": 12,
+      "exact_numerator": 92443247
+    },
+    "shipped_coc": 0.0027337531769082487
+  },
+  "QWEN_OPENHANDS_15000_same_frame": {
+    "candidate_coc": {
+      "absolute_difference": 0.05557525468771929,
+      "historical": 0.91272,
+      "recomputed": 0.9682952546877193,
+      "relative_difference": 0.06088970844039716
+    },
+    "shipped_coc": {
+      "absolute_difference": -0.010888571809594587,
+      "historical": 0.011423333333333334,
+      "recomputed": 0.0005347615237387473,
+      "relative_difference": -0.9531869106735851
+    }
+  },
+  "schema_version": 1,
+  "scope_note": "Historical Qwen paper values are OpenHands 15K only; the 35,334 primary result is not a same-frame difference."
+}

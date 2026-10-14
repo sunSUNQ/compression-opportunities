@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "command": "python -m unittest discover -s evidence/V1/paper/detector-reconciliation-r1/tests -v",
+  "test_methods": 4,
+  "golden_cases": 10,
+  "status": "PASS",
+  "full_replay_integrity": {
+    "tw_rows_complete": true,
+    "osw_rows_complete": true,
+    "osw_manifest_complete": true,
+    "deterministic": true
+  }
+}

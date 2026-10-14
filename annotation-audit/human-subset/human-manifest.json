@@ -1,0 +1,1355 @@
+{
+ "schema_version": 2,
+ "amendment": "D4-P3R5 human validation subset (information-enriched; model labels used for sampling only, not shown to annotators)",
+ "source_manifest": "v011-d4a1-oswe-20k-manifest-v2.json",
+ "model_audit_reference": "v011-d3e7-power-design.json + model-audit-reconciled.json",
+ "subset_total": 269,
+ "items": [
+  {
+   "item_id": "ITEM-0001",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0002",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0004",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0005",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0009",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0010",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0011",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0014",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0015",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0016",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0017",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0018",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0020",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0021",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0022",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0023",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0024",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0025",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0026",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0027",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0028",
+   "shape": "E1",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0029",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0030",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0032",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0033",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0034",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0036",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0040",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0041",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0042",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0045",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0046",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0047",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0048",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0049",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0050",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0051",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0052",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0053",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0054",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0055",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0056",
+   "shape": "E2",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0057",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0058",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0059",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0060",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0061",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0062",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0063",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0064",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0065",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0066",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0067",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0068",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0069",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0070",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0071",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0072",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0073",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0074",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0075",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0076",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0077",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0078",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0079",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0080",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0081",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0082",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0083",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0084",
+   "shape": "E3",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0085",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0086",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0087",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0088",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0089",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0090",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0091",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0092",
+   "shape": "E4",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0093",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0094",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0095",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0096",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0097",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0098",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0099",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0100",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0101",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0102",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0103",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0104",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0105",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0106",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0107",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0108",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0109",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0110",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0111",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0112",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0113",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0114",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0115",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0116",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0117",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0118",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0119",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0120",
+   "shape": "E5",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0121",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0122",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0123",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0124",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0125",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0126",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0127",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0128",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0129",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0130",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0131",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0132",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0133",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0134",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0135",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0136",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0137",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0138",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0139",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0140",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0141",
+   "shape": "E6",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0149",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0150",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0151",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0152",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0153",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0154",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0155",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0156",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0157",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0158",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0159",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0160",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0161",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0162",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0163",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0164",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0165",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0166",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0167",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0168",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0169",
+   "shape": "E7",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0177",
+   "shape": "E8",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0185",
+   "shape": "E9",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0186",
+   "shape": "E9",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0194",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0195",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0196",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0197",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0198",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0199",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0200",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0201",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0202",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0203",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0204",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0205",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0206",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0207",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0208",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0209",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0210",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0211",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0212",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0213",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0214",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0215",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0216",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0217",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0218",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0219",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0220",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0221",
+   "shape": "E10",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0222",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0223",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0224",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0225",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0226",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0227",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0228",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0229",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0230",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0231",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0232",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0233",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0234",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0235",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0236",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0237",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0238",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0239",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0240",
+   "shape": "E11",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0241",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0242",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0243",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0244",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0245",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0246",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0247",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0248",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0249",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0250",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0251",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0252",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0253",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0254",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0255",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0256",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0257",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0258",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0259",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0260",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0261",
+   "shape": "E12",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0269",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0270",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0273",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0289",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0290",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0292",
+   "shape": "E13",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0297",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0298",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0299",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0300",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0301",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0302",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0303",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0304",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0305",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0306",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0307",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0308",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0309",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0310",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0311",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0312",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0313",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0314",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0315",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0316",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0317",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0318",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0319",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0320",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0321",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0322",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0323",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0324",
+   "shape": "E14",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0325",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0326",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0327",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0328",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0329",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0330",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0331",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0332",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0333",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0334",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0335",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0336",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0337",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0338",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0339",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  },
+  {
+   "item_id": "ITEM-0340",
+   "shape": "E15",
+   "stratum": "OSW_Minimax"
+  }
+ ],
+ "manifest_sha256": "d51dcad50e8b5f966beb0f5e9fde2ff34a0b1d91cf93c1518fa374ab6781d4fd"
+}

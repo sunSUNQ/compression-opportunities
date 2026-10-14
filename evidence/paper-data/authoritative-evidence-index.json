@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "hierarchy": [
+    "A0 taxonomy definitions",
+    "Detector Reconciliation R1 for TW/OSW incidence and replication",
+    "Multi-Agent Annotation Final V1 for model agreement only (compatibility CONDITIONAL)",
+    "Cluster Statistics Closure R1 for interval and paired-scaffold inference",
+    "COC Allocation Reconciliation R1 for RQ5 allocation proxy"
+  ],
+  "inputs": [
+    {
+      "path": "D:\\tasco-temp\\paper-a-detector-cross-corpus-reconciliation-r1\\worktree\\evidence\\V1\\paper\\detector-reconciliation-r1\\detector-cross-corpus-diff.json",
+      "sha256": "94c8388935bee742fc59dd36cda14c5ca5582abcc836a772ae1432a4aaebdf56",
+      "bytes": 19518
+    },
+    {
+      "path": "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\multi-agent-annotation\\final-v1\\final-agreement-metrics.json",
+      "sha256": "a88cc5d3bb26c70b361eb6f3b07d11ae5e3a6bb24113153f84c2729ee3805d96",
+      "bytes": 4624
+    },
+    {
+      "path": "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\multi-agent-annotation\\final-v1\\validation-manifest.json",
+      "sha256": "e570bc49b2c5e0048a1cb1d94a2f1eb9cdc36bf732195acdfd0b3fe6a2594a7e",
+      "bytes": 823
+    },
+    {
+      "path": "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\multi-agent-annotation\\cluster-stats\\cluster-bootstrap-results.json",
+      "sha256": "3afafd06b89845441e092778e89dfb044cf18c7f2f4438ca80d470b7e101dd2f",
+      "bytes": 3954
+    },
+    {
+      "path": "D:\\tasco-temp\\paper-a-coc-allocation-reconciliation-r1\\worktree\\evidence\\V1\\paper\\coc-allocation-reconciliation-r1\\summaries\\coc-recalculation-summary.json",
+      "sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d",
+      "bytes": 7403
+    }
+  ],
+  "selected_metrics": {
+    "replication_summary": {
+      "status_counts": {
+        "DATASET_SPECIFIC": 5,
+        "NOT_ESTIMABLE_ZERO_BASELINE": 1,
+        "PARTIAL_REPLICATION": 2,
+        "REPLICATED": 7
+      },
+      "ratio_comparable_shapes": 14,
+      "replicated_or_partial": 9,
+      "headline_candidate": "9/14 ratio-comparable shapes replicate fully or partially"
+    },
+    "annotation": {
+      "valid_units": 317,
+      "planned_units": 360,
+      "all_three_valid": 98,
+      "q1": {
+        "n": 98,
+        "three_way_exact": 84,
+        "three_way_rate": 0.8571,
+        "fleiss_kappa": 0.8049,
+        "fleiss_po": 0.898,
+        "pairwise": {
+          "EVAL-1_vs_EVAL-2": {
+            "raw": 0.8673,
+            "kappa": 0.7479,
+            "kappa_se": 0.0527
+          },
+          "EVAL-1_vs_EVAL-3": {
+            "raw": 0.9082,
+            "kappa": 0.8282
+          },
+          "EVAL-2_vs_EVAL-3": {
+            "raw": 0.9184,
+            "kappa": 0.8406
+          }
+        },
+        "answer_distribution_98subset": {
+          "EVAL-1": {
+            "YES": 43,
+            "NO": 50,
+            "INSUFFICIENT_EVIDENCE": 5
+          },
+          "EVAL-2": {
+            "YES": 37,
+            "NO": 59,
+            "INSUFFICIENT_EVIDENCE": 2
+          },
+          "EVAL-3": {
+            "YES": 42,
+            "NO": 53,
+            "INSUFFICIENT_EVIDENCE": 3
+          }
+        }
+      },
+      "q2a": {
+        "n": 98,
+        "three_way_exact": 79,
+        "three_way_rate": 0.8061,
+        "fleiss_kappa": 0.3835,
+        "fleiss_po": 0.8673,
+        "pairwise": {
+          "EVAL-1_vs_EVAL-2": {
+            "raw": 0.8571,
+            "kappa": 0.3859,
+            "kappa_se": 0.0544
+          },
+          "EVAL-1_vs_EVAL-3": {
+            "raw": 0.8469,
+            "kappa": 0.3631
+          },
+          "EVAL-2_vs_EVAL-3": {
+            "raw": 0.898,
+            "kappa": 0.4208
+          }
+        },
+        "answer_distribution_98subset": {
+          "EVAL-1": {
+            "NO": 82,
+            "INSUFFICIENT_EVIDENCE": 8,
+            "YES": 8
+          },
+          "EVAL-2": {
+            "NO": 89,
+            "INSUFFICIENT_EVIDENCE": 1,
+            "YES": 8
+          },
+          "EVAL-3": {
+            "NO": 88,
+            "YES": 10
+          }
+        }
+      },
+      "q2b": {
+        "n": 98,
+        "three_way_exact": 93,
+        "three_way_rate": 0.949,
+        "fleiss_kappa": 0.7961,
+        "fleiss_po": 0.966,
+        "pairwise": {
+          "EVAL-1_vs_EVAL-2": {
+            "raw": 0.949,
+            "kappa": 0.6806,
+            "kappa_se": 0.0342
+          },
+          "EVAL-1_vs_EVAL-3": {
+            "raw": 0.9592,
+            "kappa": 0.7293
+          },
+          "EVAL-2_vs_EVAL-3": {
+            "raw": 0.9898,
+            "kappa": 0.9467
+          }
+        },
+        "answer_distribution_98subset": {
+          "EVAL-1": {
+            "YES": 92,
+            "NO": 6
+          },
+          "EVAL-2": {
+            "YES": 87,
+            "NO": 11
+          },
+          "EVAL-3": {
+            "YES": 88,
+            "NO": 10
+          }
+        }
+      }
+    },
+    "cluster_paired": {
+      "E1": {
+        "n_paired": 3369,
+        "mean_diff": -0.0009,
+        "se": 0.0005,
+        "ci_lo": -0.0019,
+        "ci_hi": 0.0001
+      },
+      "E2": {
+        "n_paired": 3369,
+        "mean_diff": -0.0003,
+        "se": 0.0003,
+        "ci_lo": -0.0009,
+        "ci_hi": 0.0003
+      },
+      "E3": {
+        "n_paired": 3369,
+        "mean_diff": -0.0006,
+        "se": 0.0004,
+        "ci_lo": -0.0014,
+        "ci_hi": 0.0002
+      },
+      "E12": {
+        "n_paired": 3369,
+        "mean_diff": -0.0309,
+        "se": 0.0073,
+        "ci_lo": -0.0451,
+        "ci_hi": -0.0166
+      },
+      "E13": {
+        "n_paired": 3369,
+        "mean_diff": 0.352,
+        "se": 0.0109,
+        "ci_lo": 0.3307,
+        "ci_hi": 0.3733
+      },
+      "E14": {
+        "n_paired": 3369,
+        "mean_diff": -0.0237,
+        "se": 0.005,
+        "ci_lo": -0.0335,
+        "ci_hi": -0.014
+      }
+    },
+    "coc": {
+      "OSW_MINIMAX_20K": {
+        "candidate_allocated_bytes": {
+          "decimal": 1337579984.5166667,
+          "exact_denominator": 60,
+          "exact_numerator": 80254799071
+        },
+        "candidate_coc": 0.9595769206273026,
+        "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+        "qualified_allocated_bytes": {
+          "decimal": 1393926798.1166666,
+          "exact_denominator": 60,
+          "exact_numerator": 83635607887
+        },
+        "relative_full_fit_coverage_gap": 0.9998072513895859,
+        "shipped_allocated_bytes": {
+          "decimal": 257816.68333333332,
+          "exact_denominator": 60,
+          "exact_numerator": 15469001
+        },
+        "shipped_coc": 0.00018495711803637698
+      },
+      "QWEN_35334": {
+        "candidate_allocated_bytes": {
+          "decimal": 2752388518.4666667,
+          "exact_denominator": 15,
+          "exact_numerator": 41285827777
+        },
+        "candidate_coc": 0.976731272510673,
+        "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+        "qualified_allocated_bytes": {
+          "decimal": 2817958834.6666665,
+          "exact_denominator": 3,
+          "exact_numerator": 8453876504
+        },
+        "relative_full_fit_coverage_gap": 0.9972011204577477,
+        "shipped_allocated_bytes": {
+          "decimal": 7703603.916666667,
+          "exact_denominator": 12,
+          "exact_numerator": 92443247
+        },
+        "shipped_coc": 0.0027337531769082487
+      }
+    }
+  },
+  "supersession": [
+    "historical OSW COC 0.0039/0.9012 session-level whole-trajectory proxy",
+    "historical Qwen COC 0.0114/0.9127 OpenHands-15K session-shape proxy"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E8 RDS capability candidate freeze (evidence closure; no development, no experiments)",
+ "date": "2026-09-24",
+ "capability": {
+  "name": "RDS — Repeated Delivery Suppression",
+  "status": "CAPABILITY_CANDIDATE / DEFAULT_OFF",
+  "one_line": "mechanically reversible repeated-delivery compression; engineering-valid, naturally occurring but under-exposed; online task-level benefit NOT established and must not be claimed",
+  "four_dimensions": {
+   "engineering_correctness": "PASS (offline: 100% exact reconstruction, fail-closed, auditable markers)",
+   "natural_opportunity": "PASS (66.7% natural sessions contain repeated-delivery cumulative region; 15K-session census)",
+   "offline_compressibility": "PASS (oracle capture 0.8098 of conservative removable; 218M chars removed in full-trajectory replay)",
+   "online_task_level_benefit": "NOT_ESTABLISHED (treatment signal not separable from stochastic trajectory variance)"
+  },
+  "forbidden_labels": ["RDS failed", "RDS qualified"]
+ },
+ "evidence_chain": {
+  "D3_internal_census": {"commit": "43f4afea", "prereg": "a741673", "result": "ONE_CANDIDATE_SELECTED (terminal-state; later superseded by external census route)"},
+  "D3_E1_external_census": {"commit": "fde05652", "prereg": "55494bce", "result": "NATURAL_OPPORTUNITY_FOUND (Thoughtworks 15K; 6-shape pool; E13 late-trajectory large output 53.25% LOW exposure)"},
+  "D3_E2_e13_decomposition": {"commit": "b8dfc2d9", "prereg": "cf604d54", "result": "E13 mechanically-compressible REJECTED (median removable 3.5%) — large != compressible"},
+  "D3_E3_repeat_class_census": {"commit": "b8a41cdf", "prereg": "0b16c0c6", "result": "REPEATED_DELIVERY_NATURAL_REGION_CONFIRMED (union incidence 0.6666, conservative removable median 9782 chars/session, concentration healthy)"},
+  "D3_E4_rds_prototype": {"commit": "fe0706b9", "prereg": "7d9b343e", "result": "PROTOTYPE_REPLAY_COMPLETE 10/10 (289822 events, 0 reconstruction failures, exact_match_rate 1.0, oracle capture 0.8098)"},
+  "D3_E5_online_ab": {"commit": "3d593b06", "prereg": "35c10393", "batch_identity": "21735560", "result": "NOT_QUALIFIED (correctness 24/24 clean; aggregate +7.38% NON-QUALIFYING; nonneg 54% < 2/3)"},
+  "D3_E6_negative_audit": {"commit": "53a4a820", "prereg": "6e06dd04", "result": "TRAJECTORY_VARIANCE_DOMINANT (8/8 test-fix negatives UNRELATED: divergence at first tool call, before all markers; zero I1/I5)"},
+  "D3_E7_power_design": {"commit": "6ac31a3f", "prereg": "e955a76d", "result": "TOO_SMALL_FOR_COST_JUSTIFIED_ONLINE_QUALIFICATION (within-arm noise 27.96% > B/T delta 23.79%; mechanism exposure median 0.011%; power < 0.80 for 3%/5% at all candidate reps; permutation p=0.1185)"}
+ },
+ "capability_contract_frozen": {
+  "anchor_first": "first observation of a repeat group is always delivered full, never compressed",
+  "exact_repeated_content_only": "no semantic equivalence, no fuzzy similarity, no label-triggered compression",
+  "exact_contiguous_line_overlap": "only contiguous line segments exactly matching a SINGLE prior observation fold",
+  "delta_preserved": "new/changed lines always verbatim",
+  "stable_anchor_identity": "auditable marker [TASCO-RDS omitted: observation #k lines a..b (N chars); new: M chars]",
+  "exact_reconstruction": "compressed text + referenced anchor rebuilds original byte-exactly",
+  "fail_closed": "8 enumerated conditions -> native passthrough",
+  "no_task_specific_heuristic": true,
+  "engineering_baseline_on_reopen": {
+   "compressed_replay_events": 289822,
+   "reconstruction_failures": 0,
+   "exact_match_rate": 1.0,
+   "oracle_capture": 0.8098,
+   "self_test": "17/17 (JS) + 17/17 (python E4)"
+  }
+ },
+ "online_evidence_boundary": {
+  "pairs": "24/24 B/T task pairs, correctness B-pass/T-pass 24/24",
+  "attributable_rds_task_failure": 0,
+  "observable_marker_triggered_recovery_backlash": "not observed (turn delta median -2)",
+  "online_token_benefit": "NOT ESTABLISHED — treatment signal not separable from stochastic trajectory variance",
+  "d5_aggregate_plus_7_38pct": {
+   "label": "NON-QUALIFYING OBSERVATION",
+   "reasons": ["permutation p=0.1185", "within-arm variation median 27.96%", "B/T variation median 23.79%", "G2 fail (nonneg 54% < 2/3)", "first divergence precedes RDS marker in 8/8 test-fix and 7/8 lint control pairs", "mechanism exposure orders of magnitude smaller than task-level delta"],
+   "usage_rule": "may remain in historical experiment records; MUST NOT appear in any release benefit claim"
+  }
+ },
+ "reopen_gate": {
+  "rule": "RDS online qualification may reopen only if natural workload mechanism exposure materially increases to an effect scale that a preregistered power analysis says is measurable",
+  "mechanized": "any new opportunity/implementation must first pass an offline exposure census demonstrating expected task-relative mechanism exposure at the order of SEVERAL PERCENT, then re-execute power design (E7 methodology, fresh prereg); the 10-30x figure is a workload-and-noise-derived magnitude, NOT a frozen universal constant"
+ },
+ "code_asset": {
+  "prototype": "deploy/hooks/post_tool/repeated_delivery_suppression.js + policy hook env-gated layer (CODE_GUARD_RDS, default unset = OFF) + driver --rds flag",
+  "production_default": "OFF (env-gated; unset -> RDS layer inert)",
+  "release_path": "unchanged (V0.10 GA payload contains no RDS; current HEAD deploy contains env-gated candidate code)",
+  "classification": "experimental capability asset — retained, not deleted"
+ },
+ "long_term_rule_for_all_future_compression_primitives": {
+  "rule": "before any expensive online A/B, a compression primitive MUST demonstrate mechanism-exposure-vs-trajectory-noise magnitude relationship via offline exposure census + power analysis",
+  "basis": "within-task stochastic trajectory variance (~28% relative token swing) defeats hundred-token-scale mechanisms at any practical paired-sample size"
+ },
+ "traceability": {"d3_e1_through_e7_commits": "all listed in evidence_chain; git-recoverable", "tree_clean": true, "production_behavior_unchanged": true, "release_tags_untouched": true, "hapi_sealed": true, "new_experiments_in_this_step": 0}
+}

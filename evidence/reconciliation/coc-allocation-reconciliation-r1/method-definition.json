@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "reconciliation_version": "COC-ALLOCATION-R1",
+  "frozen_before_replay": true,
+  "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+  "allocation_rule": "ALL_FIRED_SHAPES_EQUAL_SPLIT_THEN_FILTER",
+  "qualified_exclusions": ["E7_large_test_failure", "E9_large_build_output", "E12_large_diagnostic"],
+  "shipped_full": ["E5_same_search", "E8_large_lint_output", "E10_repeated_validation", "E11_unchanged_validation"],
+  "candidate_full_additions": ["E1_repeated_exact_command", "E2_repeated_similar_command", "E3_same_file_reread", "E14_output_followed_by_reread"],
+  "legacy_qualified_exclusions": ["E7_large_test_failure", "E12_large_diagnostic"],
+  "legacy_candidate_full_additions": ["E1_repeated_exact_command", "E2_repeated_similar_command", "E3_same_file_reread", "E14_output_followed_by_reread", "E15_output_followed_by_rederivation"],
+  "exact_span_allocation": "NOT_MEASURABLE",
+  "interpretation": "offline allocation proxy; not safe deletion, token savings, or realized cost reduction"
+}

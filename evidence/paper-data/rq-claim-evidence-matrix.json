@@ -1,0 +1,169 @@
+{
+ "schema_version": 1,
+ "freeze": "D4-P0 RQ-claim-evidence matrix (every claim traceable: claim -> exact metric -> frozen artifact -> dataset/frame -> detector version)",
+ "detector_version": "A0 freeze commit 1865a160 (E1-E15). Open-SWE E1/E2/E3/E14 use path-aware command normalization; Thoughtworks retains the original detector caliber (unchanged by A1R2, which recovered the klear parse without touching normalization). Cross-corpus results are descriptive under this documented caliber difference, not same-caliber estimates.",
+ "amendment_authority": {"id": "V0.11-D4-A1R3 trajectory (row) identity session-caliber amendment", "applied_by": "PAPER-A-SESSION-IDENTITY-AMENDMENT (2026-10-10)", "date": "2026-10-10", "prereg": "v011-d4a1r3-session-identity-prereg.json", "census": "v011-d4a1r3-tw-trajectory-census.json", "caliber": "TW session-level counts use trajectory (row) identity: 15,000 recorded trajectories under 13,053 unique session identifiers; 1,947 collided id pairs (1,946 distinct-content, 1 identical-content); denominator 15,000 in both calibers; replication bands unchanged (R-band ratios tighten toward 1.0)", "prior_amendments": [{"id": "V0.11-D4-A1R2 klear recovery amendment", "census": "v011-d4a1r2-tw-klear-census.json (sha256-16 630dcfaae0bca521)", "superseded_for": "TW session-level numerator semantics only; event/char/allocation/residual ledgers remain A1R2-authoritative"}], "scope": "RQ1/RQ2 discovery-side (TW) trajectory-level incidence and cross-corpus bands only. RQ3/RQ4/RQ5 and OSW-side values unchanged. Pre-A1R3 values superseded-for-display, retained in git history and paper-tables.pre-a1r3.json."},
+ "datasets": {
+  "discovery": "Thoughtworks agentic-coding-trajectories 15K (parquet pin D:/tasco-temp/d3_hf_data/sessions.parquet, 325563194 bytes, HF rev at download)",
+  "external_validation": "nvidia/Open-SWE-Traces v1.0 Minimax-M2.5 strata (37/37 shards footer-ok, 90422 traj frame, rev f8fb5b3d2c78; 20K manifest v2 sha 895a96c02eb49434, sample-id-set sha 601318a78fc86c84)",
+  "cross_model": "Open-SWE-Traces v1.0 Qwen3.5-122B (OH 6/17 shards 15000 traj STRONG-OK; SA 9/9 shards 20334 traj FULL)"
+ },
+ "rqs": [
+  {
+   "rq": "RQ1",
+   "question": "Do compression opportunities broadly exist in natural coding-agent trajectories?",
+   "claims": [
+    {
+     "claim": "High-frequency large-payload opportunity shapes exist across two independent public corpora",
+      "metric": "shape session-incidence",
+      "values": {
+       "E12_large_diagnostic": [
+        0.7292,
+        0.795
+       ],
+       "E13_late_large_output": [
+        0.5872,
+        0.4663
+       ],
+       "E2_similar_repeat": [
+        0.9859,
+        0.9998
+       ],
+       "E3_file_reread": [
+        0.8201,
+        0.9999
+       ]
+      },
+      "artifact": "v011-d4a1r3-tw-trajectory-census.json (TW, A1R3 trajectory-identity authority) + v011-d4a1-census-results.json (OSW)",
+      "commits": [
+       "fde05652",
+       "168b7a86"
+      ],
+      "limitation": "TW incidence medians/payload stats quoted elsewhere are pre-amendment frozen-ledger values; incidence calibers differ slightly (path-aware normalization applied to OSW side; see L6); TW session identity = recorded-trajectory (row) caliber (A1R3; 13,053 unique identifiers over 15,000 recorded trajectories)"
+    }
+   ]
+  },
+  {
+   "rq": "RQ2",
+   "question": "Are major/high-incidence opportunity shapes replicated across independent corpora?",
+   "claims": [
+    {
+     "claim": "Major/high-incidence opportunity shapes replicated across two independent coding-agent corpora (8/13 measurable shapes REPLICATED or PARTIAL: R7 E1/E2/E3/E9/E12/E13/E14 + P1 E5; all six core shapes REPLICATED with full-precision ratios 0.79-1.28; five sparse shapes E6/E7/E10/E11/E15 DATASET_SPECIFIC, corpus-composition-sensitive)",
+     "metric": "replication band (incidence ratio 0.5-2.0 = REPLICATED; full precision, exact fractions; TW numerator at trajectory-identity caliber)",
+     "artifact": "v011-d4a1r3-tw-trajectory-census.json bands_full_precision (TW) + v011-d4a1-census-results.json shape_results (OSW)",
+     "commits": [
+      "168b7a86"
+     ],
+     "limitation": "E4 NOT_MEASURABLE in OSW (no range field) — schema limitation, not a negative result; sparse-shape band assignments are corpus-composition-sensitive (A1R2 multiplied discovery-side validation events for E6/E7/E10/E11/E15 while OSW stayed sparse); exact TW-vs-OSW same-caliber comparison under the recovered frame remains future work (L6)"
+    }
+   ]
+  },
+  {
+   "rq": "RQ3",
+   "question": "Do opportunities depend on the model?",
+   "claims": [
+    {
+     "claim": "All six core shapes MODEL_STABLE within both scaffolds (E1/E2/E3/E12/E13/E14 ratios 0.68-1.013)",
+     "metric": "same-scaffold cross-model incidence ratio",
+     "artifact": "v011-d4a2-cross-model.json + v011-d4a2r1-full-factorial.json",
+     "commits": [
+      "6802ca14",
+      "74b3b6a7"
+     ],
+     "limitation": "sparse shapes (E5-E7/E10/E11) MODEL_SENSITIVE verdicts are low-incidence ratio noise"
+    }
+   ]
+  },
+  {
+   "rq": "RQ4",
+   "question": "How does agent scaffold modulate opportunity (within this evaluation frame)?",
+   "claims": [
+    {
+     "claim": "Within this controlled 2x2 evaluation frame, E13 scaffold-associated variation (mean 28.2pp) exceeds model-associated variation (mean 12.7pp) with 16.5pp interaction, direction-consistent across models — association within the frame, no causal generalization",
+     "metric": "E13 2x2 four-cell incidence + four contrasts + DiD interaction",
+     "artifact": "v011-d4a2r1-full-factorial.json",
+     "commits": [
+      "74b3b6a7"
+     ],
+     "limitation": "2x2 proves association within this evaluation frame; no causal generalization to all agent architectures"
+    }
+   ]
+  },
+  {
+   "rq": "RQ5",
+   "question": "How much of the natural compression opportunity does the existing system cover?",
+   "claims": [
+    {
+     "claim": "Production (shipped-only) coverage: SOC 2.07% / COC 0.39% — shipped capabilities near-zero coverage of natural repeated-delivery opportunities",
+     "metric": "SOC + COC (shipped ledger)",
+     "artifact": "v011-d4a1-census-results.json coverage.shipped_only",
+     "commits": [
+      "168b7a86"
+     ],
+     "limitation": "shipped ledger must not be mixed with research ledger (L4)"
+    },
+    {
+     "claim": "Research (shipped + RDS candidate) coverage: SOC 100% / COC 90.13%; Capability Gap Rate 99.57%",
+     "metric": "SOC + COC + gap rate (shipped+candidate ledger)",
+     "artifact": "v011-d4a1-census-results.json coverage.shipped_plus_candidate",
+     "commits": [
+      "168b7a86"
+     ],
+     "limitation": "RDS = CAPABILITY_CANDIDATE / DEFAULT_OFF (D3-E8); research ledger must not imply production coverage (L4)"
+    },
+    {
+     "claim": "Capability Gap Rate 99.57%: nearly all qualified-opportunity bytes lack a shipped primitive",
+     "metric": "1 - shipped COC / +candidate COC",
+     "artifact": "v011-d4a1-census-results.json coverage",
+     "commits": [
+      "168b7a86"
+     ],
+     "limitation": "gap concentrates in repeated-delivery shapes covered only by RDS candidate"
+    }
+   ]
+  }
+ ],
+ "negative_results_preserved": [
+  "E13 mechanical dedup only 3.5% — large != compressible (D3-E2)",
+  "repeated/unchanged validation structurally sparse (0.11%/0.05%) (D3-E1/E6)",
+  "terminal-state classifier opportunity 0% in natural tasks (D2)",
+  "RDS online benefit NOT_ESTABLISHED at practical sample sizes (E7 power)",
+  "E4 overlapping-read NOT_MEASURABLE in OSW (schema field absent)"
+ ],
+ "secondary_findings": [
+  {
+   "finding_id": "F1",
+   "title": "Offline->online observability / variance limitation (secondary finding)",
+   "claims": [
+    {
+     "claim": "Within-task stochastic trajectory variance (median 27.96% relative token swing) defeats hundred-token-scale mechanisms (exposure median 0.011%; signal:noise 0.0003); no candidate reps <=10 reaches 0.80 power for 3%/5% effects",
+     "metric": "within-arm replicate deltas + power simulation (seed 42, 10000 trials)",
+     "artifact": "v011-d3e7-power-design.json",
+     "commits": [
+      "6ac31a3f"
+     ],
+     "limitation": "derived from D5 24-pair two-rep structure; applies to comparable model/workload regimes (L7)"
+    },
+    {
+     "claim": "RDS online A/B: correctness clean (24/24 pairs B-pass/T-pass, zero backlash), aggregate +7.38% is NON-QUALIFYING (nonneg 54%, permutation p=0.1185)",
+     "metric": "pair-level relative_total_saving distribution + permutation test",
+     "artifact": "v011-d5-rds-online-ab.json",
+     "commits": [
+      "3d593b06"
+     ],
+     "limitation": "aggregate must not appear in release benefit claims"
+    },
+    {
+     "claim": "mechanism exposure ceiling ~0.01-0.43% session tokens at current RDS trigger volume; 3%/5% targets exceed ceiling 10-30x",
+     "metric": "D5 matched_chars/4 / session total tokens",
+     "artifact": "v011-d3e7-power-design.json mechanism_derived_detectable_target",
+     "commits": [
+      "6ac31a3f"
+     ],
+     "limitation": "ceiling is workload-and-noise-derived, not a universal constant"
+    }
+   ]
+  }
+ ],
+ "rq_contract_note": "RQ5 restored to existing-capability-coverage per original P0 contract; offline->online variance demoted to F1 secondary finding; no numeric values changed"
+}

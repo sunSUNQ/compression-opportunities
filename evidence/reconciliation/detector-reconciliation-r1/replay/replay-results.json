@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "task": "PAPER-A-DETECTOR-CROSS-CORPUS-RECONCILIATION-R1",
+  "detector_version": "A0-XCORPUS-R1.0.0",
+  "base_commit": "5e57cf5e62a688cfd43b5762d83b1906e637283c",
+  "taxonomy_changed": false,
+  "historical_evidence_overwritten": false,
+  "tw": {
+    "rows": 15000,
+    "denominator": 15000,
+    "events": 578283,
+    "deterministic_double_evaluation": true,
+    "label_stream_sha256": "eca542a321d791f68380c5cd17bd53479777b01c75bf9bdb20381c93682f2f86",
+    "adapter_audit": {
+      "explicit_exit": 290765,
+      "klear_adapter": 127985,
+      "missing_exit": 287518,
+      "orphan_user": 15011,
+      "path_present": 239701,
+      "tool_calls": 320769,
+      "view_commands": 211342,
+      "view_range_present": 49499
+    },
+    "shape": {
+      "E1": {
+        "occurrence_rows": 14578,
+        "occurrence_events": 269309,
+        "denominator": 15000,
+        "incidence": 0.9718666666666667,
+        "measurement_status": "MEASURABLE"
+      },
+      "E2": {
+        "occurrence_rows": 14789,
+        "occurrence_events": 305739,
+        "denominator": 15000,
+        "incidence": 0.9859333333333333,
+        "measurement_status": "MEASURABLE"
+      },
+      "E3": {
+        "occurrence_rows": 12302,
+        "occurrence_events": 159510,
+        "denominator": 15000,
+        "incidence": 0.8201333333333334,
+        "measurement_status": "MEASURABLE"
+      },
+      "E4": {
+        "occurrence_rows": 4157,
+        "occurrence_events": 30231,
+        "denominator": 15000,
+        "incidence": 0.27713333333333334,
+        "measurement_status": "MEASURABLE"
+      },
+      "E5": {
+        "occurrence_rows": 112,
+        "occurrence_events": 300,
+        "denominator": 15000,
+        "incidence": 0.007466666666666667,
+        "measurement_status": "MEASURABLE"
+      },
+      "E6": {
+        "occurrence_rows": 333,
+        "occurrence_events": 396,
+        "denominator": 15000,
+        "incidence": 0.0222,
+        "measurement_status": "MEASURABLE"
+      },
+      "E7": {
+        "occurrence_rows": 233,
+        "occurrence_events": 363,
+        "denominator": 15000,
+        "incidence": 0.015533333333333333,
+        "measurement_status": "MEASURABLE"
+      },
+      "E8": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 15000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE"
+      },
+      "E9": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 15000,
+        "incidence": 6.666666666666667e-05,
+        "measurement_status": "MEASURABLE"
+      },
+      "E10": {
+        "occurrence_rows": 342,
+        "occurrence_events": 1169,
+        "denominator": 15000,
+        "incidence": 0.0228,
+        "measurement_status": "MEASURABLE"
+      },
+      "E11": {
+        "occurrence_rows": 122,
+        "occurrence_events": 329,
+        "denominator": 15000,
+        "incidence": 0.008133333333333333,
+        "measurement_status": "MEASURABLE"
+      },
+      "E12": {
+        "occurrence_rows": 10938,
+        "occurrence_events": 33922,
+        "denominator": 15000,
+        "incidence": 0.7292,
+        "measurement_status": "MEASURABLE"
+      },
+      "E13": {
+        "occurrence_rows": 8808,
+        "occurrence_events": 12275,
+        "denominator": 15000,
+        "incidence": 0.5872,
+        "measurement_status": "MEASURABLE"
+      },
+      "E14": {
+        "occurrence_rows": 11073,
+        "occurrence_events": 71081,
+        "denominator": 15000,
+        "incidence": 0.7382,
+        "measurement_status": "MEASURABLE"
+      },
+      "E15": {
+        "occurrence_rows": 126,
+        "occurrence_events": 176,
+        "denominator": 15000,
+        "incidence": 0.0084,
+        "measurement_status": "MEASURABLE"
+      }
+    }
+  },
+  "osw": {
+    "rows": 20000,
+    "denominator": 20000,
+    "events": 1296519,
+    "deterministic_double_evaluation": true,
+    "label_stream_sha256": "c22946594c47f17ca19ee28e1e3da535392fc5c381997a502417d23ee9548dbf",
+    "adapter_audit": {
+      "missing_exit": 1296519,
+      "path_present": 448901,
+      "tool_calls": 1332621,
+      "unsupported_missing_command": 36102,
+      "view_commands": 298012,
+      "view_range_present": 134002
+    },
+    "shape": {
+      "E1": {
+        "occurrence_rows": 19999,
+        "occurrence_events": 732802,
+        "denominator": 20000,
+        "incidence": 0.99995,
+        "measurement_status": "MEASURABLE"
+      },
+      "E2": {
+        "occurrence_rows": 20000,
+        "occurrence_events": 772968,
+        "denominator": 20000,
+        "incidence": 1.0,
+        "measurement_status": "MEASURABLE"
+      },
+      "E3": {
+        "occurrence_rows": 19997,
+        "occurrence_events": 327292,
+        "denominator": 20000,
+        "incidence": 0.99985,
+        "measurement_status": "MEASURABLE"
+      },
+      "E4": {
+        "occurrence_rows": 13885,
+        "occurrence_events": 85342,
+        "denominator": 20000,
+        "incidence": 0.69425,
+        "measurement_status": "MEASURABLE"
+      },
+      "E5": {
+        "occurrence_rows": 324,
+        "occurrence_events": 754,
+        "denominator": 20000,
+        "incidence": 0.0162,
+        "measurement_status": "MEASURABLE"
+      },
+      "E6": {
+        "occurrence_rows": 12,
+        "occurrence_events": 16,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE"
+      },
+      "E7": {
+        "occurrence_rows": 14,
+        "occurrence_events": 32,
+        "denominator": 20000,
+        "incidence": 0.0007,
+        "measurement_status": "MEASURABLE"
+      },
+      "E8": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 20000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE"
+      },
+      "E9": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 20000,
+        "incidence": 5e-05,
+        "measurement_status": "MEASURABLE"
+      },
+      "E10": {
+        "occurrence_rows": 12,
+        "occurrence_events": 33,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE"
+      },
+      "E11": {
+        "occurrence_rows": 7,
+        "occurrence_events": 18,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE"
+      },
+      "E12": {
+        "occurrence_rows": 15900,
+        "occurrence_events": 56828,
+        "denominator": 20000,
+        "incidence": 0.795,
+        "measurement_status": "MEASURABLE"
+      },
+      "E13": {
+        "occurrence_rows": 9327,
+        "occurrence_events": 13519,
+        "denominator": 20000,
+        "incidence": 0.46635,
+        "measurement_status": "MEASURABLE"
+      },
+      "E14": {
+        "occurrence_rows": 16376,
+        "occurrence_events": 65432,
+        "denominator": 20000,
+        "incidence": 0.8188,
+        "measurement_status": "MEASURABLE"
+      },
+      "E15": {
+        "occurrence_rows": 7,
+        "occurrence_events": 8,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE"
+      }
+    },
+    "manifest_selected": 20000,
+    "selected_seen": 20000,
+    "missing_selected_ids": [],
+    "raw_shards": [
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00000-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00001-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00002-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00003-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00004-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00005-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00006-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00007-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00008-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00009-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00010-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00011-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00012-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00013-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00014-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00015-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00016-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00017-of-00018.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00000-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00001-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00002-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00003-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00004-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00005-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00006-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00007-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00008-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00009-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00010-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00011-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00012-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00013-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00014-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00015-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00016-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00017-of-00019.parquet",
+      "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00018-of-00019.parquet"
+    ]
+  },
+  "shape_matrix": [
+    {
+      "shape": "E1",
+      "name": "repeated_exact_command",
+      "tw": {
+        "occurrence_rows": 14578,
+        "occurrence_events": 269309,
+        "denominator": 15000,
+        "incidence": 0.9718666666666667,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 14578,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 19999,
+        "occurrence_events": 732802,
+        "denominator": 20000,
+        "incidence": 0.99995,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19992,
+        "historical_incidence": 0.9996,
+        "delta_rows": 7,
+        "delta_incidence": 0.00034999999999996145
+      },
+      "ratio_osw_over_tw": 1.028896282068871,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E2",
+      "name": "repeated_similar_command",
+      "tw": {
+        "occurrence_rows": 14789,
+        "occurrence_events": 305739,
+        "denominator": 15000,
+        "incidence": 0.9859333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 14789,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 20000,
+        "occurrence_events": 772968,
+        "denominator": 20000,
+        "incidence": 1.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19995,
+        "historical_incidence": 0.99975,
+        "delta_rows": 5,
+        "delta_incidence": 0.00024999999999997247
+      },
+      "ratio_osw_over_tw": 1.014267360876327,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E3",
+      "name": "same_file_reread",
+      "tw": {
+        "occurrence_rows": 12302,
+        "occurrence_events": 159510,
+        "denominator": 15000,
+        "incidence": 0.8201333333333334,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 12302,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 19997,
+        "occurrence_events": 327292,
+        "denominator": 20000,
+        "incidence": 0.99985,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19997,
+        "historical_incidence": 0.99985,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 1.2191310356039669,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E4",
+      "name": "overlapping_file_read",
+      "tw": {
+        "occurrence_rows": 4157,
+        "occurrence_events": 30231,
+        "denominator": 15000,
+        "incidence": 0.27713333333333334,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 4157,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 13885,
+        "occurrence_events": 85342,
+        "denominator": 20000,
+        "incidence": 0.69425,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "historical_incidence": 0.0,
+        "delta_rows": 13885,
+        "delta_incidence": 0.69425
+      },
+      "ratio_osw_over_tw": 2.5051118595140727,
+      "replication_status": "PARTIAL_REPLICATION"
+    },
+    {
+      "shape": "E5",
+      "name": "same_search",
+      "tw": {
+        "occurrence_rows": 112,
+        "occurrence_events": 300,
+        "denominator": 15000,
+        "incidence": 0.007466666666666667,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 112,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 324,
+        "occurrence_events": 754,
+        "denominator": 20000,
+        "incidence": 0.0162,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 398,
+        "historical_incidence": 0.0199,
+        "delta_rows": -74,
+        "delta_incidence": -0.003700000000000002
+      },
+      "ratio_osw_over_tw": 2.169642857142857,
+      "replication_status": "PARTIAL_REPLICATION"
+    },
+    {
+      "shape": "E6",
+      "name": "large_test_success",
+      "tw": {
+        "occurrence_rows": 333,
+        "occurrence_events": 396,
+        "denominator": 15000,
+        "incidence": 0.0222,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 333,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 12,
+        "occurrence_events": 16,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 15,
+        "historical_incidence": 0.00075,
+        "delta_rows": -3,
+        "delta_incidence": -0.00015000000000000007
+      },
+      "ratio_osw_over_tw": 0.027027027027027025,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E7",
+      "name": "large_test_failure",
+      "tw": {
+        "occurrence_rows": 233,
+        "occurrence_events": 363,
+        "denominator": 15000,
+        "incidence": 0.015533333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 233,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 14,
+        "occurrence_events": 32,
+        "denominator": 20000,
+        "incidence": 0.0007,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 13,
+        "historical_incidence": 0.00065,
+        "delta_rows": 1,
+        "delta_incidence": 5.000000000000002e-05
+      },
+      "ratio_osw_over_tw": 0.045064377682403435,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E8",
+      "name": "large_lint_output",
+      "tw": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 15000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 20000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "historical_incidence": 0.0,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": null,
+      "replication_status": "NOT_ESTIMABLE_ZERO_BASELINE"
+    },
+    {
+      "shape": "E9",
+      "name": "large_build_output",
+      "tw": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 15000,
+        "incidence": 6.666666666666667e-05,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 1,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 20000,
+        "incidence": 5e-05,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 1,
+        "historical_incidence": 5e-05,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.75,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E10",
+      "name": "repeated_validation",
+      "tw": {
+        "occurrence_rows": 342,
+        "occurrence_events": 1169,
+        "denominator": 15000,
+        "incidence": 0.0228,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 342,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 12,
+        "occurrence_events": 33,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 16,
+        "historical_incidence": 0.0008,
+        "delta_rows": -4,
+        "delta_incidence": -0.0002000000000000001
+      },
+      "ratio_osw_over_tw": 0.026315789473684206,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E11",
+      "name": "unchanged_validation",
+      "tw": {
+        "occurrence_rows": 122,
+        "occurrence_events": 329,
+        "denominator": 15000,
+        "incidence": 0.008133333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 122,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 7,
+        "occurrence_events": 18,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 8,
+        "historical_incidence": 0.0004,
+        "delta_rows": -1,
+        "delta_incidence": -5.000000000000002e-05
+      },
+      "ratio_osw_over_tw": 0.04303278688524591,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E12",
+      "name": "large_diagnostic",
+      "tw": {
+        "occurrence_rows": 10938,
+        "occurrence_events": 33922,
+        "denominator": 15000,
+        "incidence": 0.7292,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 10938,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 15900,
+        "occurrence_events": 56828,
+        "denominator": 20000,
+        "incidence": 0.795,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 15900,
+        "historical_incidence": 0.795,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 1.0902358749314318,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E13",
+      "name": "large_output_near_terminal",
+      "tw": {
+        "occurrence_rows": 8808,
+        "occurrence_events": 12275,
+        "denominator": 15000,
+        "incidence": 0.5872,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 8808,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 9327,
+        "occurrence_events": 13519,
+        "denominator": 20000,
+        "incidence": 0.46635,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 9327,
+        "historical_incidence": 0.46635,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.7941927792915531,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E14",
+      "name": "output_followed_by_reread",
+      "tw": {
+        "occurrence_rows": 11073,
+        "occurrence_events": 71081,
+        "denominator": 15000,
+        "incidence": 0.7382,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 11073,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 16376,
+        "occurrence_events": 65432,
+        "denominator": 20000,
+        "incidence": 0.8188,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 18967,
+        "historical_incidence": 0.94835,
+        "delta_rows": -2591,
+        "delta_incidence": -0.12955000000000005
+      },
+      "ratio_osw_over_tw": 1.1091845028447576,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E15",
+      "name": "output_followed_by_rederivation",
+      "tw": {
+        "occurrence_rows": 126,
+        "occurrence_events": 176,
+        "denominator": 15000,
+        "incidence": 0.0084,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 126,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 7,
+        "occurrence_events": 8,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 7,
+        "historical_incidence": 0.00035,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.04166666666666667,
+      "replication_status": "DATASET_SPECIFIC"
+    }
+  ],
+  "replication_summary": {
+    "status_counts": {
+      "DATASET_SPECIFIC": 5,
+      "NOT_ESTIMABLE_ZERO_BASELINE": 1,
+      "PARTIAL_REPLICATION": 2,
+      "REPLICATED": 7
+    },
+    "ratio_comparable_shapes": 14,
+    "replicated_or_partial": 9,
+    "headline_candidate": "9/14 ratio-comparable shapes replicate fully or partially"
+  },
+  "integrity": {
+    "tw_rows_complete": true,
+    "osw_rows_complete": true,
+    "osw_manifest_complete": true,
+    "deterministic": true,
+    "input_sha256": [
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\sessions.parquet",
+        "sha256": "3dd8ec3546cf771ce4ab2ac6c51ccefdd621197fa997a2cefb430b50df808fb6",
+        "bytes": 325563194
+      },
+      {
+        "path": "evidence\\V1\\v011-d4a1-oswe-20k-manifest-v2.json",
+        "sha256": "284c47ea200607dc7d331edbb13fee300f6f0e45d1c5f72c1f15bda86eb15a7e",
+        "bytes": 3122572
+      },
+      {
+        "path": "evidence\\V1\\v011-d4a0-taxonomy-registry.json",
+        "sha256": "8a8bc7c8ee1f87b0c80ab73cf2e6de4abd020db7924849db5dbda96b80db5f6f",
+        "bytes": 15188
+      },
+      {
+        "path": "evidence\\V1\\v011-d4a1r3-tw-trajectory-census.json",
+        "sha256": "ae954c032022ca795ae7556a6d24024b73eb5cd7bf0531440e5761736a6b9ea7",
+        "bytes": 15987
+      },
+      {
+        "path": "evidence\\V1\\v011-d4a1-census-results.json",
+        "sha256": "7d22b0b98062cc8cd90fe5269f3b9b559b5dcd4edc835dc49d0e31d106670eda",
+        "bytes": 8233
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00000-of-00018.parquet",
+        "sha256": "4d917ba86b030b1f5e227222b0bfe5c1e74c696cbde3a05e7085f30601bb7435",
+        "bytes": 206085165
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00001-of-00018.parquet",
+        "sha256": "01af05aaee22af2d0f6a8fcc0e93158d02c7337a1caa9228c420fdc0f93a16e6",
+        "bytes": 212591428
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00002-of-00018.parquet",
+        "sha256": "2ecad01859a0438c2d14ecf0f717af853144b3ffcc76ce768e4d5fa199371d04",
+        "bytes": 204775106
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00003-of-00018.parquet",
+        "sha256": "c695352570b9ed24fa09a8dc2c9fe846d08b7856d5ff564d1f74d53d5fbce8db",
+        "bytes": 209535820
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00004-of-00018.parquet",
+        "sha256": "e6cf981cd6ab58269c841c6a7dd37a789eb6d2ac6f8b2a7acc96126fd872976f",
+        "bytes": 217044635
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00005-of-00018.parquet",
+        "sha256": "50b3ac6505005ac9fd239aee1984eda3b780396e93c767229c68250ea644a5e0",
+        "bytes": 206467611
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00006-of-00018.parquet",
+        "sha256": "0f47dd8ed489933d00116439bab74fe86f42f26cd37d44887bdee5a5da905996",
+        "bytes": 206818321
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00007-of-00018.parquet",
+        "sha256": "233b41cda43846d21d53f2aea60469e0b1b5af2e1a47890b2a69bfb88922aa17",
+        "bytes": 210674918
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00008-of-00018.parquet",
+        "sha256": "d9a07dbe4113a4d25e8a595220a09cc00dca55898160d86121c600b50329c056",
+        "bytes": 215015928
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00009-of-00018.parquet",
+        "sha256": "1ea1211d29d3f8f36b1b928133d889e22d1ba660689a14802dcf4fc23b254ced",
+        "bytes": 204623860
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00010-of-00018.parquet",
+        "sha256": "3e1407e92d1d330037c8d422497dcd68fb55ffc43a200283e35d8cb0ccc2e85c",
+        "bytes": 206754830
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00011-of-00018.parquet",
+        "sha256": "b90e944181adcc6af08a7d5e2d60d1502675b36621edd5ed97d78f1cf7aed8a4",
+        "bytes": 210869269
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00012-of-00018.parquet",
+        "sha256": "07987757d19ca00f4be64a6cf6c2c87616b0486190133ef8f38895954990b806",
+        "bytes": 203397301
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00013-of-00018.parquet",
+        "sha256": "f6e2b92eb5d31cc4f95e73d600915e5cf8203e0bf47cbce6ddb48d2bde5d93af",
+        "bytes": 215050677
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00014-of-00018.parquet",
+        "sha256": "4bf50b17bcfdd874ebcb7a680bc7610870709ab0027c90a9f72042987cb8ca57",
+        "bytes": 218859700
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00015-of-00018.parquet",
+        "sha256": "05a1d52a03758ed82e7b4af085ef177cf512163fdd0cf824201c7f92d8f06fa5",
+        "bytes": 224140852
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00016-of-00018.parquet",
+        "sha256": "a717d9f1b950ef2a48b954283bb6c1822f7d04c30cc26260b2399fe1c8ac91d9",
+        "bytes": 243251487
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00017-of-00018.parquet",
+        "sha256": "e196d4ba216bdc06d580ed3c1684fe8edc75d9e5ae617a420da44385d8c5d21e",
+        "bytes": 107730606
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00000-of-00019.parquet",
+        "sha256": "5f8b06e6ca49394bb601dd47f3c550826980b87ac87e096f631219f56221c755",
+        "bytes": 208152116
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00001-of-00019.parquet",
+        "sha256": "6f56a35c98b246e0074a8211fa6aad63565fb1df5db4f3b67672af4aeaa34b78",
+        "bytes": 187962422
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00002-of-00019.parquet",
+        "sha256": "6c29e7f164565852ada0d1393615a27f78ee79f3467a102a87920208323d6dba",
+        "bytes": 193337808
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00003-of-00019.parquet",
+        "sha256": "e19c350469a3a617da72174c80ae75d069824d96a92b7228a020cd6f44745ee0",
+        "bytes": 187399844
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00004-of-00019.parquet",
+        "sha256": "b9ec1119b384c0c6aa9e48f2e7977e0fd999d631e7a91f958cf0e5460c4b98cf",
+        "bytes": 180080070
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00005-of-00019.parquet",
+        "sha256": "dbc6105be1e061cf06e540d6db9938a9b77f3ddc5e9387340668a1166c46b262",
+        "bytes": 187218815
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00006-of-00019.parquet",
+        "sha256": "678493ef1de44d8b93cc725989814bedbc7a45ce6b7acc67767c190e736b81e8",
+        "bytes": 183044227
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00007-of-00019.parquet",
+        "sha256": "1f058323224574ee9432777da85bb4f7ee9bba84719f0ed0a8079bb02a780fb5",
+        "bytes": 175644372
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00008-of-00019.parquet",
+        "sha256": "afd69ad7eb6562b0ceddd1505e48b8f18e882d0db7ede4472903ec60e50dc806",
+        "bytes": 192893943
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00009-of-00019.parquet",
+        "sha256": "4f3401a767c47245f310492ca5aecec1d8acdd9fe37d44f4e8d7c8c24de5a00c",
+        "bytes": 179711014
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00010-of-00019.parquet",
+        "sha256": "18f246cfc95f75fa9729ee274b5200f9091f5a9a953071e745b2f960230ab1a5",
+        "bytes": 178155168
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00011-of-00019.parquet",
+        "sha256": "bfe3c8ed4d854087d7d977335f8799041444c1689e757e82de32850704b530c7",
+        "bytes": 178981735
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00012-of-00019.parquet",
+        "sha256": "ba21c2fc3be25d86bbb4ef8a3e43e1c2a54d8dd4ad0aeec8c59c68f025c590e6",
+        "bytes": 173994280
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00013-of-00019.parquet",
+        "sha256": "55218c148edcd8fc3251f9ee4038e0fc98faf692f5bf65238ad42a068d7b9a98",
+        "bytes": 172571587
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00014-of-00019.parquet",
+        "sha256": "41cd8b09a602c91c8cd5987b999d90f94acd569f62cfd52f397b003f66c6caac",
+        "bytes": 175582503
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00015-of-00019.parquet",
+        "sha256": "fd528fbdb32a5da7a1902719b7f388d4bbe867f7fc3dc5ef1f554852dc8ea569",
+        "bytes": 199141573
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00016-of-00019.parquet",
+        "sha256": "68e7c6621527b54e74e045073bde9d4ac8bce79fd6e67152abd997fb37e331e1",
+        "bytes": 200618266
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00017-of-00019.parquet",
+        "sha256": "aab3dd742b0347f7632f49a46a3fdbd9c37938e4e4d69f912dccc470d0503a17",
+        "bytes": 224349863
+      },
+      {
+        "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00018-of-00019.parquet",
+        "sha256": "fe54923bddaa09ec8fd180c9343a13d6dfd89e6a0ec6a2da5a33383c22a2a78d",
+        "bytes": 176569657
+      }
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D4-A1 census — frozen-detector external validation (prereg d229a6a4 + amendment 76547f34; A0 freeze 1865a160)",
+ "date": "2026-09-24",
+ "provenance": {
+  "manifest": "v011-d4a1-oswe-20k-manifest-v2.json",
+  "manifest_sample_id_set_sha256": "601318a78fc86c84",
+  "manifest_note": "file-level manifest_sha256 895a96c0 predates SUPERSEDED bookkeeping append on old manifest; v2 sample array verified 20000/20000 unique",
+  "detector_freeze_commit": "1865a160 (A0 registry)",
+  "dataset": "nvidia/Open-SWE-Traces v1.0 HF revision f8fb5b3d2c78 (Minimax-M2.5, OH+SA strata)"
+ },
+ "census_integrity": {
+  "sessions_expected": 20000,
+  "sessions_censused": 20000,
+  "complete": true
+ },
+ "shape_results": {
+  "E1_repeated_exact_command": {
+   "measurable": true,
+   "event_sessions": 19992,
+   "session_incidence": 0.9996,
+   "median_event_chars": 54827.5,
+   "p75_event_chars": 82831,
+   "thoughtworks_incidence": 0.6581,
+   "replication_band": "REPLICATED",
+   "abcde_class": "A"
+  },
+  "E2_repeated_similar_command": {
+   "measurable": true,
+   "event_sessions": 19995,
+   "session_incidence": 0.9998,
+   "median_event_chars": 58233,
+   "p75_event_chars": 87304,
+   "thoughtworks_incidence": 0.6627,
+   "replication_band": "REPLICATED",
+   "abcde_class": "A"
+  },
+  "E3_same_file_reread": {
+   "measurable": true,
+   "event_sessions": 19997,
+   "session_incidence": 0.9999,
+   "median_event_chars": 41806,
+   "p75_event_chars": 62686,
+   "thoughtworks_incidence": 0.6651,
+   "replication_band": "REPLICATED",
+   "abcde_class": "A"
+  },
+  "E4_overlapping_file_read": {
+   "measurable": true,
+   "event_sessions": 0,
+   "session_incidence": 0.0,
+   "median_event_chars": null,
+   "p75_event_chars": null,
+   "thoughtworks_incidence": 0.2771,
+   "replication_band": "DATASET_SPECIFIC",
+   "abcde_class": "A"
+  },
+  "E5_same_search": {
+   "measurable": true,
+   "event_sessions": 398,
+   "session_incidence": 0.0199,
+   "median_event_chars": 598.0,
+   "p75_event_chars": 1382,
+   "thoughtworks_incidence": 0.0047,
+   "replication_band": "PARTIAL_REPLICATION",
+   "abcde_class": "D"
+  },
+  "E6_large_test_success": {
+   "measurable": true,
+   "event_sessions": 15,
+   "session_incidence": 0.0008,
+   "median_event_chars": 6954,
+   "p75_event_chars": 19706,
+   "thoughtworks_incidence": 0.0039,
+   "replication_band": "DATASET_SPECIFIC",
+   "abcde_class": "D"
+  },
+  "E7_large_test_failure": {
+   "measurable": true,
+   "event_sessions": 13,
+   "session_incidence": 0.0006,
+   "median_event_chars": 7379,
+   "p75_event_chars": 11182,
+   "thoughtworks_incidence": 0.002,
+   "replication_band": "PARTIAL_REPLICATION",
+   "abcde_class": "C"
+  },
+  "E8_large_lint_output": {
+   "measurable": true,
+   "event_sessions": 0,
+   "session_incidence": 0.0,
+   "median_event_chars": null,
+   "p75_event_chars": null,
+   "thoughtworks_incidence": null,
+   "replication_band": "NOT_MEASURABLE",
+   "abcde_class": "A"
+  },
+  "E9_large_build_output": {
+   "measurable": true,
+   "event_sessions": 1,
+   "session_incidence": 0.0001,
+   "median_event_chars": 5496,
+   "p75_event_chars": 5496,
+   "thoughtworks_incidence": 0.0001,
+   "replication_band": "REPLICATED",
+   "abcde_class": "E"
+  },
+  "E10_repeated_validation": {
+   "measurable": true,
+   "event_sessions": 16,
+   "session_incidence": 0.0008,
+   "median_event_chars": 4579.0,
+   "p75_event_chars": 10873,
+   "thoughtworks_incidence": 0.0011,
+   "replication_band": "REPLICATED",
+   "abcde_class": "D"
+  },
+  "E11_unchanged_validation": {
+   "measurable": true,
+   "event_sessions": 8,
+   "session_incidence": 0.0004,
+   "median_event_chars": 2397.5,
+   "p75_event_chars": 3477,
+   "thoughtworks_incidence": 0.0005,
+   "replication_band": "REPLICATED",
+   "abcde_class": "D"
+  },
+  "E12_large_diagnostic": {
+   "measurable": true,
+   "event_sessions": 15900,
+   "session_incidence": 0.795,
+   "median_event_chars": 29889.5,
+   "p75_event_chars": 50534,
+   "thoughtworks_incidence": 0.6011,
+   "replication_band": "REPLICATED",
+   "abcde_class": "C"
+  },
+  "E13_large_output_near_terminal": {
+   "measurable": true,
+   "event_sessions": 9327,
+   "session_incidence": 0.4663,
+   "median_event_chars": 4764,
+   "p75_event_chars": 8951,
+   "thoughtworks_incidence": 0.5325,
+   "replication_band": "REPLICATED",
+   "abcde_class": "B"
+  },
+  "E14_output_followed_by_reread": {
+   "measurable": true,
+   "event_sessions": 18967,
+   "session_incidence": 0.9484,
+   "median_event_chars": 11345,
+   "p75_event_chars": 21975,
+   "thoughtworks_incidence": 0.6153,
+   "replication_band": "REPLICATED",
+   "abcde_class": "A"
+  },
+  "E15_output_followed_by_rederivation": {
+   "measurable": true,
+   "event_sessions": 7,
+   "session_incidence": 0.0003,
+   "median_event_chars": 1324,
+   "p75_event_chars": 2919,
+   "thoughtworks_incidence": 0.0005,
+   "replication_band": "REPLICATED",
+   "abcde_class": "D"
+  }
+ },
+ "abcde_session_distribution": {
+  "A": {
+   "sessions": 20000,
+   "session_share": 1.0
+  },
+  "B": {
+   "sessions": 9327,
+   "session_share": 0.4663
+  },
+  "C": {
+   "sessions": 15900,
+   "session_share": 0.795
+  },
+  "D": {
+   "sessions": 418,
+   "session_share": 0.0209
+  },
+  "E": {
+   "sessions": 1,
+   "session_share": 0.0001
+  }
+ },
+ "coverage": {
+  "shipped_only": {
+   "SOC": 0.0207,
+   "COC": 0.0039
+  },
+  "shipped_plus_candidate": {
+   "SOC": 1.0,
+   "COC": 0.9012
+  },
+  "capability_gap_rate": 0.9957,
+  "definition_note": "COC byte numerator counts full-fit capability shape sessions (conservative; partial-fit not counted); unsafe shapes (E7/E12) excluded from qualified denominator"
+ },
+ "stratification": {
+  "openhands": {
+   "sessions": 10000,
+   "incidence": {
+    "E10": 0.0005,
+    "E11": 0.0001,
+    "E12": 0.7715,
+    "E13": 0.6487,
+    "E14": 0.9388,
+    "E15": 0.0001,
+    "E1": 0.9993,
+    "E2": 0.9995,
+    "E3": 0.9997,
+    "E5": 0.0266,
+    "E6": 0.0008,
+    "E7": 0.0006
+   }
+  },
+  "sweagent": {
+   "sessions": 10000,
+   "incidence": {
+    "E10": 0.0011,
+    "E11": 0.0007,
+    "E12": 0.8185,
+    "E13": 0.284,
+    "E14": 0.9579,
+    "E15": 0.0006,
+    "E1": 0.9999,
+    "E2": 1.0,
+    "E3": 1.0,
+    "E5": 0.0132,
+    "E6": 0.0007,
+    "E7": 0.0007,
+    "E9": 0.0001
+   }
+  },
+  "languages_by_sessions": {
+   "python": 11861,
+   "typescript": 8438,
+   "go": 8426,
+   "javascript": 6547,
+   "rust": 4708,
+   "java": 3184,
+   "php": 2287,
+   "c": 132,
+   "cpp": 63
+  },
+  "resolved_by_sessions": {
+   "-1": {
+    "A": 4555,
+    "B": 1886,
+    "C": 3540,
+    "D": 101
+   },
+   "0": {
+    "A": 8534,
+    "C": 6816,
+    "B": 4244,
+    "D": 187
+   },
+   "1": {
+    "A": 6911,
+    "B": 3197,
+    "C": 5544,
+    "D": 130,
+    "E": 1
+   }
+  },
+  "language_class_breakdown": {
+   "python": {
+    "A": 4739,
+    "B": 2672,
+    "C": 4350,
+    "D": 100
+   },
+   "typescript": {
+    "A": 3651,
+    "B": 1661,
+    "C": 3057,
+    "D": 69
+   },
+   "go": {
+    "A": 4215,
+    "B": 1861,
+    "C": 2275,
+    "D": 75
+   },
+   "javascript": {
+    "A": 2943,
+    "B": 1213,
+    "C": 2325,
+    "D": 66
+   },
+   "rust": {
+    "A": 2054,
+    "B": 905,
+    "C": 1728,
+    "D": 21
+   },
+   "java": {
+    "A": 1281,
+    "C": 1212,
+    "B": 625,
+    "D": 65,
+    "E": 1
+   },
+   "php": {
+    "A": 1019,
+    "C": 904,
+    "B": 347,
+    "D": 17
+   },
+   "c": {
+    "A": 70,
+    "D": 3,
+    "C": 28,
+    "B": 31
+   },
+   "cpp": {
+    "A": 28,
+    "C": 21,
+    "B": 12,
+    "D": 2
+   }
+  }
+ },
+ "scaffold_comparison_note": "compare oh/sa shape_incidence: persistent if both >0.5x overall; scaffold-sensitive if ratio >2x; near-absent if <0.1",
+ "final_status": "EXTERNAL_VALIDATION_COMPLETE",
+ "aggregates_sha256": "59d42edee1de76618f3427f4764ecc90bd12de34f47664d6fc7be3a790e7643c",
+ "analyzer_fix_note": "abcde_session_distribution and stratum shape_incidence recomputed via verified mini-census logic after main-run implementation anomaly (per-session classes were dropped in first run); shape_results/coverage untouched"
+}

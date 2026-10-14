@@ -1,0 +1,23 @@
+# OS artifacts
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# LaTeX build products (source is committed; artifacts are not)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

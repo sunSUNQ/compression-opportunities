@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "title": "PAPER-A-POSTFREEZE-EVIDENCE-AUGMENTATION-R1 — Validation Manifest",
+  "date": "2026-10-13",
+  "authorization": "author-approved post-freeze evidence augmentation; no new experiments, no new data, frozen artifacts only; body 10-page budget excludes references; supplements may host representative cases",
+  "verdicts": {
+    "NO_NEW_EXPERIMENTS": "PASS",
+    "NO_NEW_DATA": "PASS (all rendered values pre-exist in frozen artifacts)",
+    "FROZEN_ARTIFACTS_ONLY": "PASS (data/figures.json, data/paper-tables.json, longrun_annotation packets + packet_hashes.json + results/formal/EVAL-{1,2,3})",
+    "DATA_ASSERTIONS": "PASS (20/20 table-value checks; 4x packet sha vs packet_hashes.json; RDS ratio 0.8098; per-case verdict identities)",
+    "MAIN_TEXT_ADDITIONS": "PASS (case card figure §3.5; RDS capture figure §8; T6 compact table §8; minimal linking sentences only)",
+    "SUPPLEMENT_ADDITIONS": "PASS (B: 3 case cards + T7 table; C: A–E distribution summary with TW UNRESOLVED disclosed; D new: T6 detailed ledger + Supplement-F gap disclosure)",
+    "COMPILE": "PASS (candidate-augmented 0 errors / 0 overfull / 0 undefined; clarity-augmented same)",
+    "PAGE_BUDGET": "PASS (body through Conclusion ends p10 in both builds; references p10–11 excluded from 10-page budget)",
+    "FIGURE_WYSIWYG": "PASS (7/7 figures at scale 1.0000 in both compiled PDFs)",
+    "NARRATIVE_SERVICE": "PASS (no number dumps; every addition links an existing prose claim to frozen evidence)",
+    "READY_FOR_AUTHOR_REVIEW": "YES",
+    "CANONICAL_PDF_WRITEBACK": "DONE (author closed viewer; canonical recompile byte-verified: 0 errors / 0 overfull / 0 undefined; per-page text identical to the augmented verification builds)",
+    "FINAL_CORRECTION_R2": "DONE (author-authorized PAPER-A-FINAL-CORRECTION-R2: F1 all figure text >=6.5pt incl. rationale lines, RDS footnote reflowed to 2 lines fixing a left-edge clip found by the audit (fig.text blind spot closed in auditor); F2 T6 D3-E7 verdict now 'underpowered for +3/+5% effects at <=10/arm'; acceptance re-verified: fonts>=6.5, 0 overfull, numbering unchanged, citations resolve, Conclusion on p10)"
+  },
+  "main_text_changes": {
+    "figures_added": [
+      {"file": "figures/fig_case_annotation_unit.pdf", "sha256_16": "98cf04901896306b", "where": "§3.5 after multi-agent paragraph", "case": "M-TW-E13-detector_positive-0", "verdicts": "YES/NO/YES x3 (unanimous)"},
+      {"file": "figures/fig_rds_replay_capture.pdf", "sha256_16": "b8a1e698fa9044c0", "where": "§8 after offline-replay paragraph", "asserts": [85724720, 69417730, 218043264], "capture_ratio": 0.8098}
+    ],
+    "table_added": {"label": "tab:qualification", "where": "§8 after simulation paragraph", "rows": ["D3-E7", "D3-E5", "V0.11-D2"], "values_asserted_vs": "data/paper-tables.json T6"},
+    "prose_added": "3 minimal linking sentences (one per addition); no claim changed; captions and \\Description written new with frozen values only",
+    "tex_files_updated": ["paper-a-candidate-r1.tex", "paper-a-clarity-revised-en.tex"]
+  },
+  "supplement_changes": {
+    "supplement_B": "new section: 3 case cards (S1 M-OSW-E3-detector_positive-82 / S2 M-TW-E12-detector_positive-54 / S3 M-OSW-E13-negative_or_nearmiss-66) + T7 agreement summary; provenance note on run-time snapshot sha vs ledger sha",
+    "supplement_C": "new section: A–E class distribution summary (OSW shares from figures.json fig2_ae_class_distribution_osw; TW cells from T2 with C/D UNRESOLVED disclosed; overlap semantics noted)",
+    "supplement_D_new_file": "T6 detailed qualification-feasibility ledger + pre-existing Supplement-F reference gap disclosed"
+  },
+  "provenance_disclosure": {
+    "packet_ledger_vs_runtime_sha": {
+      "explanation": "on-disk packets match frozen packet_hashes.json; the three channel result files record a different, mutually consistent run-time snapshot sha per case; consistent with post-run re-serialization",
+      "cases": {
+        "M-TW-E13-detector_positive-0": {"ledger": "920c4be9def6aa4d", "runtime": "8d0dc28872f3f0e2"},
+        "M-OSW-E3-detector_positive-82": {"ledger": "51b0db5cc88b11ca", "runtime": "871978b9ca046824"},
+        "M-TW-E12-detector_positive-54": {"ledger": "2663a4990209c708", "runtime": "4043c9bcfbd356b6"},
+        "M-OSW-E13-negative_or_nearmiss-66": {"ledger": "d98a7dad25ca940e", "runtime": "6d027c3791c0fcc9"}
+      }
+    },
+    "supplement_F_gap": "main text references Supplement F (resampling procedure); no such file exists in the supplement set (A/B/C existed; D added here); disclosed in Supplement D, not silently substituted"
+  },
+  "compile_evidence": {
+    "candidate_canonical": {"pages_total": 11, "body_last_page": 10, "references_pages": "10-11", "errors": 0, "overfull": 0, "undefined_citations": 0, "sha256_16": "4ca5449e98efbe29"},
+    "clarity_canonical": {"pages_total": 11, "body_last_page": 10, "references_pages": "10-11", "errors": 0, "overfull": 0, "undefined_citations": 0, "sha256_16": "b20c4a712a3874d7"},
+    "sha_note": "canonical SHAs differ from the interim augmented builds only by embedded PDF creation timestamps; per-page extracted text verified identical",
+    "figure_scales": "all 7 embedded figures scale 1.0000 (pypdf content-stream matrices)",
+    "overfull_fix": "T6 table column widths rebalanced 0.26/0.56/0.12 -> 0.21/0.44/0.25 after initial 2 overfull warnings"
+  },
+  "deliverables": {
+    "new_figures": "figures/fig_case_annotation_unit|fig_rds_replay_capture|fig_case_osw_e3|fig_case_tw_e12|fig_case_osw_e13_nearmiss (pdf+png each)",
+    "script": "tools/postfreeze_augment_figures.py",
+    "audit_json": "figures/postfreeze_augmentation_audit.json",
+    "inventory": "figure-inventory.csv (12 rows appended)",
+    "report": "postfreeze-evidence-augmentation-report.md",
+    "verification_builds": "interim *-augmented* artifacts removed after canonical recompile verified text-identical",
+    "canonical_pdfs": ["paper-a-candidate-r1.pdf (4ca5449e98efbe29)", "paper-a-clarity-revised-en.pdf (b20c4a712a3874d7)"]
+  },
+  "boundaries_respected": {
+    "no_new_experiments": true,
+    "no_new_data": true,
+    "no_conclusion_changes": true,
+    "no_taxonomy_annotation_detector_changes": true,
+    "no_auto_submission": true,
+    "no_commit": true
+  },
+  "stop": "augmentation complete and verified in augmented builds (body 10 pages excl references); canonical PDF writeback pending viewer unlock; awaiting author review"
+}

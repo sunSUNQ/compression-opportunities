@@ -1,0 +1,1090 @@
+{
+ "schema_version": 1,
+ "title": "Paper A Multi-Agent Formal Annotation — Shared Sample Manifest (v1, frozen)",
+ "date": "2026-10-12",
+ "manifest_source": "multi-agent-pilot-manifest.json (sha256-16 5d54eb69461cd14c)",
+ "total_samples": 120,
+ "samples": [
+  {
+   "item_id": "M-TW-E13-detector_positive-0",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid10437",
+   "event_idx": 54,
+   "packet_sha256_16": "920c4be9def6aa4d"
+  },
+  {
+   "item_id": "M-TW-E13-detector_positive-1",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid13928",
+   "event_idx": 67,
+   "packet_sha256_16": "2c41d8559ef7daea"
+  },
+  {
+   "item_id": "M-TW-E13-detector_positive-2",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid8869",
+   "event_idx": 41,
+   "packet_sha256_16": "491bee96739dbe23"
+  },
+  {
+   "item_id": "M-TW-E13-detector_positive-3",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid13939",
+   "event_idx": 71,
+   "packet_sha256_16": "ee28b2fdaa46b586"
+  },
+  {
+   "item_id": "M-TW-E13-detector_positive-4",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid4885",
+   "event_idx": 26,
+   "packet_sha256_16": "f1a9c79668ffccd7"
+  },
+  {
+   "item_id": "M-TW-E13-negative_or_nearmiss-5",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid14779",
+   "event_idx": 28,
+   "packet_sha256_16": "ca0e91b6fa03ca13"
+  },
+  {
+   "item_id": "M-TW-E13-negative_or_nearmiss-6",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid13131",
+   "event_idx": 46,
+   "packet_sha256_16": "0dd2ad6c139f6f82"
+  },
+  {
+   "item_id": "M-TW-E13-negative_or_nearmiss-7",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid1604",
+   "event_idx": 13,
+   "packet_sha256_16": "96588f914c9d9fc8"
+  },
+  {
+   "item_id": "M-TW-E13-luo_or_crossing-8",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid9882",
+   "event_idx": 50,
+   "packet_sha256_16": "c03c2801efb828f5"
+  },
+  {
+   "item_id": "M-TW-E13-luo_or_crossing-9",
+   "corpus": "TW",
+   "target_shape": "E13",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid11269",
+   "event_idx": 22,
+   "packet_sha256_16": "8ec4f27d1244d7b8"
+  },
+  {
+   "item_id": "M-TW-E14-detector_positive-10",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid5608",
+   "event_idx": 23,
+   "packet_sha256_16": "905743a767b297a0"
+  },
+  {
+   "item_id": "M-TW-E14-detector_positive-11",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid14461",
+   "event_idx": 28,
+   "packet_sha256_16": "60230d37f9faf0f4"
+  },
+  {
+   "item_id": "M-TW-E14-detector_positive-12",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid7282",
+   "event_idx": 10,
+   "packet_sha256_16": "ac2a54ced66e1d56"
+  },
+  {
+   "item_id": "M-TW-E14-detector_positive-13",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid6946",
+   "event_idx": 33,
+   "packet_sha256_16": "0f14dad54ff50adf"
+  },
+  {
+   "item_id": "M-TW-E14-detector_positive-14",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid4938",
+   "event_idx": 4,
+   "packet_sha256_16": "3b7a3ad3cb741861"
+  },
+  {
+   "item_id": "M-TW-E14-negative_or_nearmiss-15",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid2524",
+   "event_idx": 13,
+   "packet_sha256_16": "4c8a6958e4831bbf"
+  },
+  {
+   "item_id": "M-TW-E14-negative_or_nearmiss-16",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid9552",
+   "event_idx": 3,
+   "packet_sha256_16": "6696284ec0f37111"
+  },
+  {
+   "item_id": "M-TW-E14-negative_or_nearmiss-17",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid12852",
+   "event_idx": 49,
+   "packet_sha256_16": "12066d4a34440b82"
+  },
+  {
+   "item_id": "M-TW-E14-luo_or_crossing-18",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid14044",
+   "event_idx": 9,
+   "packet_sha256_16": "b6f33c5958cd1441"
+  },
+  {
+   "item_id": "M-TW-E14-luo_or_crossing-19",
+   "corpus": "TW",
+   "target_shape": "E14",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid10578",
+   "event_idx": 35,
+   "packet_sha256_16": "d001486c018d2012"
+  },
+  {
+   "item_id": "M-TW-E3-detector_positive-20",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid5230",
+   "event_idx": 4,
+   "packet_sha256_16": "0daf20a7a12b7ac7"
+  },
+  {
+   "item_id": "M-TW-E3-detector_positive-21",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid8630",
+   "event_idx": 2,
+   "packet_sha256_16": "9912fdb9177df842"
+  },
+  {
+   "item_id": "M-TW-E3-detector_positive-22",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid9390",
+   "event_idx": 25,
+   "packet_sha256_16": "de094d2c62e39548"
+  },
+  {
+   "item_id": "M-TW-E3-detector_positive-23",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid11194",
+   "event_idx": 7,
+   "packet_sha256_16": "40ee6715b16ad9ed"
+  },
+  {
+   "item_id": "M-TW-E3-detector_positive-24",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid5893",
+   "event_idx": 6,
+   "packet_sha256_16": "2b1b6c4835729895"
+  },
+  {
+   "item_id": "M-TW-E3-negative_or_nearmiss-25",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid924",
+   "event_idx": 10,
+   "packet_sha256_16": "938af1e8fec532ae"
+  },
+  {
+   "item_id": "M-TW-E3-negative_or_nearmiss-26",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid12066",
+   "event_idx": 31,
+   "packet_sha256_16": "22f184769262057e"
+  },
+  {
+   "item_id": "M-TW-E3-negative_or_nearmiss-27",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid10788",
+   "event_idx": 41,
+   "packet_sha256_16": "9da531a4e6218494"
+  },
+  {
+   "item_id": "M-TW-E3-luo_or_crossing-28",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid14523",
+   "event_idx": 74,
+   "packet_sha256_16": "e01c18c8eda7079c"
+  },
+  {
+   "item_id": "M-TW-E3-luo_or_crossing-29",
+   "corpus": "TW",
+   "target_shape": "E3",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid6527",
+   "event_idx": 3,
+   "packet_sha256_16": "1fc831eadc59efd7"
+  },
+  {
+   "item_id": "M-TW-E6-detector_positive-30",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid2712",
+   "event_idx": 15,
+   "packet_sha256_16": "abcd0fafb20fc57c"
+  },
+  {
+   "item_id": "M-TW-E6-detector_positive-31",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid2789",
+   "event_idx": 27,
+   "packet_sha256_16": "16599fc680b6b8a3"
+  },
+  {
+   "item_id": "M-TW-E6-detector_positive-32",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid11444",
+   "event_idx": 13,
+   "packet_sha256_16": "77f6e8c823fab5db"
+  },
+  {
+   "item_id": "M-TW-E6-detector_positive-33",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid7231",
+   "event_idx": 30,
+   "packet_sha256_16": "8e05f2979c865f3e"
+  },
+  {
+   "item_id": "M-TW-E6-detector_positive-34",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid10802",
+   "event_idx": 45,
+   "packet_sha256_16": "bdd68b6811a9ef2c"
+  },
+  {
+   "item_id": "M-TW-E6-negative_or_nearmiss-35",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid13992",
+   "event_idx": 4,
+   "packet_sha256_16": "c926cbc055b42cdd"
+  },
+  {
+   "item_id": "M-TW-E6-negative_or_nearmiss-36",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid13790",
+   "event_idx": 42,
+   "packet_sha256_16": "9a7e235d2355c7b8"
+  },
+  {
+   "item_id": "M-TW-E6-negative_or_nearmiss-37",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid5839",
+   "event_idx": 33,
+   "packet_sha256_16": "035997737f95b301"
+  },
+  {
+   "item_id": "M-TW-E6-luo_or_crossing-38",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid8653",
+   "event_idx": 45,
+   "packet_sha256_16": "2f75f01f9303fc60"
+  },
+  {
+   "item_id": "M-TW-E6-luo_or_crossing-39",
+   "corpus": "TW",
+   "target_shape": "E6",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid13534",
+   "event_idx": 46,
+   "packet_sha256_16": "13d1d833e6055dc2"
+  },
+  {
+   "item_id": "M-TW-E1-detector_positive-40",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid6148",
+   "event_idx": 10,
+   "packet_sha256_16": "2bd5c0979867e138"
+  },
+  {
+   "item_id": "M-TW-E1-detector_positive-41",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid6466",
+   "event_idx": 23,
+   "packet_sha256_16": "307b7a7d2b8246b5"
+  },
+  {
+   "item_id": "M-TW-E1-detector_positive-42",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid11365",
+   "event_idx": 5,
+   "packet_sha256_16": "37f58bc3b0a167b8"
+  },
+  {
+   "item_id": "M-TW-E1-detector_positive-43",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid6217",
+   "event_idx": 20,
+   "packet_sha256_16": "4adfa130f12d8276"
+  },
+  {
+   "item_id": "M-TW-E1-detector_positive-44",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid8598",
+   "event_idx": 32,
+   "packet_sha256_16": "7ebb991591eca636"
+  },
+  {
+   "item_id": "M-TW-E1-negative_or_nearmiss-45",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid14275",
+   "event_idx": 56,
+   "packet_sha256_16": "b0cbaa8670a9d175"
+  },
+  {
+   "item_id": "M-TW-E1-negative_or_nearmiss-46",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid8458",
+   "event_idx": 0,
+   "packet_sha256_16": "bc8a4793f0fa7450"
+  },
+  {
+   "item_id": "M-TW-E1-negative_or_nearmiss-47",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid3154",
+   "event_idx": 3,
+   "packet_sha256_16": "515bef3578dce240"
+  },
+  {
+   "item_id": "M-TW-E1-luo_or_crossing-48",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid13060",
+   "event_idx": 0,
+   "packet_sha256_16": "9befb708394029f0"
+  },
+  {
+   "item_id": "M-TW-E1-luo_or_crossing-49",
+   "corpus": "TW",
+   "target_shape": "E1",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid6245",
+   "event_idx": 13,
+   "packet_sha256_16": "41dc459cb54d2586"
+  },
+  {
+   "item_id": "M-TW-E12-detector_positive-50",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid8989",
+   "event_idx": 33,
+   "packet_sha256_16": "8ebd6f82894a9184"
+  },
+  {
+   "item_id": "M-TW-E12-detector_positive-51",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid12496",
+   "event_idx": 40,
+   "packet_sha256_16": "dba9848cb32d9a56"
+  },
+  {
+   "item_id": "M-TW-E12-detector_positive-52",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid13162",
+   "event_idx": 1,
+   "packet_sha256_16": "8ea104a5396c48cb"
+  },
+  {
+   "item_id": "M-TW-E12-detector_positive-53",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid12123",
+   "event_idx": 13,
+   "packet_sha256_16": "40337b1a8e130dea"
+  },
+  {
+   "item_id": "M-TW-E12-detector_positive-54",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "TW-tid10276",
+   "event_idx": 3,
+   "packet_sha256_16": "2663a4990209c708"
+  },
+  {
+   "item_id": "M-TW-E12-negative_or_nearmiss-55",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid4489",
+   "event_idx": 0,
+   "packet_sha256_16": "9219d5d94326e377"
+  },
+  {
+   "item_id": "M-TW-E12-negative_or_nearmiss-56",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid13802",
+   "event_idx": 70,
+   "packet_sha256_16": "73a74de7a14a923f"
+  },
+  {
+   "item_id": "M-TW-E12-negative_or_nearmiss-57",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "TW-tid3346",
+   "event_idx": 3,
+   "packet_sha256_16": "7fcada65b7f31039"
+  },
+  {
+   "item_id": "M-TW-E12-luo_or_crossing-58",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid1221",
+   "event_idx": 5,
+   "packet_sha256_16": "f496c1b2ad3b3269"
+  },
+  {
+   "item_id": "M-TW-E12-luo_or_crossing-59",
+   "corpus": "TW",
+   "target_shape": "E12",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "TW-tid10289",
+   "event_idx": 24,
+   "packet_sha256_16": "47a7eceb3f4af7fe"
+  },
+  {
+   "item_id": "M-OSW-E13-detector_positive-60",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-51e8674d-48f5-45e8-b020-0bf9d718b096",
+   "event_idx": 87,
+   "packet_sha256_16": "ffec8047edc77f56"
+  },
+  {
+   "item_id": "M-OSW-E13-detector_positive-61",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-5d3fdafb-aca2-4051-9116-c40ef8a97e29",
+   "event_idx": 27,
+   "packet_sha256_16": "d768ece4219f84a2"
+  },
+  {
+   "item_id": "M-OSW-E13-detector_positive-62",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-af75b220-b073-4f96-84f5-1c72f6b8c679",
+   "event_idx": 45,
+   "packet_sha256_16": "8c3499ee51c0808e"
+  },
+  {
+   "item_id": "M-OSW-E13-detector_positive-63",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-1bb72312-c25b-49b8-a357-954de05b8377",
+   "event_idx": 68,
+   "packet_sha256_16": "3b7518aa3fbbd6b9"
+  },
+  {
+   "item_id": "M-OSW-E13-detector_positive-64",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-3978ea96-8197-40f0-8e27-da3251de631d",
+   "event_idx": 41,
+   "packet_sha256_16": "3022bd8dfb6d3da6"
+  },
+  {
+   "item_id": "M-OSW-E13-negative_or_nearmiss-65",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-dce78752-bc1d-4148-be55-50a708e920ad",
+   "event_idx": 61,
+   "packet_sha256_16": "81e2f2639393509a"
+  },
+  {
+   "item_id": "M-OSW-E13-negative_or_nearmiss-66",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-ca892c16-0d8d-42d5-ab2c-5252b1cd9b15",
+   "event_idx": 35,
+   "packet_sha256_16": "d98a7dad25ca940e"
+  },
+  {
+   "item_id": "M-OSW-E13-negative_or_nearmiss-67",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-43d434b5-9a08-43ca-b991-faab08dfd525",
+   "event_idx": 41,
+   "packet_sha256_16": "db21d75b914a582e"
+  },
+  {
+   "item_id": "M-OSW-E13-luo_or_crossing-68",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-89cc1bfc-c289-4e71-899c-4e025107b4c5",
+   "event_idx": 38,
+   "packet_sha256_16": "447cd81fd64d287f"
+  },
+  {
+   "item_id": "M-OSW-E13-luo_or_crossing-69",
+   "corpus": "OSW",
+   "target_shape": "E13",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-57ed551c-cc9e-44c8-8dee-5a18d1bda36b",
+   "event_idx": 4,
+   "packet_sha256_16": "0443a17142281cd5"
+  },
+  {
+   "item_id": "M-OSW-E14-detector_positive-70",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-28538533-f1c8-4ee4-b0bd-08bc26cf6bd5",
+   "event_idx": 32,
+   "packet_sha256_16": "588e6f9918f59ec0"
+  },
+  {
+   "item_id": "M-OSW-E14-detector_positive-71",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-90270821-ea95-4d71-8521-8f87144099f8",
+   "event_idx": 22,
+   "packet_sha256_16": "47c1b0dfb6b5f512"
+  },
+  {
+   "item_id": "M-OSW-E14-detector_positive-72",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-e79dcc87-5d31-4b70-9a4a-7fa43f13fcb6",
+   "event_idx": 28,
+   "packet_sha256_16": "8ebeed1b5b726738"
+  },
+  {
+   "item_id": "M-OSW-E14-detector_positive-73",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-43507196-b3a4-4125-a5c3-a9c442d7f2a3",
+   "event_idx": 60,
+   "packet_sha256_16": "eab4fd22a505bd3c"
+  },
+  {
+   "item_id": "M-OSW-E14-detector_positive-74",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-bb97545e-6266-47a0-8653-012e5f1393f7",
+   "event_idx": 26,
+   "packet_sha256_16": "c87c8ed874295ad8"
+  },
+  {
+   "item_id": "M-OSW-E14-negative_or_nearmiss-75",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-63f40f4a-9a43-4870-99d8-ef11543aa5d7",
+   "event_idx": 23,
+   "packet_sha256_16": "b532e58914661e7f"
+  },
+  {
+   "item_id": "M-OSW-E14-negative_or_nearmiss-76",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-bd0655fa-e482-412e-817b-0b7baa9c95a5",
+   "event_idx": 113,
+   "packet_sha256_16": "b0f04544ebff8391"
+  },
+  {
+   "item_id": "M-OSW-E14-negative_or_nearmiss-77",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-1da64fb9-070d-4ece-a6d6-d14bbfaf4ef1",
+   "event_idx": 49,
+   "packet_sha256_16": "ba5ebcda95c93e03"
+  },
+  {
+   "item_id": "M-OSW-E14-luo_or_crossing-78",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-129ecf33-77a7-41b4-a9eb-851db8304fe2",
+   "event_idx": 40,
+   "packet_sha256_16": "dbb81420cdcd4ad8"
+  },
+  {
+   "item_id": "M-OSW-E14-luo_or_crossing-79",
+   "corpus": "OSW",
+   "target_shape": "E14",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-e54ba1ac-edeb-4e51-b7bd-70028ef799a1",
+   "event_idx": 57,
+   "packet_sha256_16": "ee3e7f8d46d7354a"
+  },
+  {
+   "item_id": "M-OSW-E3-detector_positive-80",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-4cc36b7d-b68b-4d10-9042-01cbad532ba3",
+   "event_idx": 3,
+   "packet_sha256_16": "66f10c0c00c85117"
+  },
+  {
+   "item_id": "M-OSW-E3-detector_positive-81",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-fe73e310-dceb-4df8-acc4-611e8633f652",
+   "event_idx": 32,
+   "packet_sha256_16": "ca34cbc296375bb4"
+  },
+  {
+   "item_id": "M-OSW-E3-detector_positive-82",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-d2a827bf-2497-4577-adbc-3beb3a3d1d31",
+   "event_idx": 46,
+   "packet_sha256_16": "51b0db5cc88b11ca"
+  },
+  {
+   "item_id": "M-OSW-E3-detector_positive-83",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-a8eb6ab6-c425-4126-819e-078b1162391f",
+   "event_idx": 21,
+   "packet_sha256_16": "1851347a7c564ea9"
+  },
+  {
+   "item_id": "M-OSW-E3-detector_positive-84",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-522f42d9-9bf2-4865-8eea-1c57c7400090",
+   "event_idx": 35,
+   "packet_sha256_16": "2ebb7c37cf07976d"
+  },
+  {
+   "item_id": "M-OSW-E3-negative_or_nearmiss-85",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-e7e7eb26-973d-412d-81f9-942a0eb440a7",
+   "event_idx": 29,
+   "packet_sha256_16": "87167da3854e8516"
+  },
+  {
+   "item_id": "M-OSW-E3-negative_or_nearmiss-86",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-20a7b444-d1d3-48a1-b632-2ed79b66e66b",
+   "event_idx": 31,
+   "packet_sha256_16": "58b07bb10e4374c8"
+  },
+  {
+   "item_id": "M-OSW-E3-negative_or_nearmiss-87",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-acecc921-279e-4fb4-afcd-1e0df5003fc6",
+   "event_idx": 14,
+   "packet_sha256_16": "d3e94c46fca202e8"
+  },
+  {
+   "item_id": "M-OSW-E3-luo_or_crossing-88",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-3d3195bb-91ca-4a94-a27d-2cb225981a1c",
+   "event_idx": 26,
+   "packet_sha256_16": "aea8f083a8e71408"
+  },
+  {
+   "item_id": "M-OSW-E3-luo_or_crossing-89",
+   "corpus": "OSW",
+   "target_shape": "E3",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-4b6bfa6a-e730-4f38-9f94-9a472b6b00eb",
+   "event_idx": 2,
+   "packet_sha256_16": "9ad3f2b404460d06"
+  },
+  {
+   "item_id": "M-OSW-E6-detector_positive-90",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-7129b50a-4fa4-4be8-acd9-1c37e8082a7f",
+   "event_idx": 45,
+   "packet_sha256_16": "fe35b447ce59753e"
+  },
+  {
+   "item_id": "M-OSW-E6-detector_positive-91",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-42ba1a44-9bd3-47b1-b211-f061fd3e05c3",
+   "event_idx": 57,
+   "packet_sha256_16": "6af5d48c16e18026"
+  },
+  {
+   "item_id": "M-OSW-E6-detector_positive-92",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-7fd97cbc-cd67-4a78-89f4-3355f425e94e",
+   "event_idx": 42,
+   "packet_sha256_16": "580f4b4544c98fc5"
+  },
+  {
+   "item_id": "M-OSW-E6-detector_positive-93",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-a4cc7d0d-7fe0-46c5-8d12-15552c94037b",
+   "event_idx": 53,
+   "packet_sha256_16": "a82ec6618d3bf67d"
+  },
+  {
+   "item_id": "M-OSW-E6-detector_positive-94",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-9f0e81e6-df7b-408c-9d7e-62fb0a27ce16",
+   "event_idx": 55,
+   "packet_sha256_16": "2dd40046204606eb"
+  },
+  {
+   "item_id": "M-OSW-E6-negative_or_nearmiss-95",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-e2882980-01d9-4153-acf9-a64b9178be5f",
+   "event_idx": 15,
+   "packet_sha256_16": "863d8b90c8457d87"
+  },
+  {
+   "item_id": "M-OSW-E6-negative_or_nearmiss-96",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-c3c66d07-6089-4944-bf3e-157e7b28c07f",
+   "event_idx": 81,
+   "packet_sha256_16": "60de9e472925573e"
+  },
+  {
+   "item_id": "M-OSW-E6-negative_or_nearmiss-97",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-0089b3aa-e2d0-4263-9ea6-87fd28375be4",
+   "event_idx": 20,
+   "packet_sha256_16": "99d6ddc584dc8c0a"
+  },
+  {
+   "item_id": "M-OSW-E6-luo_or_crossing-98",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-d39b5b87-8802-43a8-8406-e12d15ac2d2f",
+   "event_idx": 65,
+   "packet_sha256_16": "dc8135128cb8cee5"
+  },
+  {
+   "item_id": "M-OSW-E6-luo_or_crossing-99",
+   "corpus": "OSW",
+   "target_shape": "E6",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-a927f271-8e4c-4eba-a76a-e4392d3d8d74",
+   "event_idx": 70,
+   "packet_sha256_16": "25abe6020e460233"
+  },
+  {
+   "item_id": "M-OSW-E1-detector_positive-100",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-448c4861-09f8-4348-8842-3086431c58c9",
+   "event_idx": 36,
+   "packet_sha256_16": "b2c84886f5f23cf4"
+  },
+  {
+   "item_id": "M-OSW-E1-detector_positive-101",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-5aba24d8-4dcf-4ba5-b5f5-0277a0cd7385",
+   "event_idx": 42,
+   "packet_sha256_16": "4214d8e12a270f4d"
+  },
+  {
+   "item_id": "M-OSW-E1-detector_positive-102",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-500b01be-9fa4-4178-b7d9-d3a26a693a2f",
+   "event_idx": 30,
+   "packet_sha256_16": "d20ac18238ef7cb5"
+  },
+  {
+   "item_id": "M-OSW-E1-detector_positive-103",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-6b42ec34-05be-418b-810b-04ed278a6aca",
+   "event_idx": 36,
+   "packet_sha256_16": "81e393b8fdfe468f"
+  },
+  {
+   "item_id": "M-OSW-E1-detector_positive-104",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-7d64df14-9460-4f5b-a0e8-b54bb7643d9b",
+   "event_idx": 36,
+   "packet_sha256_16": "2bd02fafd91a67fe"
+  },
+  {
+   "item_id": "M-OSW-E1-negative_or_nearmiss-105",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-594f683d-aaa6-4849-86f0-e647828eae9c",
+   "event_idx": 3,
+   "packet_sha256_16": "0704c227ea49b958"
+  },
+  {
+   "item_id": "M-OSW-E1-negative_or_nearmiss-106",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-90931195-4a88-48c0-b6c1-d9e38d333071",
+   "event_idx": 88,
+   "packet_sha256_16": "d9f014474bc96cd3"
+  },
+  {
+   "item_id": "M-OSW-E1-negative_or_nearmiss-107",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-073af210-372e-405d-9bf7-992c009945c5",
+   "event_idx": 26,
+   "packet_sha256_16": "e7efbc504e4c0205"
+  },
+  {
+   "item_id": "M-OSW-E1-luo_or_crossing-108",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-8a47681d-bc47-4d22-b402-4092e3a3cd84",
+   "event_idx": 18,
+   "packet_sha256_16": "7c33c3855186cf05"
+  },
+  {
+   "item_id": "M-OSW-E1-luo_or_crossing-109",
+   "corpus": "OSW",
+   "target_shape": "E1",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-f18c5cbd-596d-475f-b132-e70a9c9f80f5",
+   "event_idx": 68,
+   "packet_sha256_16": "a74e82adfe56e4be"
+  },
+  {
+   "item_id": "M-OSW-E12-detector_positive-110",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-f70e6cb1-20e5-4449-ba17-6db7c7415488",
+   "event_idx": 0,
+   "packet_sha256_16": "727140666b2b89c5"
+  },
+  {
+   "item_id": "M-OSW-E12-detector_positive-111",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-8e40d9d7-deb0-405c-bac1-66cf7374595d",
+   "event_idx": 2,
+   "packet_sha256_16": "68c492e43476f162"
+  },
+  {
+   "item_id": "M-OSW-E12-detector_positive-112",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-0ade11a8-4454-4083-b5e6-7f71aeb4c5df",
+   "event_idx": 46,
+   "packet_sha256_16": "5eb6bf1f89bb11a0"
+  },
+  {
+   "item_id": "M-OSW-E12-detector_positive-113",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-922ab641-2f5c-4b7d-adab-c27bf2d28fbf",
+   "event_idx": 59,
+   "packet_sha256_16": "c7707d361263af57"
+  },
+  {
+   "item_id": "M-OSW-E12-detector_positive-114",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "detector_positive",
+   "trajectory_identity": "OSW-223284bc-a644-482b-8993-e8b54d679dfe",
+   "event_idx": 84,
+   "packet_sha256_16": "5b319ed41376b110"
+  },
+  {
+   "item_id": "M-OSW-E12-negative_or_nearmiss-115",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-d993ddae-9610-4a46-be12-8dcd463b53e8",
+   "event_idx": 49,
+   "packet_sha256_16": "2518ac5545c2ef88"
+  },
+  {
+   "item_id": "M-OSW-E12-negative_or_nearmiss-116",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-de11eafd-3d4a-4ecc-a6fe-344bb5184371",
+   "event_idx": 32,
+   "packet_sha256_16": "d0f4a44e7938e240"
+  },
+  {
+   "item_id": "M-OSW-E12-negative_or_nearmiss-117",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "negative_or_nearmiss",
+   "trajectory_identity": "OSW-6d0ebe92-b707-4ec0-8c37-84f5acb0fa28",
+   "event_idx": 34,
+   "packet_sha256_16": "da3c57c566d478ea"
+  },
+  {
+   "item_id": "M-OSW-E12-luo_or_crossing-118",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-cfd684bb-ff41-4002-8d01-42358ac28a7e",
+   "event_idx": 14,
+   "packet_sha256_16": "29654406593f1cb3"
+  },
+  {
+   "item_id": "M-OSW-E12-luo_or_crossing-119",
+   "corpus": "OSW",
+   "target_shape": "E12",
+   "stratum": "luo_or_crossing",
+   "trajectory_identity": "OSW-0ccd9d5d-7ecd-4f32-9292-7791750b0dbd",
+   "event_idx": 52,
+   "packet_sha256_16": "0a051a4b813f817b"
+  }
+ ],
+ "manifest_sha256_16": "5d54eb69461cd14c"
+}

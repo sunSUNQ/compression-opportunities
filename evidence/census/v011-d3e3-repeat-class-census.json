@@ -1,0 +1,204 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E3 repetition-class task-level savings census (prereg 0b16c0c6 FROZEN before first aggregate)",
+ "date": "2026-09-23",
+ "dataset": {
+  "pin": "D:/tasco-temp/d3_hf_data/sessions.parquet",
+  "sessions": 15000
+ },
+ "definitions_reused_unchanged": true,
+ "session_ledger_stats": {
+  "E2_repeated_similar_command": {
+   "sessions_with_shape": 9940,
+   "session_incidence": 0.6627,
+   "qualifying_events_median": 19.0,
+   "qualifying_chars": {
+    "p25": 8499,
+    "median": 36654.5,
+    "p75": 69078,
+    "p90": 97459
+   },
+   "gross_repeated_chars_median": 36654.5,
+   "conservative_removable_chars": {
+    "p25": 2249,
+    "median": 8224.5,
+    "p75": 17964,
+    "p90": 32603
+   },
+   "cumulative_removable_thresholds": {
+    ">= 1000 chars": 0.5549,
+    ">= 2000 chars": 0.5062,
+    ">= 5000 chars": 0.4134,
+    ">= 10000 chars": 0.2907
+   },
+   "repeat_count_distribution": {
+    "1": 0.0452,
+    "2-3": 0.0749,
+    "4-7": 0.139,
+    "8+": 0.7408
+   },
+   "removable_ratio_median": 0.0752,
+   "removable_ratio_p90": 0.205
+  },
+  "E3_same_file_reread": {
+   "sessions_with_shape": 9999,
+   "session_incidence": 0.6666,
+   "qualifying_events_median": 13,
+   "qualifying_chars": {
+    "p25": 9384,
+    "median": 17445,
+    "p75": 31456,
+    "p90": 52048
+   },
+   "gross_repeated_chars_median": 17445,
+   "conservative_removable_chars": {
+    "p25": 2584,
+    "median": 5393,
+    "p75": 9964,
+    "p90": 16683
+   },
+   "cumulative_removable_thresholds": {
+    ">= 1000 chars": 0.6093,
+    ">= 2000 chars": 0.5405,
+    ">= 5000 chars": 0.3545,
+    ">= 10000 chars": 0.1661
+   },
+   "repeat_count_distribution": {
+    "1": 0.0035,
+    "2-3": 0.035,
+    "4-7": 0.1742,
+    "8+": 0.7873
+   },
+   "removable_ratio_median": 0.0531,
+   "removable_ratio_p90": 0.1653
+  },
+  "E14_output_followed_by_reread": {
+   "sessions_with_shape": 9790,
+   "session_incidence": 0.6527,
+   "qualifying_events_median": 10.0,
+   "qualifying_chars": {
+    "p25": 6330,
+    "median": 13022.5,
+    "p75": 24293,
+    "p90": 40972
+   },
+   "gross_repeated_chars_median": 13022.5,
+   "conservative_removable_chars": {
+    "p25": 1335,
+    "median": 3174.0,
+    "p75": 6462,
+    "p90": 11640
+   },
+   "cumulative_removable_thresholds": {
+    ">= 1000 chars": 0.5271,
+    ">= 2000 chars": 0.4219,
+    ">= 5000 chars": 0.2187,
+    ">= 10000 chars": 0.0861
+   },
+   "repeat_count_distribution": {
+    "1": 0.0292,
+    "2-3": 0.0944,
+    "4-7": 0.2471,
+    "8+": 0.6293
+   },
+   "removable_ratio_median": 0.0324,
+   "removable_ratio_p90": 0.1206
+  },
+  "deduplicated_union": {
+   "sessions_with_shape": 9999,
+   "session_incidence": 0.6666,
+   "qualifying_events_median": 24,
+   "qualifying_chars": {
+    "p25": 19815,
+    "median": 45604,
+    "p75": 74465,
+    "p90": 102477
+   },
+   "gross_repeated_chars_median": 45604,
+   "conservative_removable_chars": {
+    "p25": 3988,
+    "median": 9782,
+    "p75": 19534,
+    "p90": 33782
+   },
+   "cumulative_removable_thresholds": {
+    ">= 1000 chars": 0.6193,
+    ">= 2000 chars": 0.5731,
+    ">= 5000 chars": 0.467,
+    ">= 10000 chars": 0.3277
+   },
+   "repeat_count_distribution": {
+    "1": 0.0,
+    "2-3": 0.0038,
+    "4-7": 0.0594,
+    "8+": 0.9368
+   },
+   "removable_ratio_median": 0.0958,
+   "removable_ratio_p90": 0.2263
+  }
+ },
+ "cross_shape_overlaps_session_incidence": {
+  "E2_and_E3": 0.6626666666666666,
+  "E2_and_E14": 0.6487333333333334,
+  "E3_and_E14": 0.6526666666666666,
+  "E2_E3_E14": 0.6487333333333334
+ },
+ "dual_denominators_note": "removable_ratio uses observation-only denominator; observation+assistant totals: {\"obs\": 1134133251, \"obs_plus_assistant\": 1304545899}",
+ "context_totals": {
+  "obs": 1134133251,
+  "obs_plus_assistant": 1304545899
+ },
+ "concentration": {
+  "top_shares": {
+   "top0_cumulative_share": 0.0013,
+   "top1_cumulative_share": 0.0603,
+   "top5_cumulative_share": 0.2084,
+   "top10_cumulative_share": 0.3408
+  },
+  "length_buckets": {
+   "<=20": {
+    "sessions": 2500,
+    "union_removable_median": 1892.0,
+    "union_removable_p75": 3565
+   },
+   "21-40": {
+    "sessions": 2500,
+    "union_removable_median": 7853.0,
+    "union_removable_p75": 13068
+   },
+   "41-60": {
+    "sessions": 2500,
+    "union_removable_median": 13615.0,
+    "union_removable_p75": 21832
+   },
+   ">60": {
+    "sessions": 2500,
+    "union_removable_median": 21988.5,
+    "union_removable_p75": 33439
+   }
+  },
+  "after_removing_top5pct_longest": {
+   "removed_top5pct_sessions": 500,
+   "remaining_union_removable_median": 9158.5,
+   "remaining_union_removable_p75": 17986,
+   "remaining_ge1K_incidence": 0.9253,
+   "remaining_ge2K_incidence": 0.8523,
+   "remaining_ge5K_incidence": 0.6847
+  },
+  "resolved_strata": {
+   "resolved_true": {
+    "sessions": 2192,
+    "union_removable_median": 2672.5,
+    "union_removable_p75": 6131
+   },
+   "resolved_false_or_unknown": {
+    "sessions": 7808,
+    "union_removable_median": 12189.5,
+    "union_removable_p75": 22636
+   }
+  }
+ },
+ "naming_discipline": "estimated removable chars per frozen mechanical oracle; NOT token savings",
+ "verdict": "CENSUS_COMPLETE",
+ "aggregates_sha256": "825d47b17307ea1526a07da28e26539083234acbc1fe5eca5a6e476274ac31aa"
+}

@@ -1,0 +1,135 @@
+{
+ "schema_version": 2,
+ "stage": "D4-P3R4R1 model audit reconciliation (all 48 GLM schema-invalid items recovered via parquet re-annotation; 340/340 paired valid)",
+ "date": "2026-09-24",
+ "provenance": {
+  "detector_freeze_commit": "1865a160",
+  "annotation_pack_commit": "420193e0",
+  "dataset": "nvidia/Open-SWE-Traces v1.0 Minimax strata (rev f8fb5b3d2c78)",
+  "glm_recovery": "48 items with Q1=None recovered via parquet re-annotation using packet A context and frozen shape definitions; isolation maintained (GPT results not read)"
+ },
+ "corpus_counts": {
+  "manifest_total": 340,
+  "glm_annotated": 340,
+  "gpt_annotated": 340,
+  "paired_valid": 340,
+  "glm_schema_invalid_before_recovery": 48,
+  "glm_schema_invalid_after_recovery": 0,
+  "reconciliation": "FULL_340"
+ },
+ "agreement": {
+  "Q1_shape_membership": {
+   "raw_agreement": 0.5265,
+   "cohens_kappa": 0.1531,
+   "interpretation": "poor agreement; two AI models disagree on shape membership for ~47% of items"
+  },
+  "Q2_compression_opportunity": {
+   "raw_agreement": 0.4941,
+   "cohens_kappa": 0.0003,
+   "interpretation": "essentially chance-level agreement; two AI models cannot agree on whether observations constitute compression opportunities"
+  }
+ },
+ "per_shape_agreement": {
+  "E1_repeated_exact_command": {
+   "n": 28,
+   "Q1_agree": 16,
+   "Q2_agree": 11
+  },
+  "E2_repeated_similar_command": {
+   "n": 28,
+   "Q1_agree": 15,
+   "Q2_agree": 14
+  },
+  "E3_same_file_reread": {
+   "n": 28,
+   "Q1_agree": 5,
+   "Q2_agree": 0
+  },
+  "E4_overlapping_file_read": {
+   "n": 8,
+   "Q1_agree": 0,
+   "Q2_agree": 5,
+   "note": "SMALL_N"
+  },
+  "E5_same_search": {
+   "n": 28,
+   "Q1_agree": 18,
+   "Q2_agree": 21
+  },
+  "E6_large_test_success": {
+   "n": 28,
+   "Q1_agree": 7,
+   "Q2_agree": 19
+  },
+  "E7_large_test_failure": {
+   "n": 28,
+   "Q1_agree": 7,
+   "Q2_agree": 18
+  },
+  "E8_large_lint_output": {
+   "n": 8,
+   "Q1_agree": 7,
+   "Q2_agree": 5,
+   "note": "SMALL_N"
+  },
+  "E9_large_build_output": {
+   "n": 9,
+   "Q1_agree": 7,
+   "Q2_agree": 6,
+   "note": "SMALL_N"
+  },
+  "E10_repeated_validation": {
+   "n": 28,
+   "Q1_agree": 18,
+   "Q2_agree": 18
+  },
+  "E11_unchanged_validation": {
+   "n": 19,
+   "Q1_agree": 11,
+   "Q2_agree": 12
+  },
+  "E12_large_diagnostic": {
+   "n": 28,
+   "Q1_agree": 22,
+   "Q2_agree": 5
+  },
+  "E13_large_output_near_terminal": {
+   "n": 28,
+   "Q1_agree": 27,
+   "Q2_agree": 22
+  },
+  "E14_output_followed_by_reread": {
+   "n": 28,
+   "Q1_agree": 11,
+   "Q2_agree": 5
+  },
+  "E15_output_followed_by_rederivation": {
+   "n": 16,
+   "Q1_agree": 8,
+   "Q2_agree": 7
+  }
+ },
+ "key_findings": [
+  "Inter-model Q1 agreement 52.65% (kappa 0.15) — two AI models disagree on shape membership for ~47% of items",
+  "Inter-model Q2 agreement 49.41% (kappa 0.0003) — chance-level agreement on compression-opportunity judgment",
+  "E13 shape membership agreement 96.4% but compression-opportunity agreement only 78.6% — shape definition is clear but opportunity judgment is not",
+  "These results confirm that the compression-opportunity construct is genuinely ambiguous even between AI models using the same definitions",
+  "The low inter-model agreement is consistent with (and partially explains) the low inter-model agreement found in D4-P3R4 (E5 online A/B), where trajectory variance was the dominant factor"
+ ],
+ "terminology_discipline": {
+  "used": [
+   "detector–model agreement",
+   "cross-model annotation agreement",
+   "model-audit disagreement",
+   "high-priority human-review disagreement"
+  ],
+  "not_used": [
+   "detector false-positive rate",
+   "human precision",
+   "construct validity validated",
+   "compression opportunity is inherently subjective"
+  ]
+ },
+ "verdict": "MODEL_AUDIT_RECONCILED",
+ "disclaimer": "MODEL_ANNOTATION_AUDIT — not human construct-validity validation. Results are for diagnostic reference only."
+}

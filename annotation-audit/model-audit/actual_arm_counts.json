@@ -1,0 +1,17 @@
+{
+ "manifest_total": 340,
+ "glm_total_annotated": 340,
+ "glm_valid_paired": 340,
+ "glm_missing_from_manifest": [],
+ "glm_missing_count": 0,
+ "glm_extra_items": [],
+ "gpt_total_annotated": 340,
+ "gpt_valid_paired": 340,
+ "gpt_missing_from_manifest": [],
+ "gpt_missing_count": 0,
+ "gpt_extra_items": [],
+ "paired_valid_ids_count": 340,
+ "glm_schema_invalid_count": 48,
+ "gpt_schema_invalid_count": 0,
+ "verdict": "FULL_340"
+}

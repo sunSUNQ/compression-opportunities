@@ -1,0 +1,332 @@
+{
+ "authority_status": "SUPERSEDED_ACQUISITION_SNAPSHOT",
+ "superseded_by": "v011-d4a2r1-full-factorial.json",
+ "authority_note": "Acquisition-time inventory only; missing or partial cells recorded below are not the final frame authority.",
+ "openhands/minimax_m25": {
+  "complete_shards": 18,
+  "total_shards": 18,
+  "rows_available": 43603,
+  "files": [
+   {
+    "shard": 0,
+    "status": "FOOTER_OK",
+    "bytes": 206085165,
+    "rows": 2500
+   },
+   {
+    "shard": 1,
+    "status": "FOOTER_OK",
+    "bytes": 212591428,
+    "rows": 2500
+   },
+   {
+    "shard": 2,
+    "status": "FOOTER_OK",
+    "bytes": 204775106,
+    "rows": 2500
+   },
+   {
+    "shard": 3,
+    "status": "FOOTER_OK",
+    "bytes": 209535820,
+    "rows": 2500
+   },
+   {
+    "shard": 4,
+    "status": "FOOTER_OK",
+    "bytes": 217044635,
+    "rows": 2500
+   },
+   {
+    "shard": 5,
+    "status": "FOOTER_OK",
+    "bytes": 206467611,
+    "rows": 2500
+   },
+   {
+    "shard": 6,
+    "status": "FOOTER_OK",
+    "bytes": 206818321,
+    "rows": 2500
+   },
+   {
+    "shard": 7,
+    "status": "FOOTER_OK",
+    "bytes": 210674918,
+    "rows": 2500
+   },
+   {
+    "shard": 8,
+    "status": "FOOTER_OK",
+    "bytes": 215015928,
+    "rows": 2500
+   },
+   {
+    "shard": 9,
+    "status": "FOOTER_OK",
+    "bytes": 204623860,
+    "rows": 2500
+   },
+   {
+    "shard": 10,
+    "status": "FOOTER_OK",
+    "bytes": 206754830,
+    "rows": 2500
+   },
+   {
+    "shard": 11,
+    "status": "FOOTER_OK",
+    "bytes": 210869269,
+    "rows": 2500
+   },
+   {
+    "shard": 12,
+    "status": "FOOTER_OK",
+    "bytes": 203397301,
+    "rows": 2500
+   },
+   {
+    "shard": 13,
+    "status": "FOOTER_OK",
+    "bytes": 215050677,
+    "rows": 2500
+   },
+   {
+    "shard": 14,
+    "status": "FOOTER_OK",
+    "bytes": 218859700,
+    "rows": 2500
+   },
+   {
+    "shard": 15,
+    "status": "FOOTER_OK",
+    "bytes": 224140852,
+    "rows": 2500
+   },
+   {
+    "shard": 16,
+    "status": "FOOTER_OK",
+    "bytes": 243251487,
+    "rows": 2500
+   },
+   {
+    "shard": 17,
+    "status": "FOOTER_OK",
+    "bytes": 107730606,
+    "rows": 1103
+   }
+  ]
+ },
+ "sweagent/minimax_m25": {
+  "complete_shards": 19,
+  "total_shards": 19,
+  "rows_available": 46819,
+  "files": [
+   {
+    "shard": 0,
+    "status": "FOOTER_OK",
+    "bytes": 208152116,
+    "rows": 2500
+   },
+   {
+    "shard": 1,
+    "status": "FOOTER_OK",
+    "bytes": 187962422,
+    "rows": 2500
+   },
+   {
+    "shard": 2,
+    "status": "FOOTER_OK",
+    "bytes": 193337808,
+    "rows": 2500
+   },
+   {
+    "shard": 3,
+    "status": "FOOTER_OK",
+    "bytes": 187399844,
+    "rows": 2500
+   },
+   {
+    "shard": 4,
+    "status": "FOOTER_OK",
+    "bytes": 180080070,
+    "rows": 2500
+   },
+   {
+    "shard": 5,
+    "status": "FOOTER_OK",
+    "bytes": 187218815,
+    "rows": 2500
+   },
+   {
+    "shard": 6,
+    "status": "FOOTER_OK",
+    "bytes": 183044227,
+    "rows": 2500
+   },
+   {
+    "shard": 7,
+    "status": "FOOTER_OK",
+    "bytes": 175644372,
+    "rows": 2500
+   },
+   {
+    "shard": 8,
+    "status": "FOOTER_OK",
+    "bytes": 192893943,
+    "rows": 2500
+   },
+   {
+    "shard": 9,
+    "status": "FOOTER_OK",
+    "bytes": 179711014,
+    "rows": 2500
+   },
+   {
+    "shard": 10,
+    "status": "FOOTER_OK",
+    "bytes": 178155168,
+    "rows": 2500
+   },
+   {
+    "shard": 11,
+    "status": "FOOTER_OK",
+    "bytes": 178981735,
+    "rows": 2500
+   },
+   {
+    "shard": 12,
+    "status": "FOOTER_OK",
+    "bytes": 173994280,
+    "rows": 2500
+   },
+   {
+    "shard": 13,
+    "status": "FOOTER_OK",
+    "bytes": 172571587,
+    "rows": 2500
+   },
+   {
+    "shard": 14,
+    "status": "FOOTER_OK",
+    "bytes": 175582503,
+    "rows": 2500
+   },
+   {
+    "shard": 15,
+    "status": "FOOTER_OK",
+    "bytes": 199141573,
+    "rows": 2500
+   },
+   {
+    "shard": 16,
+    "status": "FOOTER_OK",
+    "bytes": 200618266,
+    "rows": 2500
+   },
+   {
+    "shard": 17,
+    "status": "FOOTER_OK",
+    "bytes": 224349863,
+    "rows": 2500
+   },
+   {
+    "shard": 18,
+    "status": "FOOTER_OK",
+    "bytes": 176569657,
+    "rows": 1819
+   }
+  ]
+ },
+ "openhands/qwen35_122b": {
+  "complete_shards": 0,
+  "total_shards": 6,
+  "rows_available": 0,
+  "files": [
+   {
+    "shard": 0,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 1,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 2,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 3,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 4,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 5,
+    "status": "MISSING",
+    "bytes": 0
+   }
+  ]
+ },
+ "sweagent/qwen35_122b": {
+  "complete_shards": 1,
+  "total_shards": 9,
+  "rows_available": 2500,
+  "files": [
+   {
+    "shard": 0,
+    "status": "CORRUPT",
+    "bytes": 4194304,
+    "err": "Parquet magic bytes not found in footer. Either the file is "
+   },
+   {
+    "shard": 1,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 2,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 3,
+    "status": "FOOTER_OK",
+    "bytes": 235339506,
+    "rows": 2500
+   },
+   {
+    "shard": 4,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 5,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 6,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 7,
+    "status": "MISSING",
+    "bytes": 0
+   },
+   {
+    "shard": 8,
+    "status": "MISSING",
+    "bytes": 0
+   }
+  ]
+ }
+}

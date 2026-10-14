@@ -1,0 +1,14 @@
+{
+ "openhands/minimax_m25": {
+  "shards": 18,
+  "footer_ok": 18,
+  "footer_bad": [],
+  "rows_total": 43603
+ },
+ "sweagent/minimax_m25": {
+  "shards": 19,
+  "footer_ok": 19,
+  "footer_bad": [],
+  "rows_total": 46819
+ }
+}

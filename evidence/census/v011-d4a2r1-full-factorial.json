@@ -1,0 +1,94 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D4-A2R1 SAxQwen cross-cell closure — full factorial model x scaffold (prereg A2 frozen; detectors unchanged)",
+ "date": "2026-09-24",
+ "provenance": {
+  "detector_freeze_commit": "1865a160",
+  "dataset": "nvidia/Open-SWE-Traces v1.0 rev f8fb5b3d2c78",
+  "sa_qwen_frame": "9/9 shards FULL (20334 trajectories), transactional recovery (never delete valid finals)"
+ },
+ "sa_qwen_sessions": 20334,
+ "sa_qwen_incidence": {
+  "E10": 0.0,
+  "E11": 0.0,
+  "E12": 0.8292,
+  "E13": 0.2392,
+  "E14": 0.9705,
+  "E15": 0.0001,
+  "E1": 1.0,
+  "E2": 1.0,
+  "E3": 0.9991,
+  "E5": 0.3232,
+  "E8": 0.0,
+  "E9": 0.0001
+ },
+ "e13_full_factorial_2x2": {
+  "incidence": {
+   "OH_x_Minimax": 0.6487,
+   "SA_x_Minimax": 0.284,
+   "OH_x_Qwen": 0.4389,
+   "SA_x_Qwen": 0.2392
+  },
+  "contrasts": {
+   "scaffold_within_minimax": {
+    "pp_diff": -0.3647,
+    "ratio": 0.438
+   },
+   "scaffold_within_qwen": {
+    "pp_diff": -0.1997,
+    "ratio": 0.545
+   },
+   "model_within_openhands": {
+    "pp_diff": -0.2098,
+    "ratio": 0.677
+   },
+   "model_within_sweagent": {
+    "pp_diff": -0.0448,
+    "ratio": 0.842
+   }
+  },
+  "scaffold_effect_consistent_across_models": true,
+  "reading": "scaffold contrast direction consistent across models (Minimax -0.365, Qwen -0.200 pp; |effect| 0.365 vs 0.200); model contrast within SA +-0.045 pp"
+ },
+ "core_shape_model_contrast_on_SA": {
+  "E1": {
+   "minimax": 0.9999,
+   "qwen": 1.0,
+   "ratio": 1.0,
+   "verdict": "MODEL_STABLE"
+  },
+  "E2": {
+   "minimax": 1.0,
+   "qwen": 1.0,
+   "ratio": 1.0,
+   "verdict": "MODEL_STABLE"
+  },
+  "E3": {
+   "minimax": 1.0,
+   "qwen": 0.9991,
+   "ratio": 0.999,
+   "verdict": "MODEL_STABLE"
+  },
+  "E12": {
+   "minimax": 0.8185,
+   "qwen": 0.8292,
+   "ratio": 1.013,
+   "verdict": "MODEL_STABLE"
+  },
+  "E13": {
+   "minimax": 0.284,
+   "qwen": 0.2392,
+   "ratio": 0.842,
+   "verdict": "MODEL_STABLE"
+  },
+  "E14": {
+   "minimax": 0.9579,
+   "qwen": 0.9705,
+   "ratio": 1.013,
+   "verdict": "MODEL_STABLE"
+  }
+ },
+ "full_factorial_status": "COMPLETE (2x2 all four cells observed; OH/SA x Minimax/Qwen)",
+ "verdict": "FULL_FACTORIAL_VALIDATION_COMPLETE",
+ "aggregates_sha256": "3168804e0c8e69097deaf728f4dc2b407228040bf4fd97c82d0877f263f6d3ce"
+}

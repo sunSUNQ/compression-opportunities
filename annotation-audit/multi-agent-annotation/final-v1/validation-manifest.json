@@ -1,0 +1,25 @@
+{
+ "schema_version": 1,
+ "title": "Validation manifest — G1–G7 gate results and formal phase outcomes",
+ "date": "2026-10-12",
+ "pilot_gates": {
+  "G1_schema_100pct": "PASS (42/42 after recovery)",
+  "G2_citation_100pct": "PASS",
+  "G3_canary_leak_0": "PASS",
+  "G4_drift_0": "PASS",
+  "G5_no_unresolved": "PASS (after recovery)",
+  "G6_token_cap": "PASS",
+  "G7_eval3_precheck": "PASS"
+ },
+ "formal_gates": {
+  "F1_completeness_360": "PASS",
+  "F2_schema_100pct_labeled": "PASS (314/314)",
+  "F3_citation_100pct_labeled": "PASS (314/314)",
+  "F4_canary_leak_0": "PASS",
+  "F5_drift_0": "PASS",
+  "F6_token_cap_900k": "PASS (~802K)"
+ },
+ "three_channel_ready": "YES (R2 closure confirmed)",
+ "pilot_pass": "YES (attempt-2, 42/42)",
+ "formal_complete": "YES (360/360 cells executed, 314 VALID)"
+}

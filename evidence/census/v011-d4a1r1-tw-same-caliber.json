@@ -1,0 +1,64 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D4-A1R1 Thoughtworks same-caliber recalculation E1/E2/E3/E14 (prereg 8303a572 FROZEN before first aggregate)",
+ "date": "2026-10-09",
+ "provenance": {
+  "detector_source": "evidence/tools/v011_d4a1_census.py (A0 freeze 1865a160), rules verbatim",
+  "schema_adapter_source": "evidence/tools/v011_d3e3_repeat_class_census.py loader (TW schema; user-observation fallback; code-fence fallback)",
+  "single_variable": "path-aware command normalization (d4a1 rule applied to TW loader)",
+  "input_pin": "D:/tasco-temp/d3_hf_data/sessions.parquet",
+  "input_bytes": 325563194,
+  "denominator": "all corpus rows (matches D3-E1 accounting)"
+ },
+ "census_integrity": {
+  "sessions_expected": 15000,
+  "sessions_censused": 15000,
+  "complete": true
+ },
+ "shapes": {
+  "E1_repeated_exact_command": {
+   "sessions_with_shape": 9892,
+   "tw_same_caliber_incidence": 0.6595,
+   "tw_original_caliber_incidence": 0.6581,
+   "caliber_shift_pp": 0.14,
+   "osw_incidence": 0.9996,
+   "band_osw_vs_tw_original": "REPLICATED",
+   "band_osw_vs_tw_same_caliber": "REPLICATED",
+   "ratio_osw_over_tw_same_caliber": 1.5157
+  },
+  "E2_repeated_similar_command": {
+   "sessions_with_shape": 9952,
+   "tw_same_caliber_incidence": 0.6635,
+   "tw_original_caliber_incidence": 0.6627,
+   "caliber_shift_pp": 0.08,
+   "osw_incidence": 0.9998,
+   "band_osw_vs_tw_original": "REPLICATED",
+   "band_osw_vs_tw_same_caliber": "REPLICATED",
+   "ratio_osw_over_tw_same_caliber": 1.5069
+  },
+  "E3_same_file_reread": {
+   "sessions_with_shape": 9999,
+   "tw_same_caliber_incidence": 0.6666,
+   "tw_original_caliber_incidence": 0.6651,
+   "caliber_shift_pp": 0.15,
+   "osw_incidence": 0.9999,
+   "band_osw_vs_tw_original": "REPLICATED",
+   "band_osw_vs_tw_same_caliber": "REPLICATED",
+   "ratio_osw_over_tw_same_caliber": 1.5
+  },
+  "E14_output_followed_by_reread": {
+   "sessions_with_shape": 9790,
+   "tw_same_caliber_incidence": 0.6527,
+   "tw_original_caliber_incidence": 0.6153,
+   "caliber_shift_pp": 3.74,
+   "osw_incidence": 0.9484,
+   "band_osw_vs_tw_original": "REPLICATED",
+   "band_osw_vs_tw_same_caliber": "REPLICATED",
+   "ratio_osw_over_tw_same_caliber": 1.453
+  }
+ },
+ "interpretation_note": "bands use the frozen D4-A1 function; original TW incidences are the D3-E1 authority and remain unchanged",
+ "naming_discipline": "session-incidence recalculation only; no removable-char ledger is recomputed",
+ "verdict": "TW_SAME_CALIBER_RECALCULATION_COMPLETE",
+ "aggregates_sha256": "9050d4a1e69799c950cfe64068feb5829608abe940481d3c52ab306eb55c30c5"
+}

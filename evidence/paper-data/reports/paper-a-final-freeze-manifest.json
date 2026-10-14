@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "title": "PAPER-A-FINAL-CORRECTION-AND-FREEZE-R1 — Technical Freeze Manifest",
+  "date": "2026-10-12",
+  "verdict": "TECHNICAL_FREEZE_READY",
+  "submission_ready": "CONDITIONAL (VENUE_FORMAT_UNVERIFIED)",
+  "corrections": [
+    {"id": 1, "description": "314/360 → 317/360 in §3.5", "status": "FIXED"},
+    {"id": 2, "description": "340-item 'heterogeneous LLM evaluators' → accurate rule-script + LLM description", "status": "FIXED"},
+    {"id": 3, "description": "Old COC → event-payload allocation proxy", "status": "FIXED (prior round)"},
+    {"id": 4, "description": "E14 51.7% coverage gap", "status": "FIXED (prior round)"},
+    {"id": 5, "description": "E13 Q2a subjectivity", "status": "FIXED (prior round)"}
+  ],
+  "authoritative_metrics": {
+    "planned": 360, "valid": 317, "infra_blocked": 43,
+    "all_three_valid": 98,
+    "q1_fleiss_kappa": 0.8049,
+    "q2a_fleiss_kappa": 0.3835,
+    "q2b_fleiss_kappa": 0.7961,
+    "detector_replication": "9/14 (7R + 2P + 5DS, E8 NOT_MEASURABLE)"
+  },
+  "frozen_inputs": {
+    "manifest_v2": "284c47ea200607dc",
+    "a1r3_census": "ae954c032022ca79",
+    "osw_census": "7d22b0b98062cc8c",
+    "a0_registry": "57e71b310f75f416",
+    "frozen_config": "68d0f94db08163c4",
+    "runner": "bfedf5ecd16b37e9",
+    "packet_hashes": "8ecd87483ae81b7f",
+    "statistics_amendment": "de30138fa71414a0"
+  },
+  "pdf": {"pages": 9, "errors": 0, "undefined": 0, "overfull": 0},
+  "venue_format_verified": false,
+  "stop": "技术冻结完成；VENUE_FORMAT_VERIFIED = UNVERIFIED；等待投稿授权"
+}

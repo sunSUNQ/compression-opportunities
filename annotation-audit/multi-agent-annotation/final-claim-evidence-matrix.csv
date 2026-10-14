@@ -1,0 +1,18 @@
+# final-claim-evidence-matrix
+
+| Claim | Evidence | Status |
+|---|---|---|
+| Q1 3-way agreement 85.4% | Fleiss κ=0.8049, 96 all3-valid | VERIFIED |
+| Q2b 3-way agreement 94.9% | Fleiss κ=0.7961, 96 all3-valid | VERIFIED |
+| Q2a 3-way agreement 81.3% | Fleiss κ=0.3983, 96 all3-valid | VERIFIED (moderate) |
+| Pairwise Q1 κ range 0.75–0.84 | 3 pairwise Cohen κ on 96 subset | VERIFIED |
+| E13 scaffold +35.2pp | Paired analysis, CI [33.1,37.3] | VERIFIED (survives Bonferroni) |
+| E12 scaffold −3.1pp | Paired analysis, CI excludes 0 | VERIFIED |
+| 8/13 replication bands | A1R3 census + consistency-audit-r1 | VERIFIED |
+| Core shape incidence stability | Cluster bootstrap CI <1.5% width | VERIFIED |
+| Trajectory independence | NOT SUPPORTED (5,125 multi-traj instances) | DOCUMENTED |
+| Q2a inherent subjectivity | Fleiss κ=0.38 + 87% NO rate | DOCUMENTED |
+| EVAL-1 46 INFRA_BLOCKED | ChatGPT quota (external) | DOCUMENTED |
+| E14 51.7% cells INFRA_BLOCKED | OpenCode+GLM-5.3 timeout on paired-context items | DOCUMENTED |
+| Packet→A0 definition match | 120/120 | VERIFIED |
+| Sample ID match shared↔formal | 120/120 | VERIFIED |

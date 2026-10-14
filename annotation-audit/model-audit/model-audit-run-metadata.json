@@ -1,0 +1,22 @@
+{
+  "audit_type": "MODEL_ANNOTATION_AUDIT",
+  "model_provider": "OpenAI",
+  "model": "GPT-5 (Codex runtime)",
+  "agent_runtime": "Codex desktop agent",
+  "annotator_arm": "B",
+  "packet_path": "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\construct-validity\\blinded-packets\\annotations-B.json",
+  "packet_sha256": "FFCD37BFA01783701EA3CAFE1C9817DB97F5D183FD86B633114640F5F2E183AD",
+  "protocol_sha256": "D6113920B6D42F433356AC7E7108F632EB7645030BEE3A52F4EE490327673806",
+  "schema_sha256": "B7803F7D85FB9AFB0A5779976C4C94DD3BB9B489A7F4B5738EF11173F35BCB41",
+  "item_count": 340,
+  "completion_count": 340,
+  "timestamp_utc": "2026-09-28T08:31:28.468788+00:00",
+  "parse_errors": 0,
+  "annotation_errors": 0,
+  "retries": 0,
+  "parse_error_occurred": false,
+  "error_occurred": false,
+  "retry_occurred": false,
+  "agreement_computed": false,
+  "human_annotation": false
+}

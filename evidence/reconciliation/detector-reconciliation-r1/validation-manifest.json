@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "task": "PAPER-A-DETECTOR-CROSS-CORPUS-RECONCILIATION-R1",
+  "status": "HOLD",
+  "component_status": {
+    "detector_difference_audit": "PASS",
+    "shared_detector_implementation": "PASS",
+    "golden_fixtures": "PASS",
+    "tw_osw_full_replay": "PASS",
+    "data_integrity_and_determinism": "PASS",
+    "formal_120_manifest_compatibility": "HOLD_MANIFEST_UNAVAILABLE"
+  },
+  "base_commit": "5e57cf5e62a688cfd43b5762d83b1906e637283c",
+  "branch": "codex/paper-a-detector-reconciliation-r1",
+  "taxonomy_changed": false,
+  "paper_modified": false,
+  "frozen_evidence_overwritten": false,
+  "annotation_labels_or_results_read": false,
+  "coc_touched": false,
+  "input_sha256": [
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\sessions.parquet",
+      "sha256": "3dd8ec3546cf771ce4ab2ac6c51ccefdd621197fa997a2cefb430b50df808fb6",
+      "bytes": 325563194
+    },
+    {
+      "path": "evidence\\V1\\v011-d4a1-oswe-20k-manifest-v2.json",
+      "sha256": "284c47ea200607dc7d331edbb13fee300f6f0e45d1c5f72c1f15bda86eb15a7e",
+      "bytes": 3122572
+    },
+    {
+      "path": "evidence\\V1\\v011-d4a0-taxonomy-registry.json",
+      "sha256": "8a8bc7c8ee1f87b0c80ab73cf2e6de4abd020db7924849db5dbda96b80db5f6f",
+      "bytes": 15188
+    },
+    {
+      "path": "evidence\\V1\\v011-d4a1r3-tw-trajectory-census.json",
+      "sha256": "ae954c032022ca795ae7556a6d24024b73eb5cd7bf0531440e5761736a6b9ea7",
+      "bytes": 15987
+    },
+    {
+      "path": "evidence\\V1\\v011-d4a1-census-results.json",
+      "sha256": "7d22b0b98062cc8cd90fe5269f3b9b559b5dcd4edc835dc49d0e31d106670eda",
+      "bytes": 8233
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00000-of-00018.parquet",
+      "sha256": "4d917ba86b030b1f5e227222b0bfe5c1e74c696cbde3a05e7085f30601bb7435",
+      "bytes": 206085165
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00001-of-00018.parquet",
+      "sha256": "01af05aaee22af2d0f6a8fcc0e93158d02c7337a1caa9228c420fdc0f93a16e6",
+      "bytes": 212591428
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00002-of-00018.parquet",
+      "sha256": "2ecad01859a0438c2d14ecf0f717af853144b3ffcc76ce768e4d5fa199371d04",
+      "bytes": 204775106
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00003-of-00018.parquet",
+      "sha256": "c695352570b9ed24fa09a8dc2c9fe846d08b7856d5ff564d1f74d53d5fbce8db",
+      "bytes": 209535820
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00004-of-00018.parquet",
+      "sha256": "e6cf981cd6ab58269c841c6a7dd37a789eb6d2ac6f8b2a7acc96126fd872976f",
+      "bytes": 217044635
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00005-of-00018.parquet",
+      "sha256": "50b3ac6505005ac9fd239aee1984eda3b780396e93c767229c68250ea644a5e0",
+      "bytes": 206467611
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00006-of-00018.parquet",
+      "sha256": "0f47dd8ed489933d00116439bab74fe86f42f26cd37d44887bdee5a5da905996",
+      "bytes": 206818321
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00007-of-00018.parquet",
+      "sha256": "233b41cda43846d21d53f2aea60469e0b1b5af2e1a47890b2a69bfb88922aa17",
+      "bytes": 210674918
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00008-of-00018.parquet",
+      "sha256": "d9a07dbe4113a4d25e8a595220a09cc00dca55898160d86121c600b50329c056",
+      "bytes": 215015928
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00009-of-00018.parquet",
+      "sha256": "1ea1211d29d3f8f36b1b928133d889e22d1ba660689a14802dcf4fc23b254ced",
+      "bytes": 204623860
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00010-of-00018.parquet",
+      "sha256": "3e1407e92d1d330037c8d422497dcd68fb55ffc43a200283e35d8cb0ccc2e85c",
+      "bytes": 206754830
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00011-of-00018.parquet",
+      "sha256": "b90e944181adcc6af08a7d5e2d60d1502675b36621edd5ed97d78f1cf7aed8a4",
+      "bytes": 210869269
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00012-of-00018.parquet",
+      "sha256": "07987757d19ca00f4be64a6cf6c2c87616b0486190133ef8f38895954990b806",
+      "bytes": 203397301
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00013-of-00018.parquet",
+      "sha256": "f6e2b92eb5d31cc4f95e73d600915e5cf8203e0bf47cbce6ddb48d2bde5d93af",
+      "bytes": 215050677
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00014-of-00018.parquet",
+      "sha256": "4bf50b17bcfdd874ebcb7a680bc7610870709ab0027c90a9f72042987cb8ca57",
+      "bytes": 218859700
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00015-of-00018.parquet",
+      "sha256": "05a1d52a03758ed82e7b4af085ef177cf512163fdd0cf824201c7f92d8f06fa5",
+      "bytes": 224140852
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00016-of-00018.parquet",
+      "sha256": "a717d9f1b950ef2a48b954283bb6c1822f7d04c30cc26260b2399fe1c8ac91d9",
+      "bytes": 243251487
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\openhands_minimax_m25_swe-rebench-v2_train-00017-of-00018.parquet",
+      "sha256": "e196d4ba216bdc06d580ed3c1684fe8edc75d9e5ae617a420da44385d8c5d21e",
+      "bytes": 107730606
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00000-of-00019.parquet",
+      "sha256": "5f8b06e6ca49394bb601dd47f3c550826980b87ac87e096f631219f56221c755",
+      "bytes": 208152116
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00001-of-00019.parquet",
+      "sha256": "6f56a35c98b246e0074a8211fa6aad63565fb1df5db4f3b67672af4aeaa34b78",
+      "bytes": 187962422
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00002-of-00019.parquet",
+      "sha256": "6c29e7f164565852ada0d1393615a27f78ee79f3467a102a87920208323d6dba",
+      "bytes": 193337808
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00003-of-00019.parquet",
+      "sha256": "e19c350469a3a617da72174c80ae75d069824d96a92b7228a020cd6f44745ee0",
+      "bytes": 187399844
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00004-of-00019.parquet",
+      "sha256": "b9ec1119b384c0c6aa9e48f2e7977e0fd999d631e7a91f958cf0e5460c4b98cf",
+      "bytes": 180080070
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00005-of-00019.parquet",
+      "sha256": "dbc6105be1e061cf06e540d6db9938a9b77f3ddc5e9387340668a1166c46b262",
+      "bytes": 187218815
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00006-of-00019.parquet",
+      "sha256": "678493ef1de44d8b93cc725989814bedbc7a45ce6b7acc67767c190e736b81e8",
+      "bytes": 183044227
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00007-of-00019.parquet",
+      "sha256": "1f058323224574ee9432777da85bb4f7ee9bba84719f0ed0a8079bb02a780fb5",
+      "bytes": 175644372
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00008-of-00019.parquet",
+      "sha256": "afd69ad7eb6562b0ceddd1505e48b8f18e882d0db7ede4472903ec60e50dc806",
+      "bytes": 192893943
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00009-of-00019.parquet",
+      "sha256": "4f3401a767c47245f310492ca5aecec1d8acdd9fe37d44f4e8d7c8c24de5a00c",
+      "bytes": 179711014
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00010-of-00019.parquet",
+      "sha256": "18f246cfc95f75fa9729ee274b5200f9091f5a9a953071e745b2f960230ab1a5",
+      "bytes": 178155168
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00011-of-00019.parquet",
+      "sha256": "bfe3c8ed4d854087d7d977335f8799041444c1689e757e82de32850704b530c7",
+      "bytes": 178981735
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00012-of-00019.parquet",
+      "sha256": "ba21c2fc3be25d86bbb4ef8a3e43e1c2a54d8dd4ad0aeec8c59c68f025c590e6",
+      "bytes": 173994280
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00013-of-00019.parquet",
+      "sha256": "55218c148edcd8fc3251f9ee4038e0fc98faf692f5bf65238ad42a068d7b9a98",
+      "bytes": 172571587
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00014-of-00019.parquet",
+      "sha256": "41cd8b09a602c91c8cd5987b999d90f94acd569f62cfd52f397b003f66c6caac",
+      "bytes": 175582503
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00015-of-00019.parquet",
+      "sha256": "fd528fbdb32a5da7a1902719b7f388d4bbe867f7fc3dc5ef1f554852dc8ea569",
+      "bytes": 199141573
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00016-of-00019.parquet",
+      "sha256": "68e7c6621527b54e74e045073bde9d4ac8bce79fd6e67152abd997fb37e331e1",
+      "bytes": 200618266
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00017-of-00019.parquet",
+      "sha256": "aab3dd742b0347f7632f49a46a3fdbd9c37938e4e4d69f912dccc470d0503a17",
+      "bytes": 224349863
+    },
+    {
+      "path": "D:\\tasco-temp\\d3_hf_data\\oswe_v10\\sweagent_minimax_m25_swe-rebench-v2_train-00018-of-00019.parquet",
+      "sha256": "fe54923bddaa09ec8fd180c9343a13d6dfd89e6a0ec6a2da5a33383c22a2a78d",
+      "bytes": 176569657
+    }
+  ],
+  "source_sha256": [
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tools\\shared_detectors.py",
+      "sha256": "d128368cbf5e4e6e3cb9125254e871b3edc4120150fc438f2d76ed5fdace636b"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tools\\adapters.py",
+      "sha256": "dd13e3c1d2cddcf2175d320a14a86f337364b386238605555f163c5c8cd24dc3"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tools\\replay.py",
+      "sha256": "39a94e7567d42e46b197258cd498e8a22eee53708d93dccfe24ab920081ac6b6"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tools\\finalize.py",
+      "sha256": "45e946307c288183d0fb91ae66ff4ca8f440ccf326c31c1533df634a66494550"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\fixtures\\golden-fixtures.json",
+      "sha256": "76e84cfab7021f41fbee154d5bb13fb5b50f4164927942dde34ce4324d968f02"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tests\\test_detectors.py",
+      "sha256": "f9ed689476f6bd8c509db8664d91518b8a4019ea87de16f6d9d11e277758ed05"
+    }
+  ],
+  "output_sha256": [
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\detector-reconciliation-r1.md",
+      "sha256": "b61a048dba8ef34efc2579b504a917dd6f0604cb86674fc63dab4bd613e9807d"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\detector-cross-corpus-diff.json",
+      "sha256": "94c8388935bee742fc59dd36cda14c5ca5582abcc836a772ae1432a4aaebdf56"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\affected-paper-artifacts.md",
+      "sha256": "f760aefcbfe02abaec40146f6b0f6138dcae2b3d086b8ff84bdf6ecf36af3116"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\annotation-sample-compatibility.md",
+      "sha256": "06ebd23b35e5877e577481c36bbb8ef0c376344748e0f083e501c4e62af8f2b8"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\replay\\replay-results.json",
+      "sha256": "373addb6b4af93fd37f6f726e46af6b778183e2a9e881640c3fa5733c067983d"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\replay\\shape-metrics.csv",
+      "sha256": "7a311f680e1fb36d2cb6102d972c62d67f05aa436921f28b5addafba9a96313a"
+    },
+    {
+      "path": "evidence\\V1\\paper\\detector-reconciliation-r1\\tests\\test-results.json",
+      "sha256": "f55643b1f3a53265a93b87f424b58008fb81961ad9cb7fa7bf5951f4e9e14bf8"
+    }
+  ],
+  "stop_reason": "Formal 120-item sample manifest is not available in the allowed shared frozen path; item-level compatibility is not verifiable without crossing the annotation worktree boundary."
+}

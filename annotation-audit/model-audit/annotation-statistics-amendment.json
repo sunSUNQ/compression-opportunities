@@ -1,0 +1,335 @@
+{
+ "schema_version": 1,
+ "stage": "PAPER-A-ANNOTATION-STATISTICS-AMENDMENT — locked recomputation of the 340-item heterogeneous-LLM annotation audit",
+ "date": "2026-10-10",
+ "label_semantics": {
+  "categories": [
+   "YES",
+   "NO",
+   "UNCERTAIN"
+  ],
+  "treatment": "nominal; standard unweighted Cohen kappa; no recoding; UNCERTAIN is a first-class category"
+ },
+ "missing_values": "none in the paired-valid 340 set (GLM 48 recovered items are first-class rows)",
+ "superseded_values": {
+  "q1_kappa_published": 0.1531,
+  "q2_kappa_published": 0.0003,
+  "status": "UNREPRODUCIBLE under standard conventions (see taxonomy-annotation-validity-v1-report.md section 2.2); computation convention not archived; superseded-for-publication by this file"
+ },
+ "inputs": {
+  "manifest_sha256_16": "187439f0141102fd",
+  "glm_sha256_16": "0f2d6e33a2815f6b",
+  "gpt_sha256_16": "4f59464f0b709300",
+  "reconciled_sha256_16": "e5409620439dc7d9"
+ },
+ "statistics": {
+  "Q1_shape_membership": {
+   "n": 340,
+   "categories": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+   ],
+   "observed_agreement": 0.526471,
+   "expected_agreement": 0.354394,
+   "cohens_kappa_unweighted": 0.266534,
+   "marginals_glm": {
+    "YES": 100,
+    "NO": 42,
+    "UNCERTAIN": 198
+   },
+   "marginals_gpt": {
+    "YES": 54,
+    "NO": 135,
+    "UNCERTAIN": 151
+   },
+   "contingency_3x3": {
+    "YES|YES": 34,
+    "YES|NO": 18,
+    "YES|UNCERTAIN": 48,
+    "NO|NO": 42,
+    "UNCERTAIN|YES": 20,
+    "UNCERTAIN|NO": 75,
+    "UNCERTAIN|UNCERTAIN": 103
+   },
+   "posneg": {
+    "positive_agreement": {
+     "both_yes": 34,
+     "denom_either_yes": 120,
+     "value": 0.2833
+    },
+    "negative_agreement": {
+     "both_no": 42,
+     "denom_either_no": 135,
+     "value": 0.3111
+    }
+   }
+  },
+  "Q2_compression_opportunity": {
+   "n": 340,
+   "categories": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+   ],
+   "observed_agreement": 0.494118,
+   "expected_agreement": 0.344394,
+   "cohens_kappa_unweighted": 0.228374,
+   "marginals_glm": {
+    "YES": 68,
+    "NO": 224,
+    "UNCERTAIN": 48
+   },
+   "marginals_gpt": {
+    "YES": 233,
+    "NO": 107,
+    "UNCERTAIN": 0
+   },
+   "contingency_3x3": {
+    "YES|YES": 68,
+    "NO|YES": 124,
+    "NO|NO": 100,
+    "UNCERTAIN|YES": 41,
+    "UNCERTAIN|NO": 7
+   },
+   "posneg": {
+    "positive_agreement": {
+     "both_yes": 68,
+     "denom_either_yes": 233,
+     "value": 0.2918
+    },
+    "negative_agreement": {
+     "both_no": 100,
+     "denom_either_no": 231,
+     "value": 0.4329
+    }
+   }
+  },
+  "detector_unblind": {
+   "det_positive": 220,
+   "det_negative": 120,
+   "glm_accepts_det_positive": {
+    "n": 84,
+    "denom": 220,
+    "value": 0.3818
+   },
+   "gpt_accepts_det_positive": {
+    "n": 53,
+    "denom": 220,
+    "value": 0.2409
+   },
+   "both_reject_det_positive_q1_not_yes": 117,
+   "both_accept_det_negative_q1_yes": 0
+  }
+ },
+ "per_shape": {
+  "E1": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 16,
+    "raw": 0.5714,
+    "kappa": 0.2971
+   },
+   "Q2_compression_opportunity": {
+    "agree": 11,
+    "raw": 0.3929,
+    "kappa": "N/A(degenerate)"
+   }
+  },
+  "E10": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 18,
+    "raw": 0.6429,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 18,
+    "raw": 0.6429,
+    "kappa": 0.3396
+   }
+  },
+  "E11": {
+   "n": 19,
+   "Q1_shape_membership": {
+    "agree": 11,
+    "raw": 0.5789,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 12,
+    "raw": 0.6316,
+    "kappa": 0.3512
+   }
+  },
+  "E12": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 22,
+    "raw": 0.7857,
+    "kappa": 0.5556
+   },
+   "Q2_compression_opportunity": {
+    "agree": 5,
+    "raw": 0.1786,
+    "kappa": 0.1402
+   }
+  },
+  "E13": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 27,
+    "raw": 0.9643,
+    "kappa": 0.9146
+   },
+   "Q2_compression_opportunity": {
+    "agree": 22,
+    "raw": 0.7857,
+    "kappa": 0.503
+   }
+  },
+  "E14": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 11,
+    "raw": 0.3929,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 5,
+    "raw": 0.1786,
+    "kappa": "N/A(degenerate)"
+   }
+  },
+  "E15": {
+   "n": 16,
+   "Q1_shape_membership": {
+    "agree": 8,
+    "raw": 0.5,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 7,
+    "raw": 0.4375,
+    "kappa": 0.122
+   }
+  },
+  "E2": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 15,
+    "raw": 0.5357,
+    "kappa": 0.2541
+   },
+   "Q2_compression_opportunity": {
+    "agree": 14,
+    "raw": 0.5,
+    "kappa": 0.1441
+   }
+  },
+  "E3": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 5,
+    "raw": 0.1786,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 0,
+    "raw": 0.0,
+    "kappa": -0.009
+   }
+  },
+  "E4": {
+   "n": 8,
+   "Q1_shape_membership": {
+    "agree": 0,
+    "raw": 0.0,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 5,
+    "raw": 0.625,
+    "kappa": "N/A(degenerate)"
+   }
+  },
+  "E5": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 18,
+    "raw": 0.6429,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 21,
+    "raw": 0.75,
+    "kappa": "N/A(degenerate)"
+   }
+  },
+  "E6": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 7,
+    "raw": 0.25,
+    "kappa": 0.1845
+   },
+   "Q2_compression_opportunity": {
+    "agree": 19,
+    "raw": 0.6786,
+    "kappa": 0.3571
+   }
+  },
+  "E7": {
+   "n": 28,
+   "Q1_shape_membership": {
+    "agree": 7,
+    "raw": 0.25,
+    "kappa": 0.125
+   },
+   "Q2_compression_opportunity": {
+    "agree": 18,
+    "raw": 0.6429,
+    "kappa": 0.3171
+   }
+  },
+  "E8": {
+   "n": 8,
+   "Q1_shape_membership": {
+    "agree": 7,
+    "raw": 0.875,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 5,
+    "raw": 0.625,
+    "kappa": "N/A(degenerate)"
+   }
+  },
+  "E9": {
+   "n": 9,
+   "Q1_shape_membership": {
+    "agree": 7,
+    "raw": 0.7778,
+    "kappa": "N/A(degenerate)"
+   },
+   "Q2_compression_opportunity": {
+    "agree": 6,
+    "raw": 0.6667,
+    "kappa": 0.2703
+   }
+  }
+ },
+ "v1_audit_consistency": {
+  "expected": {
+   "Q1": {
+    "raw": 0.5265,
+    "kappa": 0.2665
+   },
+   "Q2": {
+    "raw": 0.4941,
+    "kappa": 0.2284
+   }
+  },
+  "pass": true
+ }
+}

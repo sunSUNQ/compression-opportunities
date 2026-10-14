@@ -1,0 +1,171 @@
+{
+ "f1_completeness": {
+  "EVAL-1": {
+   "present": 120,
+   "missing": [],
+   "n_missing": 0
+  },
+  "EVAL-2": {
+   "present": 120,
+   "missing": [],
+   "n_missing": 0
+  },
+  "EVAL-3": {
+   "present": 120,
+   "missing": [],
+   "n_missing": 0
+  }
+ },
+ "f2_schema": {
+  "total_labeled": 314,
+  "schema_pass": 314,
+  "schema_rate": 1.0
+ },
+ "f3_citation": {
+  "total_labeled": 314,
+  "cit_pass": 314,
+  "cit_rate": 1.0
+ },
+ "status_distribution": {
+  "VALID": 314,
+  "INFRA_BLOCKED": 46
+ },
+ "pairwise": {
+  "EVAL-1_vs_EVAL-2_Q1_membership": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-1_vs_EVAL-2_Q2a_structural_redundancy": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-1_vs_EVAL-2_Q2b_information_preservation": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-1_vs_EVAL-3_Q1_membership": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-1_vs_EVAL-3_Q2a_structural_redundancy": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-1_vs_EVAL-3_Q2b_information_preservation": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-2_vs_EVAL-3_Q1_membership": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-2_vs_EVAL-3_Q2a_structural_redundancy": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  },
+  "EVAL-2_vs_EVAL-3_Q2b_information_preservation": {
+   "agree": 0,
+   "total": 0,
+   "raw": "N/A"
+  }
+ },
+ "three_way": {
+  "Q1_membership": {
+   "all3_agree": 82,
+   "total_with_all3": 96,
+   "rate": 0.8542
+  },
+  "Q2a_structural_redundancy": {
+   "all3_agree": 80,
+   "total_with_all3": 96,
+   "rate": 0.8333
+  },
+  "Q2b_information_preservation": {
+   "all3_agree": 91,
+   "total_with_all3": 96,
+   "rate": 0.9479
+  }
+ },
+ "per_shape": {
+  "E1": {
+   "n": 14,
+   "all3_Q1": 8
+  },
+  "E12": {
+   "n": 20,
+   "all3_Q1": 14
+  },
+  "E13": {
+   "n": 20,
+   "all3_Q1": 18
+  },
+  "E14": {
+   "n": 7,
+   "all3_Q1": 7
+  },
+  "E3": {
+   "n": 15,
+   "all3_Q1": 15
+  },
+  "E6": {
+   "n": 20,
+   "all3_Q1": 20
+  }
+ },
+ "detail_E12_E13": {
+  "E12": {
+   "EVAL-1": {
+    "yes": 8,
+    "total": 20
+   },
+   "EVAL-2": {
+    "yes": 4,
+    "total": 20
+   },
+   "EVAL-3": {
+    "yes": 8,
+    "total": 20
+   }
+  },
+  "E13": {
+   "EVAL-1": {
+    "yes": 10,
+    "total": 20
+   },
+   "EVAL-2": {
+    "yes": 10,
+    "total": 20
+   },
+   "EVAL-3": {
+    "yes": 10,
+    "total": 20
+   }
+  }
+ },
+ "corpus_breakdown": {
+  "TW": {
+   "items": 60,
+   "all3_agree_Q1": 42,
+   "total_with_all3": 47
+  },
+  "OSW": {
+   "items": 60,
+   "all3_agree_Q1": 40,
+   "total_with_all3": 49
+  }
+ },
+ "token_usage": {
+  "prompt": 0,
+  "completion": 0
+ },
+ "total_planned": 360,
+ "total_present": 360
+}

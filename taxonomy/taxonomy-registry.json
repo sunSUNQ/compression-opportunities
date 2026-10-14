@@ -1,0 +1,81 @@
+{
+ "schema_version": 1,
+ "registry": "TASCO Compression Opportunity Taxonomy & Capability Mapping Registry v1",
+ "frozen_at": "2026-09-24",
+ "dataset_independence_contract": "shape definitions and mechanical detectors are frozen from D3-E1 (prereg 55494bce) and MUST be applied unchanged to any external validation dataset; shapes discovered later are labeled post-hoc-discovered and validated only on the NEXT dataset",
+ "sources": {
+  "shape_definitions": "D3-E1 external census (15K Thoughtworks sessions, prereg 55494bce, commit fde05652)",
+  "mechanical_compressibility": "D3-E2 E13 decomposition (b8dfc2d9) + D3-E3 repeat-class census (b8a41cdf) + D3-E4 RDS replay (fe0706b9)",
+  "online_evidence": "D3-E5 A/B (3d593b06) + D3-E6 mechanism audit (53a4a820) + D3-E7 power design (6ac31a3f)",
+  "tasco_capability_status": "evidence/registry + EVIDENCE-COVERAGE-MATRIX + V0.10 release payload"
+ },
+ "fields_per_shape": ["shape_id", "name", "definition_frozen", "detector_rule", "discovery_metrics_15k", "mechanical_compressibility", "future_exposure", "supported_capabilities", "support_level", "abcde_class", "reason", "evidence_refs"],
+ "support_levels": {
+  "COVERED": "existing shipped TASCO capability mechanically and safely handles the shape",
+  "COVERED_CANDIDATE": "frozen candidate primitive (RDS, default OFF) handles it; production coverage pending capability qualification",
+  "PARTIAL": "existing capability addresses a subset of the shape",
+  "CONDITIONAL": "capability exists but triggers only on narrower morphology; exposure/risk gates apply",
+  "GAP_SEMANTIC": "opportunity requires semantic folding not implemented (future primitive)",
+  "UNSAFE": "content is decision-critical downstream; compression risks information-loss compensation",
+  "LOW_VALUE": "mechanically compressible but volume/incidence too small to justify handling",
+  "NO_OPPORTUNITY": "insufficient repetition/redundancy in observed universe"
+ },
+ "abcde_classes": {
+  "A": "Existing-capability compressible (shipped or frozen-candidate primitive fits)",
+  "B": "Compressible but unsupported (needs new semantic primitive)",
+  "C": "Opportunity exists but unsafe/high-risk (downstream information dependence)",
+  "D": "Low-value opportunity (volume too small)",
+  "E": "No meaningful opportunity"
+ },
+ "tasco_capabilities": [
+  {"id": "terminal_state", "name": "Terminal State Compression", "status": "SHIPPED (v0.9; default ON)", "mechanism": "final summary folding"},
+  {"id": "validation_delta", "name": "Validation Delta", "status": "SHIPPED (default ON)", "mechanism": "repeat-validation diff detection"},
+  {"id": "failure_carrier", "name": "Failure Carrier", "status": "SHIPPED (Zone B)", "mechanism": "failure root-cause delivery"},
+  {"id": "large_diagnostic", "name": "Diagnostic Semantic Compression", "status": "SHIPPED (Zone A rule-6)", "mechanism": "diagnostic winner folding"},
+  {"id": "read_task_compression", "name": "Read Compression (extractive/slice/repeat-suppression)", "status": "SHIPPED", "mechanism": "read result extraction"},
+  {"id": "search_guidance", "name": "Search Guidance (quick_grep)", "status": "SHIPPED", "mechanism": "search result handling"},
+  {"id": "search_compression", "name": "Search Compression (selective filtering)", "status": "SHIPPED", "mechanism": "search output filtering"},
+  {"id": "structural_context", "name": "Structural Context (repo map)", "status": "SHIPPED", "mechanism": "repo structure summaries"},
+  {"id": "test_build_structured", "name": "Test/Build Structured (V1-D P1-P5)", "status": "SHIPPED (v0.9 limited-auto; v0.10 ADV1 transport)", "mechanism": "repeated-structure folding (stack frames, signatures, boilerplate, lint rules)"},
+  {"id": "rds", "name": "Repeated Delivery Suppression", "status": "CAPABILITY_CANDIDATE / DEFAULT_OFF (D3-E8)", "mechanism": "contiguous exact-line overlap folding with auditable markers; 100% reversible"}
+ ],
+ "shapes": [
+  {"shape_id": "E1", "name": "repeated_exact_command", "definition_frozen": "identical normalized command appears >=2 times", "detector_rule": "D3-E1 census rule (csim exact)", "discovery_metrics_15k": {"session_incidence": 0.6581, "median_chars": 987, "p75_chars": 2018, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "rds", "fit": "full"}], "support_level": "COVERED_CANDIDATE", "abcde_class": "A", "reason": "RDS folds exact repeats; median payload near 1K so value is cumulative", "evidence_refs": ["D3-E1", "D3-E3", "D3-E4"]},
+  {"shape_id": "E2", "name": "repeated_similar_command", "definition_frozen": "digit-normalized command repeats >=2 times", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.6627, "median_chars": 1016, "p75_chars": 2064, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "rds", "fit": "full"}], "support_level": "COVERED_CANDIDATE", "abcde_class": "A", "reason": "RDS cumulative folding; D5 lint-family positives support real savings", "evidence_refs": ["D3-E1", "D3-E3", "D3-E5"]},
+  {"shape_id": "E3", "name": "same_file_reread", "definition_frozen": "non-shell same path >=2 times", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.6651, "median_chars": 1245, "p75_chars": 2280, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "rds", "fit": "full"}, {"id": "read_task_compression", "fit": "partial"}], "support_level": "COVERED_CANDIDATE", "abcde_class": "A", "reason": "RDS contiguous-overlap folding + existing repeat-suppression", "evidence_refs": ["D3-E1", "D3-E3", "D3-E4"]},
+  {"shape_id": "E4", "name": "overlapping_file_read", "definition_frozen": "same path with overlapping view ranges >=2 times", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.2771, "median_chars": 1296, "p75_chars": 2278, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "read_task_compression", "fit": "partial"}], "support_level": "PARTIAL", "abcde_class": "A", "reason": "slice/extractive read compression addresses overlapping ranges but not purpose-built for range-diff", "evidence_refs": ["D3-E1"]},
+  {"shape_id": "E5", "name": "same_search", "definition_frozen": "search-class command with same query params >=2 times", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0047, "median_chars": 328, "p75_chars": 1250, "exposure": "HIGH"}, "mechanical_compressibility": "HIGH", "future_exposure": "HIGH", "supported_capabilities": [{"id": "search_compression", "fit": "full"}, {"id": "rds", "fit": "partial"}], "support_level": "LOW_VALUE", "abcde_class": "D", "reason": "incidence 0.5% in observed universe; search large-outputs already 100% covered by quick_grep (overlap=1.0)", "evidence_refs": ["D3-E1"]},
+  {"shape_id": "E6", "name": "large_test_success", "definition_frozen": "test command, observation >=3000 chars, explicit pass", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0039, "median_chars": 10425, "exposure": "HIGH"}, "mechanical_compressibility": "LOW", "future_exposure": "HIGH", "supported_capabilities": [{"id": "test_build_structured", "fit": "partial"}], "support_level": "LOW_VALUE", "abcde_class": "D", "reason": "passing-test repetition ZERO in D3-E1/E6 (outputs change after edits); incidence 0.4%", "evidence_refs": ["D3-E1", "D3-E6"]},
+  {"shape_id": "E7", "name": "large_test_failure", "definition_frozen": "test command, observation >=3000 chars, explicit fail", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.002, "median_chars": 14144, "exposure": "HIGH"}, "mechanical_compressibility": "CONDITIONAL", "future_exposure": "HIGH", "supported_capabilities": [{"id": "test_build_structured", "fit": "partial"}], "support_level": "UNSAFE", "abcde_class": "C", "reason": "failing-test detail is decision-critical during fix; D5 test-fix pairs show compensation risk; folding requires information-fidelity gates", "evidence_refs": ["D3-E1", "D3-E5", "D3-E6"]},
+  {"shape_id": "E8", "name": "large_lint_output", "definition_frozen": "lint/typecheck command, observation >=3000 chars", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": null, "median_chars": null, "p75_chars": null, "exposure": "HIGH", "note": "observed via RDS lint-family matched 10.6K chars (a5/r1) and D5 lint positives"}, "mechanical_compressibility": "HIGH", "future_exposure": "HIGH", "supported_capabilities": [{"id": "test_build_structured", "fit": "full"}, {"id": "rds", "fit": "full"}], "support_level": "COVERED", "abcde_class": "A", "reason": "P5 lint-rule aggregation + RDS both effective; D5 lint-fix 10/12 pairs positive", "evidence_refs": ["D3-E1", "D3-E5"]},
+  {"shape_id": "E9", "name": "large_build_output", "definition_frozen": "build command, observation >=3000 chars", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0001, "median_chars": 4398, "exposure": "HIGH"}, "mechanical_compressibility": "UNKNOWN", "future_exposure": "HIGH", "supported_capabilities": [], "support_level": "NO_OPPORTUNITY", "abcde_class": "E", "reason": "incidence 0.01% in observed universe; no runnable build toolchain in pinned substrates", "evidence_refs": ["D3-E1"]},
+  {"shape_id": "E10", "name": "repeated_validation", "definition_frozen": "test/lint command repeats >=2 times", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0011, "median_chars": 8440, "exposure": "HIGH"}, "mechanical_compressibility": "HIGH", "future_exposure": "HIGH", "supported_capabilities": [{"id": "validation_delta", "fit": "full"}], "support_level": "LOW_VALUE", "abcde_class": "D", "reason": "structurally sparse (0.11%); existing validation_delta covers when present", "evidence_refs": ["D3-E1", "D3-E6"]},
+  {"shape_id": "E11", "name": "unchanged_validation", "definition_frozen": "repeated validation with line-set Jaccard >=0.8", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0005, "median_chars": 5946, "exposure": "HIGH"}, "mechanical_compressibility": "HIGH", "future_exposure": "HIGH", "supported_capabilities": [{"id": "validation_delta", "fit": "full"}], "support_level": "LOW_VALUE", "abcde_class": "D", "reason": "0.05% incidence — unchanged reruns structurally rare", "evidence_refs": ["D3-E1", "D3-E6"]},
+  {"shape_id": "E12", "name": "large_diagnostic", "definition_frozen": "observation >=3000 chars containing Traceback/Exception/ERROR patterns", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.6011, "median_chars": 8049, "p75_chars": 15620, "exposure": "HIGH"}, "mechanical_compressibility": "CONDITIONAL", "future_exposure": "HIGH", "supported_capabilities": [{"id": "large_diagnostic", "fit": "partial"}], "support_level": "UNSAFE", "abcde_class": "C", "reason": "largest payload but HIGH exposure; D2-E7 task-level negative; E6 shows diagnostic content is decision-core; requires re-derivation-risk handling before compression", "evidence_refs": ["D3-E1", "D3-E6", "D3-E7"]},
+  {"shape_id": "E13", "name": "large_output_near_terminal", "definition_frozen": "observation >=2000 chars in last 25% of trajectory with <=3 subsequent observations", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.5325, "median_chars": 5780, "p75_chars": 10285, "exposure": "LOW"}, "mechanical_compressibility": "LOW (mechanical dedup median 3.5%; structure: diff-like 37.4%, unstructured 22.6%, table 17.8%, test-case-list 17.7%)", "future_exposure": "LOW", "supported_capabilities": [], "support_level": "GAP_SEMANTIC", "abcde_class": "B", "reason": "E13 rejected for mechanical compression (D3-E2); semantic structural folding (diff->file summaries, test-list->counts) is an unimplemented future primitive requiring information-fidelity gates", "evidence_refs": ["D3-E1", "D3-E2"]},
+  {"shape_id": "E14", "name": "output_followed_by_reread", "definition_frozen": "non-shell observation followed by same-path read within <=3 assistant turns", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.6153, "median_chars": 1193, "p75_chars": 2066, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "rds", "fit": "full"}, {"id": "read_task_compression", "fit": "partial"}], "support_level": "COVERED_CANDIDATE", "abcde_class": "A", "reason": "RDS path-group folding covers; read repeat-suppression partial", "evidence_refs": ["D3-E1", "D3-E3"]},
+  {"shape_id": "E15", "name": "output_followed_by_rederivation", "definition_frozen": "same normalized command re-executed within <=3 assistant turns", "detector_rule": "D3-E1 census rule", "discovery_metrics_15k": {"session_incidence": 0.0005, "median_chars": 10808, "exposure": "HIGH"}, "mechanical_compressibility": "MEDIUM", "future_exposure": "HIGH", "supported_capabilities": [{"id": "rds", "fit": "partial"}], "support_level": "LOW_VALUE", "abcde_class": "D", "reason": "incidence 0.05%; large rederivations rare", "evidence_refs": ["D3-E1"]}
+ ],
+ "mapping_matrix_note": "rows = natural shapes; columns = TASCO capabilities; cells = fit (full/partial/—); support_level and abcde_class per shape above",
+ "coverage_summary": {
+  "basis": "per-shape incidence from D3-E1 15K census; session-level A-E union distribution to be computed by the FROZEN detectors at external-validation time (A0 forbids re-scanning)",
+  "abcde_by_shape": {"A": ["E1", "E2", "E3", "E4", "E8", "E14"], "B": ["E13"], "C": ["E7", "E12"], "D": ["E5", "E6", "E10", "E11", "E15"], "E": ["E9"]},
+  "headline_findings": [
+   "A-class (existing/frozen-candidate coverage) shapes carry the highest combined incidence (E2/E3/E14 each ~0.62-0.67)",
+   "B-class (semantic gap) = E13 late-trajectory large output: 53.25% incidence, LOW exposure, mechanical dedup only 3.5%",
+   "C-class (unsafe) = E12 large diagnostic (60.11% incidence, 8.0K median, HIGH exposure) + E7 large test failure",
+   "D-class shapes are individually real but sparsely incidents (<=0.5%)",
+   "E-class E9 build output effectively absent from observed universe"
+  ]
+ },
+ "external_validation_protocol": {
+  "step1": "apply FROZEN detectors unchanged to next dataset (candidate: NVIDIA Open-SWE-Traces sample 20K-50K)",
+  "step2": "compute per-shape incidence/payload/exposure + session-level A-E union distribution + COC/SOC metrics",
+  "step3": "any new shape discovered = post-hoc-discovered, validated only on the dataset after next",
+  "metrics_defined": {
+   "COC": "covered safe-compressible bytes / all identified safe-compressible bytes",
+   "SOC": "sessions with >=1 supported opportunity / sessions with >=1 qualified compression opportunity",
+   "capability_gap": "natural opportunity with no current safe primitive"
+  }
+ }
+}

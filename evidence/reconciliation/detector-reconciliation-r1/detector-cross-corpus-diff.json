@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "task": "PAPER-A-DETECTOR-CROSS-CORPUS-RECONCILIATION-R1",
+  "detector_version": "A0-XCORPUS-R1.0.0",
+  "base_commit": "5e57cf5e62a688cfd43b5762d83b1906e637283c",
+  "supersession": {
+    "scope": "candidate display authority for cross-corpus E1-E15 incidence and replication only",
+    "supersedes": [
+      "v011-d4a1-census-results.json detector-derived OSW counts",
+      "Paper A RQ2/Fig.3/Table 1 derived values"
+    ],
+    "does_not_overwrite": [
+      "A0 taxonomy",
+      "raw corpora",
+      "historical manifests",
+      "historical census artifacts",
+      "paper or supplement"
+    ],
+    "coc_out_of_scope": true
+  },
+  "shape_diff": [
+    {
+      "shape": "E1",
+      "name": "repeated_exact_command",
+      "a0_definition": "identical normalized command appears >=2 times",
+      "a0_detector_rule": "D3-E1 census rule (csim exact)",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW appended path to view/open/editor command strings",
+      "r1_shared_implementation": "keep path separate from exact command",
+      "discrepancy_effect": "OSW +7 rows",
+      "tw": {
+        "occurrence_rows": 14578,
+        "occurrence_events": 269309,
+        "denominator": 15000,
+        "incidence": 0.9718666666666667,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 14578,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 19999,
+        "occurrence_events": 732802,
+        "denominator": 20000,
+        "incidence": 0.99995,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19992,
+        "historical_incidence": 0.9996,
+        "delta_rows": 7,
+        "delta_incidence": 0.00034999999999996145
+      },
+      "ratio_osw_over_tw": 1.028896282068871,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E2",
+      "name": "repeated_similar_command",
+      "a0_definition": "digit-normalized command repeats >=2 times",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW appended path before digit normalization",
+      "r1_shared_implementation": "keep path separate; digit normalization applies to command only",
+      "discrepancy_effect": "OSW +5 rows",
+      "tw": {
+        "occurrence_rows": 14789,
+        "occurrence_events": 305739,
+        "denominator": 15000,
+        "incidence": 0.9859333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 14789,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 20000,
+        "occurrence_events": 772968,
+        "denominator": 20000,
+        "incidence": 1.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19995,
+        "historical_incidence": 0.99975,
+        "delta_rows": 5,
+        "delta_incidence": 0.00024999999999997247
+      },
+      "ratio_osw_over_tw": 1.014267360876327,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E3",
+      "name": "same_file_reread",
+      "a0_definition": "non-shell same path >=2 times",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "both implementations grouped explicit path",
+      "r1_shared_implementation": "shared explicit-path grouping",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 12302,
+        "occurrence_events": 159510,
+        "denominator": 15000,
+        "incidence": 0.8201333333333334,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 12302,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 19997,
+        "occurrence_events": 327292,
+        "denominator": 20000,
+        "incidence": 0.99985,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 19997,
+        "historical_incidence": 0.99985,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 1.2191310356039669,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E4",
+      "name": "overlapping_file_read",
+      "a0_definition": "same path with overlapping view ranges >=2 times",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW hard-omitted the detector despite populated view_range",
+      "r1_shared_implementation": "read view_range in adapter; apply frozen closed-interval overlap rule",
+      "discrepancy_effect": "OSW 0 -> 13,885 rows",
+      "tw": {
+        "occurrence_rows": 4157,
+        "occurrence_events": 30231,
+        "denominator": 15000,
+        "incidence": 0.27713333333333334,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 4157,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 13885,
+        "occurrence_events": 85342,
+        "denominator": 20000,
+        "incidence": 0.69425,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "historical_incidence": 0.0,
+        "delta_rows": 13885,
+        "delta_incidence": 0.69425
+      },
+      "ratio_osw_over_tw": 2.5051118595140727,
+      "replication_status": "PARTIAL_REPLICATION"
+    },
+    {
+      "shape": "E5",
+      "name": "same_search",
+      "a0_definition": "search-class command with same query params >=2 times",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW grouped search commands by digit-normalized csim",
+      "r1_shared_implementation": "group search parameters by exact cnorm",
+      "discrepancy_effect": "OSW -74 rows",
+      "tw": {
+        "occurrence_rows": 112,
+        "occurrence_events": 300,
+        "denominator": 15000,
+        "incidence": 0.007466666666666667,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 112,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 324,
+        "occurrence_events": 754,
+        "denominator": 20000,
+        "incidence": 0.0162,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 398,
+        "historical_incidence": 0.0199,
+        "delta_rows": -74,
+        "delta_incidence": -0.003700000000000002
+      },
+      "ratio_osw_over_tw": 2.169642857142857,
+      "replication_status": "PARTIAL_REPLICATION"
+    },
+    {
+      "shape": "E6",
+      "name": "large_test_success",
+      "a0_definition": "test command, observation >=3000 chars, explicit pass",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW used a narrower pass regex and had no exit code",
+      "r1_shared_implementation": "shared A0 pass/fail regex; explicit exit when available, text fallback otherwise",
+      "discrepancy_effect": "OSW -3 rows",
+      "tw": {
+        "occurrence_rows": 333,
+        "occurrence_events": 396,
+        "denominator": 15000,
+        "incidence": 0.0222,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 333,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 12,
+        "occurrence_events": 16,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 15,
+        "historical_incidence": 0.00075,
+        "delta_rows": -3,
+        "delta_incidence": -0.00015000000000000007
+      },
+      "ratio_osw_over_tw": 0.027027027027027025,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E7",
+      "name": "large_test_failure",
+      "a0_definition": "test command, observation >=3000 chars, explicit fail",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW used a narrower fail regex and had no exit code",
+      "r1_shared_implementation": "shared A0 pass/fail regex; explicit exit when available, text fallback otherwise",
+      "discrepancy_effect": "OSW +1 row",
+      "tw": {
+        "occurrence_rows": 233,
+        "occurrence_events": 363,
+        "denominator": 15000,
+        "incidence": 0.015533333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 233,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 14,
+        "occurrence_events": 32,
+        "denominator": 20000,
+        "incidence": 0.0007,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 13,
+        "historical_incidence": 0.00065,
+        "delta_rows": 1,
+        "delta_incidence": 5.000000000000002e-05
+      },
+      "ratio_osw_over_tw": 0.045064377682403435,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E8",
+      "name": "large_lint_output",
+      "a0_definition": "lint/typecheck command, observation >=3000 chars",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "same threshold and command class",
+      "r1_shared_implementation": "shared rule",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 15000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 0,
+        "occurrence_events": 0,
+        "denominator": 20000,
+        "incidence": 0.0,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 0,
+        "historical_incidence": 0.0,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": null,
+      "replication_status": "NOT_ESTIMABLE_ZERO_BASELINE"
+    },
+    {
+      "shape": "E9",
+      "name": "large_build_output",
+      "a0_definition": "build command, observation >=3000 chars",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "same threshold and command class",
+      "r1_shared_implementation": "shared rule",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 15000,
+        "incidence": 6.666666666666667e-05,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 1,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 1,
+        "occurrence_events": 1,
+        "denominator": 20000,
+        "incidence": 5e-05,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 1,
+        "historical_incidence": 5e-05,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.75,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E10",
+      "name": "repeated_validation",
+      "a0_definition": "test/lint command repeats >=2 times",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW grouped validation commands by digit-normalized csim",
+      "r1_shared_implementation": "group repeated validation by exact cnorm",
+      "discrepancy_effect": "OSW -4 rows",
+      "tw": {
+        "occurrence_rows": 342,
+        "occurrence_events": 1169,
+        "denominator": 15000,
+        "incidence": 0.0228,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 342,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 12,
+        "occurrence_events": 33,
+        "denominator": 20000,
+        "incidence": 0.0006,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 16,
+        "historical_incidence": 0.0008,
+        "delta_rows": -4,
+        "delta_incidence": -0.0002000000000000001
+      },
+      "ratio_osw_over_tw": 0.026315789473684206,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E11",
+      "name": "unchanged_validation",
+      "a0_definition": "repeated validation with line-set Jaccard >=0.8",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW inherited csim validation groups",
+      "r1_shared_implementation": "Jaccard >=0.8 only within exact-cnorm validation groups",
+      "discrepancy_effect": "OSW -1 row",
+      "tw": {
+        "occurrence_rows": 122,
+        "occurrence_events": 329,
+        "denominator": 15000,
+        "incidence": 0.008133333333333333,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 122,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 7,
+        "occurrence_events": 18,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 8,
+        "historical_incidence": 0.0004,
+        "delta_rows": -1,
+        "delta_incidence": -5.000000000000002e-05
+      },
+      "ratio_osw_over_tw": 0.04303278688524591,
+      "replication_status": "DATASET_SPECIFIC"
+    },
+    {
+      "shape": "E12",
+      "name": "large_diagnostic",
+      "a0_definition": "observation >=3000 chars containing Traceback/Exception/ERROR patterns",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "same size threshold and diagnostic regex",
+      "r1_shared_implementation": "shared rule",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 10938,
+        "occurrence_events": 33922,
+        "denominator": 15000,
+        "incidence": 0.7292,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 10938,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 15900,
+        "occurrence_events": 56828,
+        "denominator": 20000,
+        "incidence": 0.795,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 15900,
+        "historical_incidence": 0.795,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 1.0902358749314318,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E13",
+      "name": "large_output_near_terminal",
+      "a0_definition": "observation >=2000 chars in last 25% of trajectory with <=3 subsequent observations",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "same >=2K, position >=.75, <=3 turns-after rule",
+      "r1_shared_implementation": "shared rule",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 8808,
+        "occurrence_events": 12275,
+        "denominator": 15000,
+        "incidence": 0.5872,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 8808,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 9327,
+        "occurrence_events": 13519,
+        "denominator": 20000,
+        "incidence": 0.46635,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 9327,
+        "historical_incidence": 0.46635,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.7941927792915531,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E14",
+      "name": "output_followed_by_reread",
+      "a0_definition": "non-shell observation followed by same-path read within <=3 assistant turns",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "OSW marked any adjacent same-path successor within three events",
+      "r1_shared_implementation": "require same-path successor to be view-class",
+      "discrepancy_effect": "OSW -2,591 rows",
+      "tw": {
+        "occurrence_rows": 11073,
+        "occurrence_events": 71081,
+        "denominator": 15000,
+        "incidence": 0.7382,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 11073,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 16376,
+        "occurrence_events": 65432,
+        "denominator": 20000,
+        "incidence": 0.8188,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 18967,
+        "historical_incidence": 0.94835,
+        "delta_rows": -2591,
+        "delta_incidence": -0.12955000000000005
+      },
+      "ratio_osw_over_tw": 1.1091845028447576,
+      "replication_status": "REPLICATED"
+    },
+    {
+      "shape": "E15",
+      "name": "output_followed_by_rederivation",
+      "a0_definition": "same normalized command re-executed within <=3 assistant turns",
+      "a0_detector_rule": "D3-E1 census rule",
+      "tw_historical_implementation": "D3-E1/A1R3 A0 implementation",
+      "osw_historical_implementation": "both use digit-normalized validation/build successor within three events",
+      "r1_shared_implementation": "shared rule",
+      "discrepancy_effect": "no row-incidence change",
+      "tw": {
+        "occurrence_rows": 126,
+        "occurrence_events": 176,
+        "denominator": 15000,
+        "incidence": 0.0084,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 126,
+        "delta_rows": 0
+      },
+      "osw": {
+        "occurrence_rows": 7,
+        "occurrence_events": 8,
+        "denominator": 20000,
+        "incidence": 0.00035,
+        "measurement_status": "MEASURABLE",
+        "historical_occurrence_rows": 7,
+        "historical_incidence": 0.00035,
+        "delta_rows": 0,
+        "delta_incidence": 0.0
+      },
+      "ratio_osw_over_tw": 0.04166666666666667,
+      "replication_status": "DATASET_SPECIFIC"
+    }
+  ],
+  "replication_summary": {
+    "status_counts": {
+      "DATASET_SPECIFIC": 5,
+      "NOT_ESTIMABLE_ZERO_BASELINE": 1,
+      "PARTIAL_REPLICATION": 2,
+      "REPLICATED": 7
+    },
+    "ratio_comparable_shapes": 14,
+    "replicated_or_partial": 9,
+    "headline_candidate": "9/14 ratio-comparable shapes replicate fully or partially"
+  },
+  "integrity": {
+    "tw_rows_complete": true,
+    "osw_rows_complete": true,
+    "osw_manifest_complete": true,
+    "deterministic": true
+  }
+}

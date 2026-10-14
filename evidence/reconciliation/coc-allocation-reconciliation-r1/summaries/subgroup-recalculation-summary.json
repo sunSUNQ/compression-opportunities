@@ -1,0 +1,16 @@
+{
+  "openhands": {
+    "candidate_allocated_bytes": 999586303.0333353,
+    "candidate_coc": 0.9682952546877193,
+    "qualified_allocated_bytes": 1032315606.4166684,
+    "shipped_allocated_bytes": 552042.6666666665,
+    "shipped_coc": 0.0005347615237387473
+  },
+  "sweagent": {
+    "candidate_allocated_bytes": 1752802215.4333313,
+    "candidate_coc": 0.981608300976868,
+    "qualified_allocated_bytes": 1785643228.249999,
+    "shipped_allocated_bytes": 7151561.249999706,
+    "shipped_coc": 0.004005033669020501
+  }
+}

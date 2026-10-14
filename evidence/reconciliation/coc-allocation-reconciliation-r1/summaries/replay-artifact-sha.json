@@ -1,0 +1,58 @@
+{
+  "coc-method-definition.md": {
+    "bytes": 4415,
+    "sha256": "1e9839457c4c6583b0e2dd70739b0631dc6df8f79bd6d778b25c745d5fc58bc5"
+  },
+  "ledger/osw-event-allocation-ledger.parquet": {
+    "bytes": 17694863,
+    "sha256": "688d4bceacfe69b999d339394ea2f3d4590f6eeb2f6c50fd17b269ed912ab77a"
+  },
+  "ledger/qwen-event-allocation-ledger.parquet": {
+    "bytes": 40951663,
+    "sha256": "778baee38dde89cfc3ae0e8c35e27f8dd45d1f6c4b4d591e6cc52ce91c8816ee"
+  },
+  "ledger/session-allocation-summary.parquet": {
+    "bytes": 2644533,
+    "sha256": "97bed8d49ca63fec1653b3bbe4025f64ef3d7483d42528fb06c9e2c6ffc4a2be"
+  },
+  "method-definition.json": {
+    "bytes": 1032,
+    "sha256": "f132625e9d6676244bf7ce62beaf7fe9630577136971870da19df4da97a3b7a4"
+  },
+  "summaries/coc-recalculation-summary.json": {
+    "bytes": 7403,
+    "sha256": "8aed15a966a50fba84707f0f559bb64a18ff82370f27ce5253728c7041b4606d"
+  },
+  "summaries/replay-artifact-sha.json": {
+    "bytes": 2018,
+    "sha256": "76d2e14a640f8033768b2b8e5c2a4016776fd89c7481f8b906a70b8e828677f1"
+  },
+  "summaries/shape-allocation-summary.csv": {
+    "bytes": 3203,
+    "sha256": "ee557557fbbd7e0d385c36d72b5bb23d5163d39fd1c84670cad2eff128f9721f"
+  },
+  "tests/__pycache__/test_coc_allocation.cpython-312.pyc": {
+    "bytes": 13320,
+    "sha256": "a4a35cdf9b0f012530b6925335e27e98a33b19861142dd6d30ef1d0f2e1b639a"
+  },
+  "tests/test_coc_allocation.py": {
+    "bytes": 3668,
+    "sha256": "d974ca73f06f5a1e6bf214f6a2bec40431b00188659c0737e39303f28a27f898"
+  },
+  "tools/__pycache__/frozen_detector.cpython-312.pyc": {
+    "bytes": 10768,
+    "sha256": "5eaa444ec41d5c101eb27994f10f730dced115ce4b624f677ebb4e51681021de"
+  },
+  "tools/__pycache__/recalculate_coc.cpython-312.pyc": {
+    "bytes": 30233,
+    "sha256": "3a1f6a65abb4c44b4c19adf074b0c6118381b64e923a5e6548280905370eb663"
+  },
+  "tools/frozen_detector.py": {
+    "bytes": 8218,
+    "sha256": "3465bf00fb39a989c6c0e20ccb7b1bb09f20810f99695505f9ebf3e7db87c4b9"
+  },
+  "tools/recalculate_coc.py": {
+    "bytes": 23869,
+    "sha256": "1014356f000035d4ecc36e465cda8efc47f36822fb4dcc8d35ba4f50e66ef59e"
+  }
+}

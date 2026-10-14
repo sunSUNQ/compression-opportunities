@@ -1,0 +1,451 @@
+{
+  "schema_version": 2,
+  "editorial_presentation_authority": {
+    "detector": "A0-XCORPUS-R1.0.0",
+    "replication": "detector-cross-corpus-diff.json",
+    "annotation": "Final V1 final-agreement-metrics.json; detector compatibility CONDITIONAL",
+    "statistics": "cluster-bootstrap-results.json",
+    "coc": "COC-ALLOCATION-R1 UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+    "superseded": [
+      "historical OSW COC 0.0039/0.9012 session-level whole-trajectory proxy",
+      "historical Qwen COC 0.0114/0.9127 OpenHands-15K session-shape proxy"
+    ]
+  },
+  "freeze": "D4-P0 paper evidence freeze (74b3b6a7 lineage; all numbers from frozen artifacts, no recomputation)",
+  "frozen_at": "2026-09-24",
+  "amendment": {
+    "id": "V0.11-D4-A1R3 trajectory (row) identity session-caliber amendment (PAPER-A-SESSION-IDENTITY-AMENDMENT)",
+    "date": "2026-10-10",
+    "prereg": "v011-d4a1r3-session-identity-prereg.json",
+    "census": "v011-d4a1r3-tw-trajectory-census.json",
+    "caliber": "TW session-level counts use trajectory (row) identity: 15,000 recorded trajectories under 13,053 unique session identifiers; 1,947 identifiers each appear on two recorded trajectories (1,946 distinct-content pairs, 1 identical-content pair); denominator 15,000 in both calibers",
+    "band_robustness": "all 15 replication bands unchanged under either caliber; R-band ratios tighten toward 1.0",
+    "previous_amendments": [
+      {
+        "id": "V0.11-D4-A1R2 klear recovery amendment",
+        "date": "2026-10-09",
+        "prereg": "v011-d4a1r2-klear-amendment-prereg.json (sha256-16 e98345d748ac7620)",
+        "census": "v011-d4a1r2-tw-klear-census.json (sha256-16 630dcfaae0bca521)"
+      }
+    ],
+    "scope": "T1 TW15K_incidence column only (trajectory-identity caliber); OSW column, T2-T6, payload medians (pre-amendment frozen ledger) unchanged. Event hits, observation characters, allocation accounting, and residual buckets verified equal to A1R2. Pre-A1R3 T1 retained byte-identical in paper-tables.pre-a1r3.json (sha256-16 63328233664c217f).",
+    "band_summary": "8 of 13 measurable shapes REPLICATED or PARTIAL: R7 (E1/E2/E3/E9/E12/E13/E14) + P1 (E5); DS5 (E6/E7/E10/E11/E15) corpus-composition-sensitive; NM2 (E4 OSW-schema, E8)"
+  },
+  "tables": {
+    "T1_opportunity_taxonomy_census": {
+      "caption": "A0-XCORPUS-R1 cross-corpus incidence and replication status (15K TW, 20K OSW)",
+      "columns": [
+        "shape",
+        "TW15K_incidence",
+        "OSW20K_incidence",
+        "TW_median_chars",
+        "TW_p75_chars",
+        "exposure",
+        "replication_band"
+      ],
+      "rows": [
+        [
+          "E1_repeated_exact_command",
+          0.9718666666666667,
+          0.99995,
+          987,
+          2018,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E2_repeated_similar_command",
+          0.9859333333333333,
+          1.0,
+          1016,
+          2064,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E3_same_file_reread",
+          0.8201333333333334,
+          0.99985,
+          1245,
+          2280,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E4_overlapping_file_read",
+          0.27713333333333334,
+          0.69425,
+          1296,
+          2278,
+          "HIGH",
+          "PARTIAL_REPLICATION"
+        ],
+        [
+          "E5_same_search",
+          0.007466666666666667,
+          0.0162,
+          328,
+          1250,
+          "HIGH",
+          "PARTIAL_REPLICATION"
+        ],
+        [
+          "E6_large_test_success",
+          0.0222,
+          0.0006,
+          10425,
+          21889,
+          "HIGH",
+          "DATASET_SPECIFIC"
+        ],
+        [
+          "E7_large_test_failure",
+          0.015533333333333333,
+          0.0007,
+          14144,
+          30047,
+          "HIGH",
+          "DATASET_SPECIFIC"
+        ],
+        [
+          "E8_large_lint_output",
+          0.0,
+          0.0,
+          null,
+          null,
+          "HIGH",
+          "NOT_ESTIMABLE_ZERO_BASELINE"
+        ],
+        [
+          "E9_large_build_output",
+          6.666666666666667e-05,
+          5e-05,
+          4398,
+          4398,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E10_repeated_validation",
+          0.0228,
+          0.0006,
+          8440,
+          15846,
+          "HIGH",
+          "DATASET_SPECIFIC"
+        ],
+        [
+          "E11_unchanged_validation",
+          0.008133333333333333,
+          0.00035,
+          5946,
+          9726,
+          "HIGH",
+          "DATASET_SPECIFIC"
+        ],
+        [
+          "E12_large_diagnostic",
+          0.7292,
+          0.795,
+          8049,
+          15620,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E13_large_output_near_terminal",
+          0.5872,
+          0.46635,
+          5780,
+          10285,
+          "LOW",
+          "REPLICATED"
+        ],
+        [
+          "E14_output_followed_by_reread",
+          0.7382,
+          0.8188,
+          1193,
+          2066,
+          "HIGH",
+          "REPLICATED"
+        ],
+        [
+          "E15_output_followed_by_rederivation",
+          0.0084,
+          0.00035,
+          10808,
+          30047,
+          "HIGH",
+          "DATASET_SPECIFIC"
+        ]
+      ],
+      "note": "All 15 detectors share one semantic implementation with corpus adapters. Every shape is measurable; E8 is NOT_ESTIMABLE_ZERO_BASELINE because both corpora have zero events. E7/E12 are UNSAFE for coverage eligibility; E13 is a semantic gap; E15 has only partial candidate support.",
+      "sources": [
+        "D:\\tasco-temp\\paper-a-detector-cross-corpus-reconciliation-r1\\worktree\\evidence\\V1\\paper\\detector-reconciliation-r1\\detector-cross-corpus-diff.json"
+      ]
+    },
+    "T2_ae_class_distribution": {
+      "caption": "A–E class distribution; only independently verified TW cells are populated",
+      "columns": [
+        "class",
+        "TW15K_sessions",
+        "TW15K_share",
+        "OSW20K_sessions",
+        "OSW20K_share"
+      ],
+      "rows": [
+        [
+          "A existing/candidate-covered",
+          null,
+          null,
+          20000,
+          1.0
+        ],
+        [
+          "B semantic gap (E13)",
+          8808,
+          0.5872,
+          9327,
+          0.46635
+        ],
+        [
+          "C unsafe/high-exposure (E12+E7)",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "D low-value",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "E no meaningful opportunity (E9)",
+          1,
+          6.666666666666667e-05,
+          1,
+          5e-05
+        ]
+      ],
+      "note": "Historical TW B–E shares copied OSW values. B and E are single-shape classes and are repaired from R1 incidence. C/D union values remain UNRESOLVED because no frozen TW class-union artifact was verified; no values are inferred.",
+      "sources": [
+        "D:\\tasco-temp\\paper-a-detector-cross-corpus-reconciliation-r1\\worktree\\evidence\\V1\\paper\\detector-reconciliation-r1\\detector-cross-corpus-diff.json"
+      ]
+    },
+    "T3_e13_full_factorial_2x2": {
+      "caption": "E13 late-trajectory large-output incidence: model x scaffold full factorial",
+      "columns": [
+        "cell",
+        "incidence"
+      ],
+      "rows": [
+        [
+          "OpenHands x Minimax",
+          0.6487
+        ],
+        [
+          "SWE-agent x Minimax",
+          0.284
+        ],
+        [
+          "OpenHands x Qwen3.5",
+          0.4389
+        ],
+        [
+          "SWE-agent x Qwen3.5",
+          0.2392
+        ]
+      ],
+      "contrasts_pp": {
+        "scaffold_within_minimax": -0.3647,
+        "scaffold_within_qwen": -0.1997,
+        "model_within_openhands": -0.2098,
+        "model_within_sweagent": -0.0448,
+        "average_scaffold_contrast_abs_pp": 0.2822,
+        "average_model_contrast_abs_pp": 0.1273,
+        "difference_in_differences_interaction_pp": 0.165
+      },
+      "reading": "scaffold-associated variation (mean 28.2pp) > model-associated variation (mean 12.7pp); interaction 16.5pp — model modulates scaffold-effect magnitude without changing direction",
+      "sources": [
+        "v011-d4a2r1-full-factorial.json"
+      ]
+    },
+    "T4_core_shape_model_stability": {
+      "caption": "Core shapes: model contrast within each scaffold (A2 + A2R1)",
+      "columns": [
+        "shape",
+        "OH_MM",
+        "OH_QW",
+        "OH_verdict",
+        "SA_MM",
+        "SA_QW",
+        "SA_verdict"
+      ],
+      "rows": [
+        [
+          "E1_repeated_exact_command",
+          0.9993,
+          1.0,
+          "MODEL_STABLE",
+          0.9999,
+          1.0,
+          "MODEL_STABLE"
+        ],
+        [
+          "E2_repeated_similar_command",
+          0.9995,
+          1.0,
+          "MODEL_STABLE",
+          1.0,
+          1.0,
+          "MODEL_STABLE"
+        ],
+        [
+          "E3_same_file_reread",
+          0.9997,
+          1.0,
+          "MODEL_STABLE",
+          1.0,
+          0.9991,
+          "MODEL_STABLE"
+        ],
+        [
+          "E12_large_diagnostic",
+          0.7715,
+          0.7417,
+          "MODEL_STABLE",
+          0.8185,
+          0.8292,
+          "MODEL_STABLE"
+        ],
+        [
+          "E13_large_output_near_terminal",
+          0.6487,
+          0.4389,
+          "MODEL_STABLE",
+          0.284,
+          0.2392,
+          "MODEL_STABLE"
+        ],
+        [
+          "E14_output_followed_by_reread",
+          0.9388,
+          0.9833,
+          "MODEL_STABLE",
+          0.9579,
+          0.9705,
+          "MODEL_STABLE"
+        ]
+      ],
+      "sources": [
+        "v011-d4a1-census-results.json",
+        "v011-d4a2-cross-model.json",
+        "v011-d4a2r1-full-factorial.json"
+      ]
+    },
+    "T6_online_qualification_feasibility": {
+      "caption": "Why offline compressibility did not translate to online task-token qualification (C1/D2/D5/E7)",
+      "rows": [
+        {
+          "experiment": "D3-E7 simulation detection design",
+          "within_arm_noise_median_abs_relative": 0.2796,
+          "bt_pair_delta_median_abs": 0.2379,
+          "mechanism_exposure_median": 0.00011,
+          "signal_to_noise": 0.0003,
+          "power_3pct_best": 0.622,
+          "power_5pct_best": 0.699,
+          "power_10pct_best": 0.856,
+          "permutation_p_observed_7_38pct": 0.1185
+        },
+        {
+          "experiment": "D3-E5 RDS A/B",
+          "pairs": 24,
+          "oracle_pass": "24/24",
+          "aggregate_relative_saving": 0.0738,
+          "nonneg_pairs": "13/24",
+          "g2": "FAIL"
+        },
+        {
+          "experiment": "V0.11-D2 terminal-state",
+          "pairs": 18,
+          "opportunity_incidence": 0.0,
+          "aggregate": -0.0805,
+          "verdict": "NOT_QUALIFIED"
+        }
+      ],
+      "reading": "within-task stochastic trajectory variance (median 27.96%) exceeds both B/T pair deltas (23.79%) and any hundred-token-scale mechanism exposure (0.011%) — online task-token qualification of such mechanisms is not cost-justifiable at practical sample sizes"
+    },
+    "T5_capability_coverage_event_proxy": {
+      "caption": "Event-payload allocation proxy coverage under the A0 full-fit mapping",
+      "columns": [
+        "corpus",
+        "frame",
+        "shipped_COC",
+        "shipped_plus_candidate_COC",
+        "relative_gap"
+      ],
+      "rows": [
+        [
+          "OSW Minimax",
+          20000,
+          0.00018495711803637698,
+          0.9595769206273026,
+          0.9998072513895859
+        ],
+        [
+          "Qwen both scaffolds",
+          35334,
+          0.0027337531769082487,
+          0.976731272510673,
+          0.9972011204577477
+        ]
+      ],
+      "unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+      "note": "Equal split across all fired event labels, then A0 eligibility filtering. Not exact spans, safe deletion, token savings, or realized savings. SOC 2.07%/100% is a separate historical session metric and is not recomputed here.",
+      "sources": [
+        "D:\\tasco-temp\\paper-a-coc-allocation-reconciliation-r1\\worktree\\evidence\\V1\\paper\\coc-allocation-reconciliation-r1\\summaries\\coc-recalculation-summary.json"
+      ]
+    },
+    "T7_multi_llm_annotation_agreement": {
+      "caption": "Independent heterogeneous-LLM annotation agreement on the 98 all-three-VALID sample subset",
+      "columns": [
+        "question",
+        "three_way_exact",
+        "fleiss_kappa",
+        "interpretation"
+      ],
+      "rows": [
+        [
+          "Q1 taxonomy membership",
+          0.8571,
+          0.8049,
+          "high agreement"
+        ],
+        [
+          "Q2a structural redundancy",
+          0.8061,
+          0.3835,
+          "fair; construct ambiguity"
+        ],
+        [
+          "Q2b information preservation",
+          0.949,
+          0.7961,
+          "substantial agreement"
+        ]
+      ],
+      "valid_units": 317,
+      "planned_units": 360,
+      "all_three_valid_samples": 98,
+      "note": "Model agreement is not human ground truth and does not estimate detector precision/recall or deletion safety. Fourteen E14 channel-item annotations are missing; compatibility with Detector R1 remains CONDITIONAL.",
+      "sources": [
+        "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\multi-agent-annotation\\final-v1\\final-agreement-metrics.json",
+        "D:\\tasco-runtime\\work_isolated\\v010_rc1_wt\\evidence\\V1\\paper\\multi-agent-annotation\\final-v1\\validation-manifest.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+ "analysis_date": "2026-10-12",
+ "authoritative_subset": "98 all-three-VALID samples (supersedes 96-subset from consistency-audit-r1)",
+ "superseded": {
+  "previous_subset_n": 96,
+  "reason": "coverage recovery +2 items (EVAL-2 +3, EVAL-3 +1)"
+ },
+ "q1_membership": {
+  "n": 98,
+  "three_way_exact": 84,
+  "three_way_rate": 0.8571,
+  "fleiss_kappa": 0.8049,
+  "fleiss_po": 0.898,
+  "pairwise": {
+   "EVAL-1_vs_EVAL-2": {
+    "raw": 0.8673,
+    "kappa": 0.7479,
+    "kappa_se": 0.0527
+   },
+   "EVAL-1_vs_EVAL-3": {
+    "raw": 0.9082,
+    "kappa": 0.8282
+   },
+   "EVAL-2_vs_EVAL-3": {
+    "raw": 0.9184,
+    "kappa": 0.8406
+   }
+  },
+  "answer_distribution_98subset": {
+   "EVAL-1": {
+    "YES": 43,
+    "NO": 50,
+    "INSUFFICIENT_EVIDENCE": 5
+   },
+   "EVAL-2": {
+    "YES": 37,
+    "NO": 59,
+    "INSUFFICIENT_EVIDENCE": 2
+   },
+   "EVAL-3": {
+    "YES": 42,
+    "NO": 53,
+    "INSUFFICIENT_EVIDENCE": 3
+   }
+  }
+ },
+ "q2a_structural_redundancy": {
+  "n": 98,
+  "three_way_exact": 79,
+  "three_way_rate": 0.8061,
+  "fleiss_kappa": 0.3835,
+  "fleiss_po": 0.8673,
+  "pairwise": {
+   "EVAL-1_vs_EVAL-2": {
+    "raw": 0.8571,
+    "kappa": 0.3859,
+    "kappa_se": 0.0544
+   },
+   "EVAL-1_vs_EVAL-3": {
+    "raw": 0.8469,
+    "kappa": 0.3631
+   },
+   "EVAL-2_vs_EVAL-3": {
+    "raw": 0.898,
+    "kappa": 0.4208
+   }
+  },
+  "answer_distribution_98subset": {
+   "EVAL-1": {
+    "NO": 82,
+    "INSUFFICIENT_EVIDENCE": 8,
+    "YES": 8
+   },
+   "EVAL-2": {
+    "NO": 89,
+    "INSUFFICIENT_EVIDENCE": 1,
+    "YES": 8
+   },
+   "EVAL-3": {
+    "NO": 88,
+    "YES": 10
+   }
+  }
+ },
+ "q2b_information_preservation": {
+  "n": 98,
+  "three_way_exact": 93,
+  "three_way_rate": 0.949,
+  "fleiss_kappa": 0.7961,
+  "fleiss_po": 0.966,
+  "pairwise": {
+   "EVAL-1_vs_EVAL-2": {
+    "raw": 0.949,
+    "kappa": 0.6806,
+    "kappa_se": 0.0342
+   },
+   "EVAL-1_vs_EVAL-3": {
+    "raw": 0.9592,
+    "kappa": 0.7293
+   },
+   "EVAL-2_vs_EVAL-3": {
+    "raw": 0.9898,
+    "kappa": 0.9467
+   }
+  },
+  "answer_distribution_98subset": {
+   "EVAL-1": {
+    "YES": 92,
+    "NO": 6
+   },
+   "EVAL-2": {
+    "YES": 87,
+    "NO": 11
+   },
+   "EVAL-3": {
+    "YES": 88,
+    "NO": 10
+   }
+  }
+ },
+ "per_shape": {
+  "E1": {
+   "n": 14,
+   "all3_Q1": 9,
+   "all3_Q2a": 12,
+   "all3_Q2b": 14
+  },
+  "E12": {
+   "n": 20,
+   "all3_Q1": 14,
+   "all3_Q2a": 17,
+   "all3_Q2b": 20
+  },
+  "E13": {
+   "n": 20,
+   "all3_Q1": 18,
+   "all3_Q2a": 14,
+   "all3_Q2b": 18
+  },
+  "E14": {
+   "n": 8,
+   "all3_Q1": 7,
+   "all3_Q2a": 6,
+   "all3_Q2b": 8
+  },
+  "E3": {
+   "n": 16,
+   "all3_Q1": 16,
+   "all3_Q2a": 12,
+   "all3_Q2b": 14
+  },
+  "E6": {
+   "n": 20,
+   "all3_Q1": 20,
+   "all3_Q2a": 18,
+   "all3_Q2b": 19
+  }
+ },
+ "consensus": {
+  "Q1_membership": {
+   "unanimous": 84,
+   "majority_2v1": 12,
+   "split_3way": 2,
+   "with_insufficient": 8
+  },
+  "Q2a_structural_redundancy": {
+   "unanimous": 79,
+   "majority_2v1": 18,
+   "split_3way": 1,
+   "with_insufficient": 8
+  },
+  "Q2b_information_preservation": {
+   "unanimous": 93,
+   "majority_2v1": 5,
+   "split_3way": 0,
+   "with_insufficient": 0
+  }
+ },
+ "supplementary_pairwise_on_exactly2valid": {
+  "EVAL-1_vs_EVAL-2_Q1_membership_exactly2": {
+   "n": 9,
+   "raw": 0.8889,
+   "kappa": 0.8
+  },
+  "EVAL-1_vs_EVAL-3_Q1_membership_exactly2": {
+   "n": 1,
+   "raw": 1.0,
+   "kappa": "N/A"
+  },
+  "EVAL-1_vs_EVAL-2_Q2a_structural_redundancy_exactly2": {
+   "n": 9,
+   "raw": 0.8889,
+   "kappa": 0.6087
+  },
+  "EVAL-1_vs_EVAL-3_Q2a_structural_redundancy_exactly2": {
+   "n": 1,
+   "raw": 0.0,
+   "kappa": "N/A"
+  },
+  "EVAL-1_vs_EVAL-2_Q2b_information_preservation_exactly2": {
+   "n": 9,
+   "raw": 1.0,
+   "kappa": "N/A"
+  },
+  "EVAL-1_vs_EVAL-3_Q2b_information_preservation_exactly2": {
+   "n": 1,
+   "raw": 1.0,
+   "kappa": "N/A"
+  }
+ },
+ "missingness_bias": {
+  "complete_shape_dist": {
+   "E13": 20,
+   "E14": 8,
+   "E3": 16,
+   "E6": 20,
+   "E1": 14,
+   "E12": 20
+  },
+  "incomplete_shape_dist": {
+   "E14": 12,
+   "E3": 4,
+   "E1": 6
+  },
+  "complete_corpus_dist": {
+   "TW": 48,
+   "OSW": 50
+  },
+  "incomplete_corpus_dist": {
+   "TW": 12,
+   "OSW": 10
+  },
+  "complete_stratum_dist": {
+   "detector_positive": 44,
+   "negative_or_nearmiss": 35,
+   "luo_or_crossing": 19
+  },
+  "incomplete_stratum_dist": {
+   "detector_positive": 16,
+   "luo_or_crossing": 5,
+   "negative_or_nearmiss": 1
+  },
+  "complete_mean_obs_len": 3941.9,
+  "incomplete_mean_obs_len": 1951.1
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "schema_version": 1,
+ "editorial_presentation_authority": {"candidate_COC": "v011-d4a1-census-results.json coverage.shipped_plus_candidate.COC = 0.9012", "superseded_display": "0.9013 in historical paper table; canonical result snapshots unchanged", "rounding_rule": "coverage proportions stored as-is; percentages at two decimals, half-up", "COC_name": "allocation-based byte accounting with overlap control", "simulation_name": "simulation-based detection probability under our decision criterion"},
+ "freeze": "D4-P0 paper evidence freeze (74b3b6a7 lineage; all numbers from frozen artifacts, no recomputation)",
+ "frozen_at": "2026-09-24",
+ "tables": {
+  "T1_opportunity_taxonomy_census": {
+   "caption": "Compression opportunity shapes E1-E15: incidence, payload, exposure, mechanical compressibility across two corpora",
+   "columns": ["shape", "TW15K_incidence", "OSW20K_incidence", "TW_median_chars", "TW_p75_chars", "exposure", "replication_band"],
+   "rows": [
+    ["E1_repeated_exact_command", 0.6581, 0.9996, 987, 2018, "HIGH", "REPLICATED*"],
+    ["E2_repeated_similar_command", 0.6627, 0.9998, 1016, 2064, "HIGH", "REPLICATED*"],
+    ["E3_same_file_reread", 0.6651, 0.9999, 1245, 2280, "HIGH", "REPLICATED*"],
+    ["E4_overlapping_file_read", 0.2771, "NOT_MEASURABLE", 1296, 2278, "HIGH", "NOT_MEASURABLE"],
+    ["E5_same_search", 0.0047, 0.0199, 328, 1250, "HIGH", "PARTIAL_REPLICATION"],
+    ["E6_large_test_success", 0.0039, 0.0008, 10425, 21889, "HIGH", "DATASET_SPECIFIC"],
+    ["E7_large_test_failure", 0.002, 0.0006, 14144, 30047, "HIGH", "PARTIAL_REPLICATION"],
+    ["E8_large_lint_output", null, 0.0, null, null, "HIGH", "NOT_MEASURABLE"],
+    ["E9_large_build_output", 0.0001, 0.0001, 4398, 4398, "HIGH", "REPLICATED"],
+    ["E10_repeated_validation", 0.0011, 0.0008, 8440, 15846, "HIGH", "REPLICATED"],
+    ["E11_unchanged_validation", 0.0005, 0.0004, 5946, 9726, "HIGH", "REPLICATED"],
+    ["E12_large_diagnostic", 0.6011, 0.795, 8049, 15620, "HIGH", "REPLICATED"],
+    ["E13_large_output_near_terminal", 0.5325, 0.4663, 5780, 10285, "LOW", "REPLICATED"],
+    ["E14_output_followed_by_reread", 0.6153, 0.9484, 1193, 2066, "HIGH", "REPLICATED"],
+    ["E15_output_followed_by_rederivation", 0.0005, 0.0003, 10808, 30047, "HIGH", "REPLICATED"]
+   ],
+   "note": "* E1/E2/E3/E14 OSW values use path-aware command normalization; TW values retain the original detector caliber (see limitations L6). Cross-corpus ratios are descriptive under this documented caliber difference and are not same-caliber estimates. E4 NOT_MEASURABLE in OSW (no range field) — not a negative result.",
+   "sources": ["v011-d3e1-external-census.json", "v011-d4a1-census-results.json"]
+  },
+  "T2_ae_class_distribution": {
+   "caption": "A-E opportunity class distribution (session-level union), Thoughtworks vs Open-SWE",
+   "columns": ["class", "TW15K_sessions", "TW15K_share", "OSW20K_sessions", "OSW20K_share"],
+   "rows": [
+    ["A existing/candidate-covered", null, null, 20000, 1.0],
+    ["B semantic gap (E13)", null, 0.4663, 9327, 0.4663],
+    ["C unsafe/high-exposure (E12+E7)", null, 0.795, 15900, 0.795],
+    ["D low-value", null, 0.0209, 418, 0.0209],
+    ["E no meaningful opportunity", null, 0.0001, 1, 0.0001]
+   ],
+   "note": "TW per-session class union not computed in D3-E1 (shape-level only); OSW full union computed. TW A-row left null (not back-filled post hoc).",
+   "sources": ["v011-d4a1-census-results.json"]
+  },
+  "T3_e13_full_factorial_2x2": {
+   "caption": "E13 late-trajectory large-output incidence: model x scaffold full factorial",
+   "columns": ["cell", "incidence"],
+   "rows": [
+    ["OpenHands x Minimax", 0.6487],
+    ["SWE-agent x Minimax", 0.284],
+    ["OpenHands x Qwen3.5", 0.4389],
+    ["SWE-agent x Qwen3.5", 0.2392]
+   ],
+   "contrasts_pp": {
+    "scaffold_within_minimax": -0.3647,
+    "scaffold_within_qwen": -0.1997,
+    "model_within_openhands": -0.2098,
+    "model_within_sweagent": -0.0448,
+    "average_scaffold_contrast_abs_pp": 0.2822,
+    "average_model_contrast_abs_pp": 0.1273,
+    "difference_in_differences_interaction_pp": 0.165
+   },
+   "reading": "scaffold-associated variation (mean 28.2pp) > model-associated variation (mean 12.7pp); interaction 16.5pp — model modulates scaffold-effect magnitude without changing direction",
+   "sources": ["v011-d4a2r1-full-factorial.json"]
+  },
+  "T4_core_shape_model_stability": {
+   "caption": "Core shapes: model contrast within each scaffold (A2 + A2R1)",
+   "columns": ["shape", "OH_MM", "OH_QW", "OH_verdict", "SA_MM", "SA_QW", "SA_verdict"],
+   "rows": [
+    ["E1_repeated_exact_command", 0.9993, 1.0, "MODEL_STABLE", 0.9999, 1.0, "MODEL_STABLE"],
+    ["E2_repeated_similar_command", 0.9995, 1.0, "MODEL_STABLE", 1.0, 1.0, "MODEL_STABLE"],
+    ["E3_same_file_reread", 0.9997, 1.0, "MODEL_STABLE", 1.0, 0.9991, "MODEL_STABLE"],
+    ["E12_large_diagnostic", 0.7715, 0.7417, "MODEL_STABLE", 0.8185, 0.8292, "MODEL_STABLE"],
+    ["E13_large_output_near_terminal", 0.6487, 0.4389, "MODEL_STABLE", 0.284, 0.2392, "MODEL_STABLE"],
+    ["E14_output_followed_by_reread", 0.9388, 0.9833, "MODEL_STABLE", 0.9579, 0.9705, "MODEL_STABLE"]
+   ],
+   "sources": ["v011-d4a1-census-results.json", "v011-d4a2-cross-model.json", "v011-d4a2r1-full-factorial.json"]
+  },
+  "T5_capability_coverage_dual_ledger": {
+   "caption": "Capability coverage: production (shipped-only) vs research (shipped+RDS candidate), Minimax OH+SA 20K",
+   "columns": ["ledger", "SOC", "COC", "note"],
+   "rows": [
+    ["production_shipped_only", 0.0207, 0.0039, "shipped capabilities near-zero coverage of natural repeated-delivery opportunities"],
+    ["research_shipped_plus_candidate", 1.0, 0.9012, "RDS candidate fills ~90% of qualified-opportunity bytes"],
+    ["capability_gap_rate", null, 0.9957, "qualified bytes without supported primitive / all qualified bytes"]
+   ],
+   "qwen_cross_check": {"shipped_only": {"SOC": 0.0612, "COC_shape_weighted": 0.0114}, "shipped_plus_candidate": {"SOC": 1.0, "COC_shape_weighted": 0.9127}},
+   "sources": ["v011-d4a1-census-results.json", "v011-d4a2-cross-model.json"]
+  },
+  "T6_online_qualification_feasibility": {
+   "caption": "Why offline compressibility did not translate to online task-token qualification (C1/D2/D5/E7)",
+   "rows": [
+    {"experiment": "D3-E7 simulation detection design", "within_arm_noise_median_abs_relative": 0.2796, "bt_pair_delta_median_abs": 0.2379, "mechanism_exposure_median": 0.00011, "signal_to_noise": 0.0003, "power_3pct_best": 0.622, "power_5pct_best": 0.699, "power_10pct_best": 0.856, "permutation_p_observed_7_38pct": 0.1185},
+    {"experiment": "D3-E5 RDS A/B", "pairs": 24, "oracle_pass": "24/24", "aggregate_relative_saving": 0.0738, "nonneg_pairs": "13/24", "g2": "FAIL"},
+    {"experiment": "V0.11-D2 terminal-state", "pairs": 18, "opportunity_incidence": 0.0, "aggregate": -0.0805, "verdict": "NOT_QUALIFIED"}
+   ],
+   "reading": "within-task stochastic trajectory variance (median 27.96%) exceeds both B/T pair deltas (23.79%) and any hundred-token-scale mechanism exposure (0.011%) — online task-token qualification of such mechanisms is not cost-justifiable at practical sample sizes"
+  }
+ }
+}

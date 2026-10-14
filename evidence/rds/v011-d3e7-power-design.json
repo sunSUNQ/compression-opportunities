@@ -1,0 +1,150 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E7 power & replication design (prereg e955a76d FROZEN before statistics; seed 42)",
+ "date": "2026-09-24",
+ "data": {
+  "source": "D5 frozen pairs",
+  "tasks": 12,
+  "pairs": 24
+ },
+ "variance_decomposition": {
+  "A_between_task_cv": 0.3448,
+  "B_within_task_noise": {
+   "std": 0.3707,
+   "median_abs": 0.2796,
+   "n": 24
+  },
+  "C_mechanism_exposure": {
+   "median": 0.000111,
+   "max": 0.004297,
+   "mech_token_median": 80.0
+  },
+  "signal_to_noise": 0.0003
+ },
+ "same_arm_baseline": {
+  "within_arm_abs_delta_median": 0.2796,
+  "bt_pair_abs_delta_median": 0.2379,
+  "verdict": "within-arm noise comparable to B/T pair deltas"
+ },
+ "power_simulation": {
+  "effect_3pct_reps_2": {
+   "detection_probability": 0.548,
+   "direction_correct_probability": 0.604,
+   "false_sign_probability": 0.396,
+   "mean_ci_width": 0.1685
+  },
+  "effect_3pct_reps_3": {
+   "detection_probability": 0.562,
+   "direction_correct_probability": 0.628,
+   "false_sign_probability": 0.372,
+   "mean_ci_width": 0.2537
+  },
+  "effect_3pct_reps_5": {
+   "detection_probability": 0.593,
+   "direction_correct_probability": 0.677,
+   "false_sign_probability": 0.323,
+   "mean_ci_width": 0.2867
+  },
+  "effect_3pct_reps_8": {
+   "detection_probability": 0.608,
+   "direction_correct_probability": 0.71,
+   "false_sign_probability": 0.29,
+   "mean_ci_width": 0.257
+  },
+  "effect_3pct_reps_10": {
+   "detection_probability": 0.622,
+   "direction_correct_probability": 0.732,
+   "false_sign_probability": 0.268,
+   "mean_ci_width": 0.2365
+  },
+  "effect_5pct_reps_2": {
+   "detection_probability": 0.595,
+   "direction_correct_probability": 0.685,
+   "false_sign_probability": 0.315,
+   "mean_ci_width": 0.1729
+  },
+  "effect_5pct_reps_3": {
+   "detection_probability": 0.61,
+   "direction_correct_probability": 0.716,
+   "false_sign_probability": 0.284,
+   "mean_ci_width": 0.2547
+  },
+  "effect_5pct_reps_5": {
+   "detection_probability": 0.639,
+   "direction_correct_probability": 0.764,
+   "false_sign_probability": 0.236,
+   "mean_ci_width": 0.2866
+  },
+  "effect_5pct_reps_8": {
+   "detection_probability": 0.681,
+   "direction_correct_probability": 0.824,
+   "false_sign_probability": 0.176,
+   "mean_ci_width": 0.2556
+  },
+  "effect_5pct_reps_10": {
+   "detection_probability": 0.699,
+   "direction_correct_probability": 0.854,
+   "false_sign_probability": 0.146,
+   "mean_ci_width": 0.2367
+  },
+  "effect_10pct_reps_2": {
+   "detection_probability": 0.674,
+   "direction_correct_probability": 0.818,
+   "false_sign_probability": 0.182,
+   "mean_ci_width": 0.1732
+  },
+  "effect_10pct_reps_3": {
+   "detection_probability": 0.713,
+   "direction_correct_probability": 0.868,
+   "false_sign_probability": 0.132,
+   "mean_ci_width": 0.2565
+  },
+  "effect_10pct_reps_5": {
+   "detection_probability": 0.771,
+   "direction_correct_probability": 0.928,
+   "false_sign_probability": 0.072,
+   "mean_ci_width": 0.2868
+  },
+  "effect_10pct_reps_8": {
+   "detection_probability": 0.825,
+   "direction_correct_probability": 0.969,
+   "false_sign_probability": 0.031,
+   "mean_ci_width": 0.2564
+  },
+  "effect_10pct_reps_10": {
+   "detection_probability": 0.856,
+   "direction_correct_probability": 0.983,
+   "false_sign_probability": 0.017,
+   "mean_ci_width": 0.2364
+  }
+ },
+ "permutation_crosscheck": {
+  "observed_aggregate": 0.0738,
+  "permutation_p_value": 0.1185,
+  "note": "P(permuted aggregate >= observed) under label randomization"
+ },
+ "design_comparison_same_budget": {
+  "12tasks_x5reps": {
+   "sessions": 120,
+   "est_std_relative": 0.06768
+  },
+  "30tasks_x2reps": {
+   "sessions": 120,
+   "est_std_relative": 0.06768
+  },
+  "24tasks_x2reps_D5scale": {
+   "sessions": 96,
+   "est_std_relative": 0.07567
+  }
+ },
+ "mechanism_derived_detectable_target": {
+  "mechanism_exposure_median_pct": 0.011,
+  "mechanism_exposure_max_pct": 0.43,
+  "note": "RDS current trigger volume yields ~0.1-0.3% session-level token exposure; 3/5/10% effects exceed mechanism ceiling by 10-30x unless trigger volume expands"
+ },
+ "RECOMMENDED_NEXT_BATCH": {
+  "verdict": "CURRENT_RDS_EFFECT_TOO_SMALL_FOR_COST-JUSTIFIED_ONLINE_QUALIFICATION",
+  "reason": "mechanism exposure median 0.011% << 3% minimum target effect; even 10 reps/arm cannot detect an effect the mechanism cannot produce; expand RDS trigger volume (matched chars/session) ~10-30x first, or keep RDS as candidate without online qualification"
+ },
+ "aggregates_sha256": "f0d9a4b921e91f9bf9e3b8eabc3eff8c5101de84b8610caa1c4cf3a66f311171"
+}

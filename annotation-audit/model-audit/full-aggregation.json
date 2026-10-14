@@ -1,0 +1,127 @@
+{
+ "authority_status": "SUPERSEDED_PARTIAL_AGGREGATION",
+ "superseded_by": "model-audit-reconciled.json",
+ "authority_note": "Historical partial aggregation retained for provenance; do not use as final manuscript or supplement authority.",
+ "glm_items": 340,
+ "gpt_items": 340,
+ "common_items": 340,
+ "q1_raw": 0.5445,
+ "q1_kappa": 0.2385,
+ "q2_raw": 0.5753,
+ "q2_kappa": -0.1886,
+ "per_shape": {
+  "E1": {
+   "n": 28,
+   "Q1_agree": 16,
+   "Q2_agree": 11,
+   "Q1_agree_pct": 0.5714,
+   "Q2_agree_pct": 0.3929
+  },
+  "E10": {
+   "n": 28,
+   "Q1_agree": 18,
+   "Q2_agree": 18,
+   "Q1_agree_pct": 0.6429,
+   "Q2_agree_pct": 0.6429
+  },
+  "E11": {
+   "n": 19,
+   "Q1_agree": 11,
+   "Q2_agree": 12,
+   "Q1_agree_pct": 0.5789,
+   "Q2_agree_pct": 0.6316
+  },
+  "E12": {
+   "n": 7,
+   "Q1_agree": 7,
+   "Q2_agree": 5,
+   "Q1_agree_pct": 1.0,
+   "Q2_agree_pct": 0.7143
+  },
+  "E13": {
+   "n": 28,
+   "Q1_agree": 27,
+   "Q2_agree": 22,
+   "Q1_agree_pct": 0.9643,
+   "Q2_agree_pct": 0.7857
+  },
+  "E14": {
+   "n": 28,
+   "Q1_agree": 11,
+   "Q2_agree": 5,
+   "Q1_agree_pct": 0.3929,
+   "Q2_agree_pct": 0.1786
+  },
+  "E15": {
+   "n": 16,
+   "Q1_agree": 8,
+   "Q2_agree": 7,
+   "Q1_agree_pct": 0.5,
+   "Q2_agree_pct": 0.4375
+  },
+  "E2": {
+   "n": 28,
+   "Q1_agree": 15,
+   "Q2_agree": 14,
+   "Q1_agree_pct": 0.5357,
+   "Q2_agree_pct": 0.5
+  },
+  "E3": {
+   "n": 1,
+   "Q1_agree": 0,
+   "Q2_agree": 0,
+   "Q1_agree_pct": 0.0,
+   "Q2_agree_pct": 0.0
+  },
+  "E4": {
+   "n": 8,
+   "Q1_agree": 0,
+   "Q2_agree": 5,
+   "Q1_agree_pct": 0.0,
+   "Q2_agree_pct": 0.625
+  },
+  "E5": {
+   "n": 28,
+   "Q1_agree": 18,
+   "Q2_agree": 21,
+   "Q1_agree_pct": 0.6429,
+   "Q2_agree_pct": 0.75
+  },
+  "E6": {
+   "n": 28,
+   "Q1_agree": 7,
+   "Q2_agree": 19,
+   "Q1_agree_pct": 0.25,
+   "Q2_agree_pct": 0.6786
+  },
+  "E7": {
+   "n": 28,
+   "Q1_agree": 7,
+   "Q2_agree": 18,
+   "Q1_agree_pct": 0.25,
+   "Q2_agree_pct": 0.6429
+  },
+  "E8": {
+   "n": 8,
+   "Q1_agree": 7,
+   "Q2_agree": 5,
+   "Q1_agree_pct": 0.875,
+   "Q2_agree_pct": 0.625
+  },
+  "E9": {
+   "n": 9,
+   "Q1_agree": 7,
+   "Q2_agree": 6,
+   "Q1_agree_pct": 0.7778,
+   "Q2_agree_pct": 0.6667
+  }
+ },
+ "buckets": {
+  "A_strong_agree": 34,
+  "B_models_agree_det_differs": 74,
+  "C_glm_gpt_disagree": 133,
+  "D_any_uncertain": 9,
+  "E_det_pos_both_reject": 0,
+  "F_det_neg_both_accept": 0
+ }
+}

@@ -1,0 +1,752 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E6 test-fix negative-region mechanism audit (prereg 6e06dd04 FROZEN before trace review)",
+ "date": "2026-09-24",
+ "test_fix_pairs": [
+  {
+   "pair": "t1/rep1",
+   "d_total": 59636,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 9,
+   "case": "B",
+   "markers": 1,
+   "indicators": {
+    "8": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 9,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 13,
+    "other": 69
+   },
+   "folded_lines_total": 9,
+   "decomposition": {
+    "d_input": -698,
+    "d_output": -1490,
+    "d_cache_read": 61824,
+    "d_tool_calls": 2,
+    "d_obs_chars": -2389,
+    "d_assistant_chars": -78,
+    "d_turns": 1,
+    "d_total": 59636
+   }
+  },
+  {
+   "pair": "t1/rep2",
+   "d_total": 71904,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 2,
+   "case": "B-borderline",
+   "markers": 2,
+   "indicators": {
+    "1": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "10": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 2,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 11,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 626,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 678,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 1820
+   },
+   "folded_lines_total": 40,
+   "decomposition": {
+    "d_input": 384,
+    "d_output": 480,
+    "d_cache_read": 71040,
+    "d_tool_calls": 1,
+    "d_obs_chars": 2318,
+    "d_assistant_chars": 189,
+    "d_turns": 1,
+    "d_total": 71904
+   }
+  },
+  {
+   "pair": "t2/rep1",
+   "d_total": 61531,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 6,
+   "case": "B",
+   "markers": 4,
+   "indicators": {
+    "5": {
+     "I1": false,
+     "I2": false,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    "6": {
+     "I1": false,
+     "I2": true,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    "7": {
+     "I1": false,
+     "I2": false,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    "12": {
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 6,
+     "I1": false,
+     "I2": false,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 7,
+     "I1": false,
+     "I2": true,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 8,
+     "I1": false,
+     "I2": false,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 13,
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 118,
+    "assertion": 122,
+    "stack": 733,
+    "path-line": 159,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 3297
+   },
+   "folded_lines_total": 195,
+   "decomposition": {
+    "d_input": -4046,
+    "d_output": -3287,
+    "d_cache_read": 68864,
+    "d_tool_calls": 0,
+    "d_obs_chars": -6535,
+    "d_assistant_chars": -203,
+    "d_turns": -6,
+    "d_total": 61531
+   }
+  },
+  {
+   "pair": "t2/rep2",
+   "d_total": 82283,
+   "first_divergence_pos": 2,
+   "first_marker_pos": 2,
+   "case": "B-borderline",
+   "markers": 2,
+   "indicators": {
+    "1": {
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "13": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 2,
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 14,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 1208,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 416,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 2032
+   },
+   "folded_lines_total": 42,
+   "decomposition": {
+    "d_input": 1531,
+    "d_output": -3216,
+    "d_cache_read": 83968,
+    "d_tool_calls": 0,
+    "d_obs_chars": -2246,
+    "d_assistant_chars": -63,
+    "d_turns": -4,
+    "d_total": 82283
+   }
+  },
+  {
+   "pair": "t3/rep1",
+   "d_total": 214315,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 4,
+   "case": "B",
+   "markers": 3,
+   "indicators": {
+    "3": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "4": {
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "5": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 4,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 5,
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 6,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 732
+   },
+   "folded_lines_total": 39,
+   "decomposition": {
+    "d_input": 621,
+    "d_output": 4798,
+    "d_cache_read": 208896,
+    "d_tool_calls": 3,
+    "d_obs_chars": -2150,
+    "d_assistant_chars": 253,
+    "d_turns": 6,
+    "d_total": 214315
+   }
+  },
+  {
+   "pair": "t3/rep2",
+   "d_total": 176319,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 2,
+   "case": "B-borderline",
+   "markers": 6,
+   "indicators": {
+    "1": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "3": {
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "4": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "5": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "6": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "14": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 2,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 4,
+     "I1": false,
+     "I2": true,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 5,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 6,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 7,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 15,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 1020
+   },
+   "folded_lines_total": 6,
+   "decomposition": {
+    "d_input": 8584,
+    "d_output": 5047,
+    "d_cache_read": 162688,
+    "d_tool_calls": 4,
+    "d_obs_chars": 5275,
+    "d_assistant_chars": 466,
+    "d_turns": 5,
+    "d_total": 176319
+   }
+  },
+  {
+   "pair": "t4/rep1",
+   "d_total": 20054,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 6,
+   "case": "B",
+   "markers": 2,
+   "indicators": {
+    "5": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    "14": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 6,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 15,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 12,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 545
+   },
+   "folded_lines_total": 13,
+   "decomposition": {
+    "d_input": 2876,
+    "d_output": 1946,
+    "d_cache_read": 15232,
+    "d_tool_calls": 1,
+    "d_obs_chars": 787,
+    "d_assistant_chars": 0,
+    "d_turns": 0,
+    "d_total": 20054
+   }
+  },
+  {
+   "pair": "t4/rep2",
+   "d_total": 168404,
+   "first_divergence_pos": 1,
+   "first_marker_pos": 11,
+   "case": "B",
+   "markers": 2,
+   "indicators": {
+    "10": {
+     "I1": false,
+     "I2": true,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    "15": {
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   },
+   "per_marker_windows": [
+    {
+     "marker_event": 11,
+     "I1": false,
+     "I2": true,
+     "I3": true,
+     "I4": false,
+     "I5": false
+    },
+    {
+     "marker_event": 16,
+     "I1": false,
+     "I2": false,
+     "I3": false,
+     "I4": false,
+     "I5": false
+    }
+   ],
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 12,
+    "assertion": 122,
+    "stack": 614,
+    "path-line": 159,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 476
+   },
+   "folded_lines_total": 39,
+   "decomposition": {
+    "d_input": 737,
+    "d_output": -6029,
+    "d_cache_read": 173696,
+    "d_tool_calls": 3,
+    "d_obs_chars": 4109,
+    "d_assistant_chars": -9,
+    "d_turns": -2,
+    "d_total": 168404
+   }
+  }
+ ],
+ "attribution_counts": {
+  "UNRELATED_TRAJECTORY_DIVERGENCE": 8
+ },
+ "lint_control": [
+  {
+   "pair": "a3/rep1",
+   "relative_saving": 0.4098,
+   "case": "B",
+   "markers": 2,
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 194,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 78,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 3014
+   }
+  },
+  {
+   "pair": "a5/rep2",
+   "relative_saving": 0.3656,
+   "case": "B",
+   "markers": 2,
+   "attribution": "RDS_INFORMATION_RECOVERY",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 45,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 4032,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 1330
+   }
+  },
+  {
+   "pair": "a4/rep2",
+   "relative_saving": 0.3378,
+   "case": "B",
+   "markers": 7,
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 222,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 78,
+    "summary-count": 27,
+    "boilerplate": 0,
+    "other": 12526
+   }
+  },
+  {
+   "pair": "a1/rep1",
+   "relative_saving": 0.3191,
+   "case": "B",
+   "markers": 7,
+   "attribution": "RDS_INFORMATION_RECOVERY",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 534,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 78,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 4430
+   }
+  },
+  {
+   "pair": "a1/rep2",
+   "relative_saving": 0.3188,
+   "case": "no-marker",
+   "markers": 0,
+   "attribution": "NO_ATTRIBUTABLE_CAUSE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 0
+   }
+  },
+  {
+   "pair": "a5/rep1",
+   "relative_saving": 0.1993,
+   "case": "B",
+   "markers": 8,
+   "attribution": "RDS_INFORMATION_RECOVERY",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 91,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 39,
+    "summary-count": 91,
+    "boilerplate": 0,
+    "other": 2778
+   }
+  },
+  {
+   "pair": "a2/rep2",
+   "relative_saving": 0.0416,
+   "case": "B",
+   "markers": 1,
+   "attribution": "RDS_REASONING_COMPENSATION",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 0,
+    "other": 495
+   }
+  },
+  {
+   "pair": "a4/rep1",
+   "relative_saving": 0.0333,
+   "case": "B",
+   "markers": 4,
+   "attribution": "UNRELATED_TRAJECTORY_DIVERGENCE",
+   "folded_taxonomy_chars": {
+    "passing-test": 0,
+    "failing-detail": 0,
+    "assertion": 0,
+    "stack": 0,
+    "path-line": 0,
+    "summary-count": 0,
+    "boilerplate": 45,
+    "other": 4970
+   }
+  }
+ ],
+ "verdict": "TRAJECTORY_VARIANCE_DOMINANT",
+ "aggregates_sha256": "41958e5b289501bae9c3c6130123ffde04439034e20bd9a726d4641ea8a49b2c"
+}

@@ -1,0 +1,438 @@
+{
+ "schema_version": 1,
+ "stage": "V0.11-D3-E1 external dataset opportunity census (prereg 55494bce FROZEN before aggregation)",
+ "date": "2026-09-23",
+ "dataset": {
+  "name": "thoughtworks/agentic-coding-trajectories",
+  "sessions": 15000,
+  "pin": "D:/tasco-temp/d3_hf_data/sessions.parquet",
+  "bytes": 325563194
+ },
+ "context_proxy": {
+  "whole_session_context_chars_sum": 1134133251,
+  "mean_obs_chars_per_session": 75608.9
+ },
+ "shapes": {
+  "E10_repeated_validation": {
+   "sessions": 17,
+   "session_incidence": 0.0011,
+   "events": 58,
+   "median_chars": 8440.0,
+   "p75_chars": 15846,
+   "median_tokens_est": 2110.0,
+   "median_turn_index": 0.608,
+   "median_turns_after": 28.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 2.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.471,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 4,
+    "nebius-swe-rebench-openhands": 54
+   }
+  },
+  "E11_unchanged_validation": {
+   "sessions": 8,
+   "session_incidence": 0.0005,
+   "events": 24,
+   "median_chars": 5946.0,
+   "p75_chars": 9726,
+   "median_tokens_est": 1486.5,
+   "median_turn_index": 0.635,
+   "median_turns_after": 18.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.5,
+   "potential_compressible_chars_median": 4943.0,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 2,
+    "nebius-swe-rebench-openhands": 22
+   }
+  },
+  "E12_large_diagnostic": {
+   "sessions": 9017,
+   "session_incidence": 0.6011,
+   "events": 30962,
+   "median_chars": 8049.5,
+   "p75_chars": 15620,
+   "median_tokens_est": 2012.4,
+   "median_turn_index": 0.344,
+   "median_turns_after": 24.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 12728,
+    "nebius-swe-rebench-openhands": 18234
+   }
+  },
+  "E13_large_output_near_terminal": {
+   "sessions": 7988,
+   "session_incidence": 0.5325,
+   "events": 11363,
+   "median_chars": 5780,
+   "p75_chars": 10285,
+   "median_tokens_est": 1445.0,
+   "median_turn_index": 0.988,
+   "median_turns_after": 1,
+   "trajectory_exposure": "LOW",
+   "repeat_rate": 1,
+   "later_reread_rate": null,
+   "success_session_rate": 0.465,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 6251,
+    "nebius-swe-rebench-openhands": 5112
+   }
+  },
+  "E14_output_followed_by_reread": {
+   "sessions": 9230,
+   "session_incidence": 0.6153,
+   "events": 69122,
+   "median_chars": 1193.0,
+   "p75_chars": 2066,
+   "median_tokens_est": 298.2,
+   "median_turn_index": 0.45,
+   "median_turns_after": 25.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.449,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 40903,
+    "nebius-swe-rebench-openhands": 28219
+   }
+  },
+  "E15_output_followed_by_rederivation": {
+   "sessions": 7,
+   "session_incidence": 0.0005,
+   "events": 8,
+   "median_chars": 10808.5,
+   "p75_chars": 30047,
+   "median_tokens_est": 2702.1,
+   "median_turn_index": 0.207,
+   "median_turns_after": 32.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.571,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 1,
+    "nebius-swe-rebench-openhands": 7
+   }
+  },
+  "E1_repeated_exact_command": {
+   "sessions": 9872,
+   "session_incidence": 0.6581,
+   "events": 233334,
+   "median_chars": 987.0,
+   "p75_chars": 2018,
+   "median_tokens_est": 246.8,
+   "median_turn_index": 0.536,
+   "median_turns_after": 26.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 8.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.463,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 48387,
+    "nebius-swe-rebench-openhands": 184947
+   }
+  },
+  "E2_repeated_similar_command": {
+   "sessions": 9940,
+   "session_incidence": 0.6627,
+   "events": 257483,
+   "median_chars": 1016,
+   "p75_chars": 2064,
+   "median_tokens_est": 254.0,
+   "median_turn_index": 0.52,
+   "median_turns_after": 26,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 7,
+   "later_reread_rate": null,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 71098,
+    "nebius-swe-rebench-openhands": 186385
+   }
+  },
+  "E3_same_file_reread": {
+   "sessions": 9976,
+   "session_incidence": 0.6651,
+   "events": 149152,
+   "median_chars": 1245.0,
+   "p75_chars": 2280,
+   "median_tokens_est": 311.2,
+   "median_turn_index": 0.484,
+   "median_turns_after": 25.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 7.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 68037,
+    "nebius-swe-rebench-openhands": 81115
+   }
+  },
+  "E4_overlapping_file_read": {
+   "sessions": 4157,
+   "session_incidence": 0.2771,
+   "events": 37104,
+   "median_chars": 1296.0,
+   "p75_chars": 2278,
+   "median_tokens_est": 324.0,
+   "median_turn_index": 0.381,
+   "median_turns_after": 39.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.463,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "nebius-swe-rebench-openhands": 37104
+   }
+  },
+  "E5_same_search": {
+   "sessions": 70,
+   "session_incidence": 0.0047,
+   "events": 213,
+   "median_chars": 328,
+   "p75_chars": 1250,
+   "median_tokens_est": 82.0,
+   "median_turn_index": 0.525,
+   "median_turns_after": 27,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 2,
+   "later_reread_rate": null,
+   "success_session_rate": 0.243,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 195,
+    "nebius-swe-rebench-openhands": 18
+   }
+  },
+  "E6_large_test_success": {
+   "sessions": 59,
+   "session_incidence": 0.0039,
+   "events": 105,
+   "median_chars": 10425,
+   "p75_chars": 21889,
+   "median_tokens_est": 2606.2,
+   "median_turn_index": 0.302,
+   "median_turns_after": 32,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1,
+   "later_reread_rate": null,
+   "success_session_rate": 0.508,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "nebius-swe-rebench-openhands": 105
+   }
+  },
+  "E7_large_test_failure": {
+   "sessions": 30,
+   "session_incidence": 0.002,
+   "events": 45,
+   "median_chars": 14144,
+   "p75_chars": 30047,
+   "median_tokens_est": 3536.0,
+   "median_turn_index": 0.2,
+   "median_turns_after": 38,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1,
+   "later_reread_rate": null,
+   "success_session_rate": 0.433,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "nebius-swe-rebench-openhands": 45
+   }
+  },
+  "E9_large_build_output": {
+   "sessions": 1,
+   "session_incidence": 0.0001,
+   "events": 1,
+   "median_chars": 4398,
+   "p75_chars": 4398,
+   "median_tokens_est": 1099.5,
+   "median_turn_index": 0.333,
+   "median_turns_after": 64,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1,
+   "later_reread_rate": null,
+   "success_session_rate": 1.0,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "nebius-swe-rebench-openhands": 1
+   }
+  }
+ },
+ "pool_gates": {
+  "min_incidence": 0.2,
+  "min_median_chars": 1000
+ },
+ "candidate_pool": [
+  "E3_same_file_reread",
+  "E2_repeated_similar_command",
+  "E14_output_followed_by_reread",
+  "E12_large_diagnostic",
+  "E13_large_output_near_terminal",
+  "E4_overlapping_file_read"
+ ],
+ "top3": [
+  {
+   "shape": "E3_same_file_reread",
+   "session_incidence": 0.6651,
+   "events": 149152,
+   "median_chars": 1245.0,
+   "p75_chars": 2280,
+   "median_turns_after": 25.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 7.0,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 68037,
+    "nebius-swe-rebench-openhands": 81115
+   }
+  },
+  {
+   "shape": "E2_repeated_similar_command",
+   "session_incidence": 0.6627,
+   "events": 257483,
+   "median_chars": 1016,
+   "p75_chars": 2064,
+   "median_turns_after": 26,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 7,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 71098,
+    "nebius-swe-rebench-openhands": 186385
+   }
+  },
+  {
+   "shape": "E14_output_followed_by_reread",
+   "session_incidence": 0.6153,
+   "events": 69122,
+   "median_chars": 1193.0,
+   "p75_chars": 2066,
+   "median_turns_after": 25.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "success_session_rate": 0.449,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 40903,
+    "nebius-swe-rebench-openhands": 28219
+   }
+  }
+ ],
+ "special_directions": {
+  "E10_repeated_validation": {
+   "sessions": 17,
+   "session_incidence": 0.0011,
+   "events": 58,
+   "median_chars": 8440.0,
+   "p75_chars": 15846,
+   "median_tokens_est": 2110.0,
+   "median_turn_index": 0.608,
+   "median_turns_after": 28.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 2.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.471,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 4,
+    "nebius-swe-rebench-openhands": 54
+   }
+  },
+  "E11_unchanged_validation": {
+   "sessions": 8,
+   "session_incidence": 0.0005,
+   "events": 24,
+   "median_chars": 5946.0,
+   "p75_chars": 9726,
+   "median_tokens_est": 1486.5,
+   "median_turn_index": 0.635,
+   "median_turns_after": 18.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.5,
+   "potential_compressible_chars_median": 4943.0,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 2,
+    "nebius-swe-rebench-openhands": 22
+   }
+  },
+  "E3_same_file_reread": {
+   "sessions": 9976,
+   "session_incidence": 0.6651,
+   "events": 149152,
+   "median_chars": 1245.0,
+   "p75_chars": 2280,
+   "median_tokens_est": 311.2,
+   "median_turn_index": 0.484,
+   "median_turns_after": 25.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 7.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.462,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 68037,
+    "nebius-swe-rebench-openhands": 81115
+   }
+  },
+  "E4_overlapping_file_read": {
+   "sessions": 4157,
+   "session_incidence": 0.2771,
+   "events": 37104,
+   "median_chars": 1296.0,
+   "p75_chars": 2278,
+   "median_tokens_est": 324.0,
+   "median_turn_index": 0.381,
+   "median_turns_after": 39.0,
+   "trajectory_exposure": "HIGH",
+   "repeat_rate": 1.0,
+   "later_reread_rate": null,
+   "success_session_rate": 0.463,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "nebius-swe-rebench-openhands": 37104
+   }
+  },
+  "E13_large_output_near_terminal": {
+   "sessions": 7988,
+   "session_incidence": 0.5325,
+   "events": 11363,
+   "median_chars": 5780,
+   "p75_chars": 10285,
+   "median_tokens_est": 1445.0,
+   "median_turn_index": 0.988,
+   "median_turns_after": 1,
+   "trajectory_exposure": "LOW",
+   "repeat_rate": 1,
+   "later_reread_rate": null,
+   "success_session_rate": 0.465,
+   "potential_compressible_chars_median": null,
+   "by_source": {
+    "swe-smith-claude-3-7-sonnet": 6251,
+    "nebius-swe-rebench-openhands": 5112
+   }
+  }
+ },
+ "verdict": "PASS — NATURAL_OPPORTUNITY_FOUND"
+}

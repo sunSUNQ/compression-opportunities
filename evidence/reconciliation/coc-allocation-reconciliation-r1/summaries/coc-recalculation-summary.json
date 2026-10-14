@@ -1,0 +1,209 @@
+{
+  "corpora": {
+    "OSW_MINIMAX_20K": {
+      "corpus": "OSW_MINIMAX_20K",
+      "empty_labeled_events": 0,
+      "event_shape_counts": {
+        "E10_repeated_validation": 49,
+        "E11_unchanged_validation": 11,
+        "E12_large_diagnostic": 56828,
+        "E13_large_output_near_terminal": 13519,
+        "E14_output_followed_by_reread": 154643,
+        "E15_output_followed_by_rederivation": 8,
+        "E1_repeated_exact_command": 600181,
+        "E2_repeated_similar_command": 643118,
+        "E3_same_file_reread": 327292,
+        "E4_overlapping_file_read": 0,
+        "E5_same_search": 939,
+        "E6_large_test_success": 25,
+        "E7_large_test_failure": 21,
+        "E8_large_lint_output": 0,
+        "E9_large_build_output": 1
+      },
+      "events": 1296519,
+      "historical_proxy_replay": {
+        "by_scaffold": {
+          "openhands": {
+            "candidate_coc": 0.8614499225669743,
+            "shipped_coc": 0.005185164085196326
+          },
+          "sweagent": {
+            "candidate_coc": 0.9367550044536221,
+            "shipped_coc": 0.002775700438274206
+          }
+        },
+        "candidate_coc": 0.9012355164459385,
+        "shipped_coc": 0.003912183036362645,
+        "unit": "WHOLE_TRAJECTORY_CHARS_PER_SESSION_SHAPE"
+      },
+      "labeled_events": 695780,
+      "multi_label_events": 606397,
+      "primary": {
+        "candidate_allocated_bytes": {
+          "decimal": 1337579984.5166667,
+          "exact_denominator": 60,
+          "exact_numerator": 80254799071
+        },
+        "candidate_coc": 0.9595769206273026,
+        "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+        "qualified_allocated_bytes": {
+          "decimal": 1393926798.1166666,
+          "exact_denominator": 60,
+          "exact_numerator": 83635607887
+        },
+        "relative_full_fit_coverage_gap": 0.9998072513895859,
+        "shipped_allocated_bytes": {
+          "decimal": 257816.68333333332,
+          "exact_denominator": 60,
+          "exact_numerator": 15469001
+        },
+        "shipped_coc": 0.00018495711803637698
+      },
+      "sensitivities": {
+        "codepoint_chars": {
+          "candidate_coc": 0.9596872200746878,
+          "shipped_coc": 0.00018561665354425812
+        },
+        "conservative_all_qualified_supported_whole_event": {
+          "candidate_coc": 0.9446838156172152,
+          "shipped_coc": 0.0
+        },
+        "eligible_renormalized": {
+          "candidate_coc": 0.9580749190309897,
+          "shipped_coc": 0.00017655649221232114
+        },
+        "legacy_mapping_event_allocation": {
+          "candidate_coc": 0.9595769161545202,
+          "shipped_coc": 0.0001849563887869543
+        },
+        "optimistic_any_supported_whole_event": {
+          "candidate_coc": 0.9641705912358018,
+          "shipped_coc": 0.00046475730703326995
+        }
+      },
+      "session_shape_counts": {
+        "E10_repeated_validation": 16,
+        "E11_unchanged_validation": 8,
+        "E12_large_diagnostic": 15900,
+        "E13_large_output_near_terminal": 9327,
+        "E14_output_followed_by_reread": 18967,
+        "E15_output_followed_by_rederivation": 7,
+        "E1_repeated_exact_command": 19992,
+        "E2_repeated_similar_command": 19995,
+        "E3_same_file_reread": 19997,
+        "E4_overlapping_file_read": 0,
+        "E5_same_search": 398,
+        "E6_large_test_success": 15,
+        "E7_large_test_failure": 13,
+        "E8_large_lint_output": 0,
+        "E9_large_build_output": 1
+      },
+      "sessions": 20000,
+      "unlabeled_events": 600739
+    },
+    "QWEN_35334": {
+      "corpus": "QWEN_35334",
+      "empty_labeled_events": 0,
+      "event_shape_counts": {
+        "E10_repeated_validation": 4,
+        "E11_unchanged_validation": 1,
+        "E12_large_diagnostic": 102114,
+        "E13_large_output_near_terminal": 14758,
+        "E14_output_followed_by_reread": 336583,
+        "E15_output_followed_by_rederivation": 3,
+        "E1_repeated_exact_command": 1340017,
+        "E2_repeated_similar_command": 1526929,
+        "E3_same_file_reread": 743937,
+        "E4_overlapping_file_read": 0,
+        "E5_same_search": 29568,
+        "E6_large_test_success": 0,
+        "E7_large_test_failure": 0,
+        "E8_large_lint_output": 2,
+        "E9_large_build_output": 3
+      },
+      "events": 3936803,
+      "historical_proxy_replay": {
+        "by_scaffold": {
+          "openhands": {
+            "candidate_coc": 0.91272,
+            "shipped_coc": 0.011423333333333334
+          },
+          "sweagent": {
+            "candidate_coc": 0.9544714380949259,
+            "shipped_coc": 0.06256762073374643
+          }
+        },
+        "candidate_coc": 0.9367471054005271,
+        "shipped_coc": 0.04085583290881304,
+        "unit": "SESSION_SHAPE_EQUAL_WEIGHT"
+      },
+      "labeled_events": 1643280,
+      "multi_label_events": 1364876,
+      "primary": {
+        "candidate_allocated_bytes": {
+          "decimal": 2752388518.4666667,
+          "exact_denominator": 15,
+          "exact_numerator": 41285827777
+        },
+        "candidate_coc": 0.976731272510673,
+        "measurement_unit": "UTF8_REENCODED_EVENT_PAYLOAD_PROXY",
+        "qualified_allocated_bytes": {
+          "decimal": 2817958834.6666665,
+          "exact_denominator": 3,
+          "exact_numerator": 8453876504
+        },
+        "relative_full_fit_coverage_gap": 0.9972011204577477,
+        "shipped_allocated_bytes": {
+          "decimal": 7703603.916666667,
+          "exact_denominator": 12,
+          "exact_numerator": 92443247
+        },
+        "shipped_coc": 0.0027337531769082487
+      },
+      "sensitivities": {
+        "codepoint_chars": {
+          "candidate_coc": 0.9767888568453336,
+          "shipped_coc": 0.0027392833971493003
+        },
+        "conservative_all_qualified_supported_whole_event": {
+          "candidate_coc": 0.9714315356436637,
+          "shipped_coc": 4.146585484692444e-06
+        },
+        "eligible_renormalized": {
+          "candidate_coc": 0.9758765500556505,
+          "shipped_coc": 0.0026738300374460587
+        },
+        "legacy_mapping_event_allocation": {
+          "candidate_coc": 0.9767248942539399,
+          "shipped_coc": 0.0027337351570813026
+        },
+        "optimistic_any_supported_whole_event": {
+          "candidate_coc": 0.9780084610677584,
+          "shipped_coc": 0.005998593811527354
+        }
+      },
+      "session_shape_counts": {
+        "E10_repeated_validation": 1,
+        "E11_unchanged_validation": 1,
+        "E12_large_diagnostic": 27986,
+        "E13_large_output_near_terminal": 11448,
+        "E14_output_followed_by_reread": 34485,
+        "E15_output_followed_by_rederivation": 3,
+        "E1_repeated_exact_command": 35333,
+        "E2_repeated_similar_command": 35334,
+        "E3_same_file_reread": 35316,
+        "E4_overlapping_file_read": 0,
+        "E5_same_search": 7489,
+        "E6_large_test_success": 0,
+        "E7_large_test_failure": 0,
+        "E8_large_lint_output": 1,
+        "E9_large_build_output": 3
+      },
+      "sessions": 35334,
+      "unlabeled_events": 2293523
+    }
+  },
+  "method_version": "COC-ALLOCATION-R1",
+  "schema_version": 1,
+  "status_ceiling": "PARTIAL"
+}
